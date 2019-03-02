@@ -61,6 +61,6 @@ OBSERVACIONES: El usuario ha creado e inicializado previamente la pila.
 boolean Empty(stack *s)
 {
     boolean value;
-    s->top==NULL?value=TRUE:value=FALSE;
+    s->top==NULL?value=TRUE;:value=FALSE;
     return value;
 }
