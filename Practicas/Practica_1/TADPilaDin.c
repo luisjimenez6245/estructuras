@@ -1,6 +1,7 @@
 /*
 IMPLEMENTACIÓN DEL TAD PILA DINÁMICA (TADPilaDin.h)
 AUTORES:
+    Jiménez Delgado Luis Diego (C) Febrero 2019
     Sánchez Castro Aarón Gamaliel (C) Febrero 2019
     Sánchez Tirado Citlali Yasmín (C) Febrero 2019
 VERSIÓN: 1.0
@@ -29,6 +30,7 @@ en caso contrario se producirá un error.
 void Initialize(stack *s)
 {
     s->top=NULL;
+    s->size=0;
     return;
 }
 /*
@@ -45,10 +47,11 @@ void Push(stack *s, element e)
     aux_node=malloc(sizeof(node));
     if(aux_node==NULL)
       printf("\nERROR Push(stack *s, element e): NO SE HA OTORGADO MEMORIA PARA EL SIGUIENTE NODO");
-      return 1;
+      exit(1);
     aux_node->element=e;
     aux_node->below=s->top;
     s->top=aux_node;
+    s->size++;
     return;
 }
 /*
@@ -63,4 +66,70 @@ boolean Empty(stack *s)
     boolean value;
     s->top==NULL?value=TRUE;:value=FALSE;
     return value;
+}
+/*FUNCIÓN: element Pop(stack *s)
+DESCRIPCIÓN: Extrae un elemento de la pila dada por el usuario.
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar).
+DEVUELVE: El último elemento que se ingresó a la pila.
+OBSERVACIONES: El usuario ha creado e inicializado previamente la pila. Se valida si la pila no está
+vacía (causa error en caso de estarlo), no se valida si free pudo liberar la memoria.
+*/
+element Pop(stack *s)
+{
+    if(Empty(s)==TRUE)
+      printf("\nERROR Pop(stack *s): LA PILA SE ENCUENTRA VACIA");
+      exit(1);
+    element aux_element; //Se crea un nuevo elemento auxiliar
+    node *aux_node;
+    aux_element=s->top->e;
+    aux_node=s->top; //Se obtiene la dirección del tope actual de la pila para poder eliminarlo después
+    s->top=s->top->below; //Se reescribe el tope de la pila
+    free(aux_node);
+    return aux_element;
+}
+/*FUNCIÓN: element Top(stack *s)
+DESCRIPCIÓN: Muestra el elemento que se encuentra en el tope de la pila.
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar).
+DEVUELVE: El último elemento que se ingresó a la pila.
+OBSERVACIONES: El usuario ha creado e inicializado previamente la pila. Se valida si la pila no está
+vacía, causa error si está vacía.
+*/
+element Top(stack *s)
+{
+    if(Empty(s)==TRUE)
+      printf("\nERROR Top(stack *s): LA PILA SE ENCUENTRA VACIA");
+      exit(1);
+    return s->top->e;
+}
+/*FUNCIÓN: int Size(stack *s)
+DESCRIPCIÓN: Obtiene el tamaño de la pila dada por el usuario.
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar).
+DEVUELVE: Tamaño de la pila.
+OBSERVACIONES: El usuario ha creado e inicializado previamente la pila. No es necesario validar
+si la pila está vacía.
+*/
+int Size(stack *s)
+{
+    return s->size;
+}
+/*FUNCIÓN: void Destroy(stack *s)
+DESCRIPCIÓN: Destruye la pila dada por el usuario
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar).
+DEVUELVE: Nada.
+OBSERVACIONES: El usuario ha creado e inicializado previamente la pila.
+*/
+void Destroy(stack *s)
+{
+    node *aux_node;
+    if(s->top!=NULL)
+    {
+      //Entonces la pila contiene elementos
+      while(s->top!=NULL)
+      {
+        aux_node=s->top->below;
+        free(s->top);
+        s->top=aux_node;
+      }
+    }
+    return;
 }
