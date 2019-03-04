@@ -19,7 +19,7 @@
 	comprobarParentesis()
 */
 
-int esSigno(char caracter)
+int tipoValor(char caracter)
 {
 	int res = 0;
 	if (caracter == '+' || caracter == '-')
@@ -34,8 +34,23 @@ int esSigno(char caracter)
 		}
 		else
 		{
-			if (caracter == '^')
+			if (caracter == '^'){
 				res = 3;
+			}
+			else{
+				if (caracter > 64 && caracter < 91){
+					res = 4;
+				}
+				else {
+					if(caracter =='(' || caracter ==')'){
+						res = 0;
+					}
+					else{
+						printf("\nSe encontro un caracter no valido %c", caracter);
+						exit(1);
+					}
+				}
+			}
 		}
 	}
 
@@ -48,17 +63,19 @@ boolean comprobarParentesis(char expInf[], int tam_cad)
 	element e;
 	Initialize(&parentesis);
 	boolean res = TRUE;
-	int i = 0;
+	int i = 0, total = 0, inverso = 0;
 	for (i = 0; tam_cad > i; i++)
 	{
 		if (expInf[i] == '(')
 		{
 			e.c = expInf[i];
+			++total;
 			Push(&parentesis, e);
 		}
 		else if (expInf[i] == ')')
 		{
-			if (Empty(&parentesis) == FALSE)
+			++inverso;
+			if (Empty(&parentesis) == FALSE && inverso <= total)
 			{
 				Pop(&parentesis);
 			}
@@ -84,7 +101,11 @@ boolean comprobarSignos(char expInf[], int tam_cad)
 	Initialize(&parentesis);
 	Initialize(&caracteres);
 	Initialize(&signos);
-	int nivel = 0;
+	int nivel = 0, i = 0;
+	for (i = 0; i <= tam_cad; ++i)
+	{
+		int aux = tipoValor(expInf[i]);
+	}
 
 	Destroy(&parentesis);
 	Destroy(&caracteres);
@@ -94,29 +115,46 @@ boolean comprobarSignos(char expInf[], int tam_cad)
 
 char *cambioPostFijo(char expInf[], int tam_cad)
 {
-	char *res;
-	stack pila;
+	stack pila, resultado;
 	Initialize(&pila);
+	Initialize(&resultado);
 	element e;
 	int i = 0;
 	int nivel = 0;
-	for (i = 0; i <= tam_cad; ++i)
+	for (i = 0; i < tam_cad; ++i)
 	{
 		e.c = expInf[i];
-		int aux = esSigno(expInf[i]);
+		printf(":\n%c\n", e.c);
+		int aux = tipoValor(expInf[i]);
+	//	printf("\n%i", aux);
 		if (aux > 0)
 		{
-			if (nivel < aux)
-			{
-				Push(&pila, e);
+			if(aux != 4){
+				if (nivel < aux)
+				{
+					Push(&pila, e);
+				}
+				else
+				{
+					printf("VACIA: %c", Top(&pila).c);
+					Push(&resultado, e);
+					if(!Empty(&pila))
+					{
+						Push(&resultado, Pop(&pila));
+					}
+				}
+				nivel = aux;
 			}
 			else
 			{
-				res = res + Pop(&pila).c;
+				printf("as");
+				Push(&resultado, e);	
 			}
+			
 		}
 		else
 		{
+			nivel = aux;
 			if (aux == '(')
 			{
 				nivel = 0;
@@ -130,28 +168,40 @@ char *cambioPostFijo(char expInf[], int tam_cad)
 					for (j = 0; j < Size(&pila); ++j)
 					{
 						if (Top(&pila).c != '(' && !Empty(&pila))
-							res = res + Pop(&pila).c;
+							Push(&resultado, Pop(&pila));
 						else
 							break;
 					}
 				}
 				else
 				{
-					res = res + expInf[i];
+					Push(&resultado, e);
 				}
 			}
 		}
 	}
-	if (!Empty(&pila))
-		for (i = 0; i < Size(&pila); ++i)
-			res += Pop(&pila).c;
+	if (!Empty(&pila)){
+		printf("hoa");
+		for (i = 0; i < Size(&pila) -1; ++i)
+		{
+			printf("g");
+			Push(&resultado, Pop(&pila));
+		}
+	}
+	char res [Size(&resultado)];
+	printf("Res:\n");
+	for(i = 0; i < Size(&resultado); ++i){
+		printf("%c",Top(&resultado).c);
+		res[i] = Pop(&resultado).c;
+	}
+
 	Destroy(&pila);
-	return res;
+	return &res;
 }
 
 int main()
 {
-	char respuesta1 = 's', respuesta2 = 's';
+	char respuesta1 = 's';
 	char *expInf;
 	printf("**************\nBIENVENIDO\n**************");
 	while (respuesta1 == 'S' || respuesta1 == 's')
