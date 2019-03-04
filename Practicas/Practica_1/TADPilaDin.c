@@ -29,8 +29,8 @@ en caso contrario se producirá un error.
 */
 void Initialize(stack *s)
 {
-    s->top=NULL;
-    s->size=0;
+    s->top = NULL;
+    s->size = 0;
     return;
 }
 /*
@@ -44,13 +44,15 @@ aparte memoria correctamente, en caso contrario se imprime el error.
 void Push(stack *s, element e)
 {
     node *aux_node;
-    aux_node=malloc(sizeof(node));
-    if(aux_node==NULL)
-      printf("\nERROR Push(stack *s, element e): NO SE HA OTORGADO MEMORIA PARA EL SIGUIENTE NODO");
-      exit(1);
-    aux_node->element=e;
-    aux_node->below=s->top;
-    s->top=aux_node;
+    aux_node = malloc(sizeof(node));
+    if (aux_node == NULL)
+    {
+        printf("\nERROR Push(stack *s, element e): NO SE HA OTORGADO MEMORIA PARA EL SIGUIENTE NODO");
+        exit(1);
+    }
+    aux_node->e = e;
+    aux_node->below = s->top;
+    s->top = aux_node;
     s->size++;
     return;
 }
@@ -64,7 +66,15 @@ OBSERVACIONES: El usuario ha creado e inicializado previamente la pila.
 boolean Empty(stack *s)
 {
     boolean value;
-    s->top==NULL?value=TRUE;:value=FALSE;
+    if (s->top == NULL)
+    {
+        value = TRUE;
+    }
+    else
+    {
+        value = FALSE;
+    }
+
     return value;
 }
 /*FUNCIÓN: element Pop(stack *s)
@@ -76,14 +86,16 @@ vacía (causa error en caso de estarlo), no se valida si free pudo liberar la me
 */
 element Pop(stack *s)
 {
-    if(Empty(s)==TRUE)
-      printf("\nERROR Pop(stack *s): LA PILA SE ENCUENTRA VACIA");
-      exit(1);
+    if (Empty(s) == TRUE)
+    {
+        printf("\nERROR Pop(stack *s): LA PILA SE ENCUENTRA VACIA");
+        exit(1);
+    }
     element aux_element; //Se crea un nuevo elemento auxiliar
     node *aux_node;
-    aux_element=s->top->e;
-    aux_node=s->top; //Se obtiene la dirección del tope actual de la pila para poder eliminarlo después
-    s->top=s->top->below; //Se reescribe el tope de la pila
+    aux_element = s->top->e;
+    aux_node = s->top;      //Se obtiene la dirección del tope actual de la pila para poder eliminarlo después
+    s->top = s->top->below; //Se reescribe el tope de la pila
     free(aux_node);
     return aux_element;
 }
@@ -96,9 +108,11 @@ vacía, causa error si está vacía.
 */
 element Top(stack *s)
 {
-    if(Empty(s)==TRUE)
-      printf("\nERROR Top(stack *s): LA PILA SE ENCUENTRA VACIA");
-      exit(1);
+    if (Empty(s) == TRUE)
+    {
+        printf("\nERROR Top(stack *s): LA PILA SE ENCUENTRA VACIA");
+        exit(1);
+    }
     return s->top->e;
 }
 /*FUNCIÓN: int Size(stack *s)
@@ -121,15 +135,15 @@ OBSERVACIONES: El usuario ha creado e inicializado previamente la pila.
 void Destroy(stack *s)
 {
     node *aux_node;
-    if(s->top!=NULL)
+    if (s->top != NULL)
     {
-      //Entonces la pila contiene elementos
-      while(s->top!=NULL)
-      {
-        aux_node=s->top->below;
-        free(s->top);
-        s->top=aux_node;
-      }
+        //Entonces la pila contiene elementos
+        while (s->top != NULL)
+        {
+            aux_node = s->top->below;
+            free(s->top);
+            s->top = aux_node;
+        }
     }
     return;
 }

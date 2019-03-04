@@ -13,39 +13,57 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//#include "TADPilaDin.h"
+#include "TADPilaDin.h"
 
 /*
 	comprobarParentesis()
 */
-int comprobarParentesis(char []expInf, int tam_cad)
+boolean comprobarParentesis(char expInf[], int tam_cad)
 {
-	
+	stack parentesis;
+	element e;
+	Initialize(&parentesis);
+	int i = 0;
+	for (i = 0; tam_cad > i; i++)
+	{
+		printf("\n%c",expInf[i]);
+		if (expInf[i] == '(')
+		{
+			e.c = expInf[i];
+			Push(&parentesis, e);
+		}
+		else if (expInf[i] == ')')
+		{
+			printf("Hola");
+			if (Empty(&parentesis) == FALSE)
+			{
+				Pop(&parentesis);
+			}
+			else
+			{
+				printf("ERROR\n");
+				exit(1);
+			}
+		}
+	}
+	return Empty(&parentesis);
 }
 
 int main()
 {
-	char respuesta1='s',respuesta2='s',expInf[100];
+	char respuesta1 = 's', respuesta2 = 's';
+	char *expInf;
 	printf("**************\nBIENVENIDO\n**************");
-	while(respuesta1=='S'||respuesta1=='s')
+	while (respuesta1 == 'S' || respuesta1 == 's')
 	{
 		printf("\nIngresa la expresion a convetir:\n");
-		scanf("%s",&expInf);
-		printf("\nComprobando...");
-		/*
-			Se asume que la expresión a evaluar tiene una longitud menor o igual a 100, no se comprueba longitud.
-			Se comprueba que la expresión abre y cierra paréntesis correctamente.
-		*/
-		//if(comprobarParentesis(strupr(expInf))==1)
-		//{
-			//printf("OKAY\n");
-		//}
-		//else{
-			//exit(1);
-		//}
-		printf("Quieres volver a introducir una expresion? [S/N]");
-		scanf("%c",&respuesta1);
+		scanf("%[^\n]%*c", expInf);
+		printf("\nComprobando...\n");
+		int tam = strlen(expInf);
+		comprobarParentesis(expInf, tam);
+		printf("\nQuieres volver a introducir una expresion? [S/N]\n");
+		scanf("%c", &respuesta1);
 	}
-	printf("Sale bye!");
+	printf("Sale bye!\n");
 	return 0;
 }

@@ -21,25 +21,25 @@ typedef char boolean;
 //Definición de element (elemento) que contendrá la pila <<stack>>
 typedef struct element
 {
-  //LO QUE GUSTES
-}element;
+  char c;
+} element;
 //Definición de node (nodo) que contendrá elementos y estarán conectados en la pila <<stack>>
 typedef struct node
 {
   element e;
   struct node *below;
-}node;
+} node;
 //Definición de pila <<stack>>, arreglo dinámico que contiene nodes (nodos).
 typedef struct stack
 {
   node *top;
   int size;
-}stack;
+} stack;
 //Declarando las funciones principales de una pila <<stack>>
-void Initialize(stack *s);			//Inicializar pila (Iniciar una pila para su uso)
-void Push(stack *s, element e);		//Empilar (Introducir un elemento a la pila)
-elemento Pop (stack *s);				//Desempilar (Extraer un elemento de la pila)
-boolean Empty(stack *s);				//Vacia (Preguntar si la pila esta vacia)
-elemento Top(stack *s);				//Tope (Obtener el "elemento" del tope de la pila si extraerlo de la pila)
-int Size(stack *s);					//Tamaño de la pila (Obtener el número de elementos en la pila)
-void Destroy(stack *s);				//Elimina pila (Borra a todos los elementos y a la pila de memoria)
+void Initialize(stack *s);      //Inicializar pila (Iniciar una pila para su uso)
+void Push(stack *s, element e); //Empilar (Introducir un elemento a la pila)
+element Pop(stack *s);          //Desempilar (Extraer un elemento de la pila)
+boolean Empty(stack *s);        //Vacia (Preguntar si la pila esta vacia)
+element Top(stack *s);          //Tope (Obtener el "elemento" del tope de la pila si extraerlo de la pila)
+int Size(stack *s);             //Tamaño de la pila (Obtener el número de elementos en la pila)
+void Destroy(stack *s);         //Elimina pila (Borra a todos los elementos y a la pila de memoria)
