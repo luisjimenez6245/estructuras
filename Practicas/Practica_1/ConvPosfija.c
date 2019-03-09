@@ -21,40 +21,24 @@
 
 int tipoValor(char caracter)
 {
-	int res = 0;
-	if (caracter == '+' || caracter == '-')
-	{
-		res = 1;
-	}
+	if ((caracter > 64 && caracter < 91) || (caracter > 96 && caracter < 123))
+		return 4;
 	else
 	{
+		if (caracter == '+' || caracter == '-')
+			return 1;
 		if (caracter == '*' || caracter == '/')
-		{
-			res = 2;
-		}
-		else
-		{
-			if (caracter == '^'){
-				res = 3;
-			}
-			else{
-				if (caracter > 64 && caracter < 91){
-					res = 4;
-				}
-				else {
-					if(caracter =='(' || caracter ==')'){
-						res = 0;
-					}
-					else{
-						printf("\nSe encontro un caracter no valido %c", caracter);
-						exit(1);
-					}
-				}
-			}
-		}
+			return 2;
+		if (caracter == '^')
+			return 3;
+		if (caracter == '(')
+			return -1;
+		if (caracter == ')')
+			return -2;
 	}
-
-	return res;
+	printf("\n");
+	exit(EXIT_FAILURE);
+	return 0;
 }
 
 boolean comprobarParentesis(char expInf[], int tam_cad)
@@ -82,7 +66,6 @@ boolean comprobarParentesis(char expInf[], int tam_cad)
 			else
 			{
 				res = FALSE;
-				break;
 			}
 		}
 	}
@@ -113,90 +96,68 @@ boolean comprobarSignos(char expInf[], int tam_cad)
 	return res;
 }
 
-char *cambioPostFijo(char expInf[], int tam_cad)
+void impresora(stack *pila)
 {
-	stack pila, resultado;
+	while (!Empty(pila))
+	{
+		printf("%c", Pop(pila).c);
+	}
+}
+
+void cambioPostFijo(char expInf[], int tam_cad)
+{
+	stack pila;
 	Initialize(&pila);
-	Initialize(&resultado);
 	element e;
-	int i = 0;
-	int nivel = 0;
+	int i, nivel = 0, aux;
 	for (i = 0; i < tam_cad; ++i)
 	{
 		e.c = expInf[i];
-		printf(":\n%c\n", e.c);
-		int aux = tipoValor(expInf[i]);
-	//	printf("\n%i", aux);
-		if (aux > 0)
+		aux = tipoValor(e.c);
+		if (aux <= 4)
 		{
-			if(aux != 4){
-				if (nivel < aux)
-				{
-					Push(&pila, e);
-				}
-				else
-				{
-					printf("VACIA: %c", Top(&pila).c);
-					Push(&resultado, e);
-					if(!Empty(&pila))
-					{
-						Push(&resultado, Pop(&pila));
-					}
-				}
-				nivel = aux;
-			}
+			if (aux == 4)
+				printf("%c", e.c);
 			else
 			{
-				printf("as");
-				Push(&resultado, e);	
+				nivel = 0;
+				if (aux == -2)
+				{
+					CERRAR:
+					if(Top(&pila).c != '(')
+					{
+						printf("%c",Pop(&pila).c);
+						goto CERRAR;
+					}
+					Pop(&pila);
+					if(!Empty(&pila))
+					{
+						nivel = tipoValor(Top(&pila).c);
+					}
+				}
+				else
+					Push(&pila, e);
 			}
-			
 		}
 		else
 		{
+		SIGNO:
+			if (aux <= nivel)
+				if (!Empty(&pila))
+				{
+					printf("%c", Pop(&pila).c);
+					if (!Empty(&pila))
+						nivel = tipoValor(Top(&pila).c);
+					goto SIGNO;
+				}
+			Push(&pila, e);
 			nivel = aux;
-			if (aux == '(')
-			{
-				nivel = 0;
-				Push(&pila, e);
-			}
-			else
-			{
-				if (aux == ')')
-				{
-					int j;
-					for (j = 0; j < Size(&pila); ++j)
-					{
-						if (Top(&pila).c != '(' && !Empty(&pila))
-							Push(&resultado, Pop(&pila));
-						else
-							break;
-					}
-				}
-				else
-				{
-					Push(&resultado, e);
-				}
-			}
 		}
 	}
-	if (!Empty(&pila)){
-		printf("hoa");
-		for (i = 0; i < Size(&pila) -1; ++i)
-		{
-			printf("g");
-			Push(&resultado, Pop(&pila));
-		}
-	}
-	char res [Size(&resultado)];
-	printf("Res:\n");
-	for(i = 0; i < Size(&resultado); ++i){
-		printf("%c",Top(&resultado).c);
-		res[i] = Pop(&resultado).c;
-	}
+	while (!Empty(&pila))
+		printf("%c", Pop(&pila).c);
 
 	Destroy(&pila);
-	return &res;
 }
 
 int main()
@@ -213,7 +174,7 @@ int main()
 		if (comprobarParentesis(expInf, tam))
 		{
 			printf("\nParentesís validos\n");
-			printf("%s", cambioPostFijo(expInf, tam));
+			cambioPostFijo(expInf, tam);
 		}
 		else
 		{
