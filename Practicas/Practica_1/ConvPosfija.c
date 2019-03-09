@@ -77,32 +77,7 @@ boolean comprobarParentesis(char expInf[], int tam_cad)
 	return res;
 }
 
-boolean comprobarSignos(char expInf[], int tam_cad)
-{
-	boolean res = TRUE;
-	stack parentesis, caracteres, signos;
-	Initialize(&parentesis);
-	Initialize(&caracteres);
-	Initialize(&signos);
-	int nivel = 0, i = 0;
-	for (i = 0; i <= tam_cad; ++i)
-	{
-		int aux = tipoValor(expInf[i]);
-	}
 
-	Destroy(&parentesis);
-	Destroy(&caracteres);
-	Destroy(&signos);
-	return res;
-}
-
-void impresora(stack *pila)
-{
-	while (!Empty(pila))
-	{
-		printf("%c", Pop(pila).c);
-	}
-}
 
 void cambioPostFijo(char expInf[], int tam_cad)
 {
@@ -114,7 +89,7 @@ void cambioPostFijo(char expInf[], int tam_cad)
 	{
 		e.c = expInf[i];
 		aux = tipoValor(e.c);
-		if (aux <= 4)
+		if (aux == 4 || aux < 0)
 		{
 			if (aux == 4)
 				printf("%c", e.c);
@@ -142,7 +117,7 @@ void cambioPostFijo(char expInf[], int tam_cad)
 		else
 		{
 		SIGNO:
-			if (aux <= nivel)
+			if (aux <= nivel){
 				if (!Empty(&pila))
 				{
 					printf("%c", Pop(&pila).c);
@@ -150,6 +125,7 @@ void cambioPostFijo(char expInf[], int tam_cad)
 						nivel = tipoValor(Top(&pila).c);
 					goto SIGNO;
 				}
+			}
 			Push(&pila, e);
 			nivel = aux;
 		}
