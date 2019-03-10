@@ -54,3 +54,4 @@ dkms.conf
 .DS_Store?
 .Trashes
 .Spotlight-V100
+.out

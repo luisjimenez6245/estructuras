@@ -41,6 +41,19 @@ int tipoValor(char caracter)
 	return 0;
 }
 
+char* appendString(char *cadena, char caracter)
+{
+	size_t tam = strlen(cadena);
+	char *res = malloc(tam + 1 + 1); 
+	strcpy(res, cadena);
+	res[tam] = caracter;
+	res[tam + 1] = '\0';
+	cadena = malloc(strlen(res));
+	strcpy(cadena, res);
+	free(res);
+	return cadena;
+}
+
 boolean comprobarParentesis(char expInf[], int tam_cad)
 {
 	stack parentesis;
@@ -77,14 +90,66 @@ boolean comprobarParentesis(char expInf[], int tam_cad)
 	return res;
 }
 
+char *extraerVariables(char exp[])
+{
+	char *variables = "";
+	int count = 0,i, tam  = strlen(exp);
+	for(i = 0; i < tam; ++i)
+	{
+		if(tipoValor(exp[i]) == 4)
+		{
+			boolean contenido =  TRUE;
+			REVISA:
+			if(variables[count] != exp[i] && contenido)
+			{
+				++count;
+				if(count < strlen(variables))
+					goto REVISA;
+			}
+			else
+			{
+				contenido = FALSE;
+			}
+			if(contenido ==  TRUE)
+				variables = appendString(variables, exp[i]);
+			count = 0;
+		}
+	}
+	return variables;
+}
 
+int *obtenerValores(char variables[]){
+	int * res;
+	int numeroVariables = strlen(variables), i = 0;
+	for(i = 0; i < numeroVariables; ++i)
+	{
+		printf("\nInserta el valor para la variable %c: ", variables[i]);
+		scanf("%i", &res[i]);
+	}
+	return res;
+}
 
-void cambioPostFijo(char expInf[], int tam_cad)
+void evaluacion(char expPost[], char variables[], int valores[])
+{
+	int tam_cad = strlen(expPost), i;
+	stack pila;
+	Initialize(&pila);
+	for(i = 0; i < tam_cad; ++i)
+	{
+		if(tipoValor(expPost[i]) == 4)
+		{}
+		else
+		{}
+	}
+}
+
+char *cambioPostFijo(char expInf[])
 {
 	stack pila;
 	Initialize(&pila);
 	element e;
-	int i, nivel = 0, aux;
+	char *res = "";
+	int i, nivel = 0, aux, tam_cad = strlen(expInf);
 	for (i = 0; i < tam_cad; ++i)
 	{
 		e.c = expInf[i];
@@ -92,20 +157,22 @@ void cambioPostFijo(char expInf[], int tam_cad)
 		if (aux == 4 || aux < 0)
 		{
 			if (aux == 4)
-				printf("%c", e.c);
+			{
+				res = appendString(res, e.c);
+			}
 			else
 			{
 				nivel = 0;
 				if (aux == -2)
 				{
-					CERRAR:
-					if(Top(&pila).c != '(')
+				CERRAR:
+					if (Top(&pila).c != '(')
 					{
-						printf("%c",Pop(&pila).c);
+						res = appendString(res, Pop(&pila).c);
 						goto CERRAR;
 					}
 					Pop(&pila);
-					if(!Empty(&pila))
+					if (!Empty(&pila))
 					{
 						nivel = tipoValor(Top(&pila).c);
 					}
@@ -117,10 +184,11 @@ void cambioPostFijo(char expInf[], int tam_cad)
 		else
 		{
 		SIGNO:
-			if (aux <= nivel){
+			if (aux <= nivel)
+			{
 				if (!Empty(&pila))
 				{
-					printf("%c", Pop(&pila).c);
+					res = appendString(res, Pop(&pila).c);
 					if (!Empty(&pila))
 						nivel = tipoValor(Top(&pila).c);
 					goto SIGNO;
@@ -131,15 +199,16 @@ void cambioPostFijo(char expInf[], int tam_cad)
 		}
 	}
 	while (!Empty(&pila))
-		printf("%c", Pop(&pila).c);
-
+		res = appendString(res, Pop(&pila).c);
 	Destroy(&pila);
+	printf("Expresión Postfija: %s", res);
+	return res;
 }
 
 int main()
 {
 	char respuesta1 = 's';
-	char *expInf;
+	char * expInf;
 	printf("**************\nBIENVENIDO\n**************");
 	while (respuesta1 == 'S' || respuesta1 == 's')
 	{
@@ -147,18 +216,25 @@ int main()
 		scanf("%[^\n]%*c", expInf);
 		printf("\nComprobando...\n");
 		int tam = strlen(expInf);
-		if (comprobarParentesis(expInf, tam))
+		if(tam <= 100){
+		if (tam <= 100 && comprobarParentesis(expInf, tam))
 		{
 			printf("\nParentesís validos\n");
-			cambioPostFijo(expInf, tam);
+			char * post =  cambioPostFijo(expInf);
+			char * variables =  extraerVariables(post);
+			//printf("\n Var postfijo: %s", extraerVariables(post));
+	
+			//evaluacion(cambioPostFijo(expInf, tam), );
 		}
 		else
 		{
 			printf("\nParentesis no validos");
 		}
+		}
 		printf("\nQuieres volver a introducir una expresion? [S/N]\n");
 		scanf("%c", &respuesta1);
 	}
+	free(expInf);
 	printf("Sale bye!\n");
 	return EXIT_SUCCESS;
 }
