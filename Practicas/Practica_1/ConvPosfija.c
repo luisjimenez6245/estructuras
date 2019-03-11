@@ -17,9 +17,12 @@
 #include <math.h>
 
 /*
-	comprobarParentesis()
+FUNCIÓN: int tipoValor(char caracter)
+DESCRIPCIÓN: Evalula un cracter para ver que tipo de dato es.
+RECIBE: char caracter (Caractér a evauluar).
+DEVUELVE: int.
+OBSERVACIONES: Regresa 4 en caso de que el caracter sea una letra, regresa la 1 si el signo es + o -,regresa la 1 si el signo es + o -, 
 */
-
 int tipoValor(char caracter)
 {
 	if ((caracter > 64 && caracter < 91) || (caracter > 96 && caracter < 123))
@@ -41,7 +44,12 @@ int tipoValor(char caracter)
 	exit(EXIT_FAILURE);
 	return 0;
 }
-
+/*
+char *appendString(char *cadena, char caracter)DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
+DEVUELVE: char * 
+OBSERVACIONES: 
+*/
 char *appendString(char *cadena, char caracter)
 {
 	size_t tam = strlen(cadena);
@@ -55,6 +63,14 @@ char *appendString(char *cadena, char caracter)
 	return cadena;
 }
 
+/*
+boolean comprobarParentesis(char expInf[], int tam_cad)
+DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
+DEVUELVE: Nada.
+OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
+aparte memoria correctamente, en caso contrario se imprime el error.
+*/
 boolean comprobarParentesis(char expInf[], int tam_cad)
 {
 	stack parentesis;
@@ -90,7 +106,14 @@ boolean comprobarParentesis(char expInf[], int tam_cad)
 	Destroy(&parentesis);
 	return res;
 }
-
+/*
+FUNCIÓN: char *extraerVariables(char exp[])
+DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
+DEVUELVE: Nada.
+OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
+aparte memoria correctamente, en caso contrario se imprime el error.
+*/
 char *extraerVariables(char exp[])
 {
 	char *variables = "";
@@ -119,17 +142,14 @@ char *extraerVariables(char exp[])
 	return variables;
 }
 
-int *obtenerValores(char variables[])
-{
-	int numeroVariables = strlen(variables), i, aux;
-	int res[numeroVariables];
-	for (i = 0; i < numeroVariables; i++)
-	{
-		printf("\nInserta el valor para la variable %c \n", variables[i]);
-		scanf("%i", &res[i]);
-	}
-	return res;
-}
+/*
+FUNCIÓN: int *obtenerValores(char variables[])
+DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
+DEVUELVE: Nada.
+OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
+aparte memoria correctamente, en caso contrario se imprime el error.
+*/
 
 int obtenerValorVariable(char variables[], char buscar, int tam)
 {
@@ -149,35 +169,44 @@ VARIABLE:
 	return i;
 }
 
-void evaluacion(char expPost[], char variables[], int valores[])
+/*
+FUNCIÓN: evaluacion(char expPost[], char variables[])
+DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
+DEVUELVE: Nada.
+OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
+aparte memoria correctamente, en caso contrario se imprime el error.
+*/
+void evaluacion(char expPost[], char variables[])
 {
 	int tam_cad = strlen(expPost), i, numeroVariables = strlen(variables);
+	int valores[numeroVariables];
 	stack pila;
 	Initialize(&pila);
 	element e;
+	for (i = 0; i < numeroVariables; i++)
+	{
+		printf("\nInserta el valor para la variable %c \n", variables[i]);
+		scanf("%i", &valores[i]);
+	}
+
 	double aux1, aux2;
-	printf("valores: %i, %i\n", valores[0], valores[1]);
 	for (i = 0; i < tam_cad; ++i)
 	{
 		if (tipoValor(expPost[i]) != 4)
 		{
 			if (Top(&pila).c != '?')
 			{
-				printf("\nval: %i", valores[obtenerValorVariable(variables, Top(&pila).c, numeroVariables)]);
 				aux1 = valores[obtenerValorVariable(variables, Pop(&pila).c, numeroVariables)];
-				printf("\naux1: %f", aux1);
 			}
 			else
 				aux1 = Pop(&pila).n;
 			if (Top(&pila).c != '?')
 			{
-				printf("\nval: %i", valores[obtenerValorVariable(variables, Top(&pila).c, numeroVariables)]);
 				aux2 = valores[obtenerValorVariable(variables, Pop(&pila).c, numeroVariables)];
-				printf("\naux2: %f", aux2);
 			}
 			else
 				aux2 = Pop(&pila).n;
-			printf("\n aux1:%f,auxx2:%f", aux1, aux2);
 			switch (expPost[i])
 			{
 			case '^':
@@ -207,6 +236,13 @@ void evaluacion(char expPost[], char variables[], int valores[])
 	printf("\nResultado: %f", Pop(&pila).n);
 }
 
+/*
+FUNCIÓN: char *cambioPostFijo(char expInf[])
+DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
+DEVUELVE: La cadena de caracteres de la conversion postfija 
+OBSERVACIONES: 
+*/
 char *cambioPostFijo(char expInf[])
 {
 	stack pila;
@@ -269,6 +305,14 @@ char *cambioPostFijo(char expInf[])
 	return res;
 }
 
+/*
+FUNCIÓN: void Push(stack *s, element e)
+DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
+RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
+DEVUELVE: Nada.
+OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
+aparte memoria correctamente, en caso contrario se imprime el error.
+*/
 int main()
 {
 	char respuesta1 = 's';
@@ -287,7 +331,7 @@ int main()
 				printf("\nParentesís validos\n");
 				char *post = cambioPostFijo(expInf);
 				char *variables = extraerVariables(post);
-				evaluacion(post, variables, obtenerValores(variables));
+				evaluacion(post, variables);
 			}
 			else
 				printf("\nParentesis no validos");
