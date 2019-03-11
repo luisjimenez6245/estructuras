@@ -97,6 +97,7 @@ element Pop(stack *s)
     aux_node = s->top;      //Se obtiene la dirección del tope actual de la pila para poder eliminarlo después
     s->top = s->top->below; //Se reescribe el tope de la pila
     free(aux_node);
+    s->size--;
     return aux_element;
 }
 /*FUNCIÓN: element Top(stack *s)

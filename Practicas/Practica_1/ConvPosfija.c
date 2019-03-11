@@ -165,7 +165,6 @@ VARIABLE:
 	}
 	return i;
 }
-
 /*
 FUNCIÓN: void evaluacion(char expPost[], char variables[])
 DESCRIPCIÓN: realiza la evaluación de la postfija con valores que se le asignen a las variables de la expresión. 
@@ -185,24 +184,15 @@ void evaluacion(char expPost[], char variables[])
 		printf("\nInserta el valor para la variable %c \n", variables[i]);
 		scanf("%i", &valores[i]);
 	}
-
 	double aux1, aux2;
 	for (i = 0; i < tam_cad; ++i)
 	{
 		if (tipoValor(expPost[i]) != 4)
 		{
-			if (Top(&pila).c != '?')
-			{
-				aux1 = valores[obtenerValorVariable(variables, Pop(&pila).c)];
-			}
-			else
-				aux1 = Pop(&pila).n;
-			if (Top(&pila).c != '?')
-			{
-				aux2 = valores[obtenerValorVariable(variables, Pop(&pila).c)];
-			}
-			else
-				aux2 = Pop(&pila).n;
+			e = Pop(&pila);
+			aux1 = e.n;
+			e = Pop(&pila);
+			aux2 = e.n;
 			switch (expPost[i])
 			{
 			case '^':
@@ -226,6 +216,7 @@ void evaluacion(char expPost[], char variables[])
 		else
 		{
 			e.c = expPost[i];
+			e.n = valores[obtenerValorVariable(variables, e.c)];
 		}
 		Push(&pila, e);
 	}
@@ -300,7 +291,6 @@ char *cambioPostFijo(char expInf[])
 	printf("Expresión Postfija: %s", res);
 	return res;
 }
-
 
 int main()
 {
