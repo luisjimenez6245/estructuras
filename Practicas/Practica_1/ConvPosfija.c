@@ -47,7 +47,7 @@ int tipoValor(char caracter)
 /*
 char *appendString(char *cadena, char caracter)DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
 RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
-DEVUELVE: char * 
+DEVUELVE: char * La expresión con el caracter nuevo agregado.
 OBSERVACIONES: 
 */
 char *appendString(char *cadena, char caracter)
@@ -65,11 +65,10 @@ char *appendString(char *cadena, char caracter)
 
 /*
 boolean comprobarParentesis(char expInf[], int tam_cad)
-DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
-RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
-DEVUELVE: Nada.
-OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
-aparte memoria correctamente, en caso contrario se imprime el error.
+DESCRIPCIÓN: Verifica si los parentetsis de una expresión estan correctos .
+RECIBE: char expInf[](Expresión de ), int tam_cad
+DEVUELVE: boolean con el valor de verificación de la operación.
+OBSERVACIONES: No se toma encuenta si están correctamente cerrados o no.
 */
 boolean comprobarParentesis(char expInf[], int tam_cad)
 {
@@ -108,11 +107,10 @@ boolean comprobarParentesis(char expInf[], int tam_cad)
 }
 /*
 FUNCIÓN: char *extraerVariables(char exp[])
-DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
-RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
-DEVUELVE: Nada.
-OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
-aparte memoria correctamente, en caso contrario se imprime el error.
+DESCRIPCIÓN: Extrae las variables de una expresión dada;
+RECIBE: char exp[](Expresión de donde se van a extraer).
+DEVUELVE: char * Expresión con las varibles de la expresión exp;
+OBSERVACIONES: Las varibles son Únicas de la variable;
 */
 char *extraerVariables(char exp[])
 {
@@ -143,17 +141,16 @@ char *extraerVariables(char exp[])
 }
 
 /*
-FUNCIÓN: int *obtenerValores(char variables[])
-DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
-RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
-DEVUELVE: Nada.
-OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
-aparte memoria correctamente, en caso contrario se imprime el error.
+FUNCIÓN: int obtenerValorVariable(char variables[], char buscar)
+DESCRIPCIÓN: Obtiene la posición de la la variable a buscar del arreglo variables;
+RECIBE: char variables[](Expresión que contiene las variables), char buscar(Caracter a buscar en la cadena).
+DEVUELVE: int con la posicion en el arreglo de las variables.
+OBSERVACIONES: La expresión variables[] debe de ser obtenida de las funcion char *extraerVariables(char exp[]);
 */
 
-int obtenerValorVariable(char variables[], char buscar, int tam)
+int obtenerValorVariable(char variables[], char buscar)
 {
-	int i = 0;
+	int i = 0, tam = strlen(variables);
 VARIABLE:
 	if (variables[i] != buscar)
 	{
@@ -170,12 +167,11 @@ VARIABLE:
 }
 
 /*
-FUNCIÓN: evaluacion(char expPost[], char variables[])
-DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
-RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
+FUNCIÓN: void evaluacion(char expPost[], char variables[])
+DESCRIPCIÓN: realiza la evaluación de la postfija con valores que se le asignen a las variables de la expresión. 
+RECIBE: char expPost[](Expresión postfija), char variables[] (Expresión que contiene las variables).
 DEVUELVE: Nada.
-OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
-aparte memoria correctamente, en caso contrario se imprime el error.
+OBSERVACIONES: La expresión variables[] debe de ser obtenida de las funcion char *extraerVariables(char exp[]);
 */
 void evaluacion(char expPost[], char variables[])
 {
@@ -197,13 +193,13 @@ void evaluacion(char expPost[], char variables[])
 		{
 			if (Top(&pila).c != '?')
 			{
-				aux1 = valores[obtenerValorVariable(variables, Pop(&pila).c, numeroVariables)];
+				aux1 = valores[obtenerValorVariable(variables, Pop(&pila).c)];
 			}
 			else
 				aux1 = Pop(&pila).n;
 			if (Top(&pila).c != '?')
 			{
-				aux2 = valores[obtenerValorVariable(variables, Pop(&pila).c, numeroVariables)];
+				aux2 = valores[obtenerValorVariable(variables, Pop(&pila).c)];
 			}
 			else
 				aux2 = Pop(&pila).n;
@@ -238,9 +234,9 @@ void evaluacion(char expPost[], char variables[])
 
 /*
 FUNCIÓN: char *cambioPostFijo(char expInf[])
-DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
-RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
-DEVUELVE: La cadena de caracteres de la conversion postfija 
+DESCRIPCIÓN: Realiza el cambio de una expresión dada a una postfija.
+RECIBE: char expInf[](Expresión infija a cambiar);
+DEVUELVE: char * La cadena de caracteres de la conversion postfija 
 OBSERVACIONES: 
 */
 char *cambioPostFijo(char expInf[])
@@ -305,20 +301,13 @@ char *cambioPostFijo(char expInf[])
 	return res;
 }
 
-/*
-FUNCIÓN: void Push(stack *s, element e)
-DESCRIPCIÓN: Agrega el elemento indicado a la pila (stack) "s".
-RECIBE: int *s (Referencia a la pila <<stack>> "s" a operar), element e (Elemento a introducir en la pila).
-DEVUELVE: Nada.
-OBSERVACIONES: El usuario debe haber inicializado la pila <<stack>> previamente. Se comprueba que malloc()
-aparte memoria correctamente, en caso contrario se imprime el error.
-*/
+
 int main()
 {
 	char respuesta1 = 's';
 	char *expInf;
 	printf("**************\nBIENVENIDO\n**************");
-	while (respuesta1 == 's')
+	while (respuesta1 == 's' || respuesta1 == 'S')
 	{
 		printf("\nIngresa la expresion a convetir:\n");
 		scanf("%s", expInf);
