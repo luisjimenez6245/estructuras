@@ -21,6 +21,7 @@ typedef char boolean;
 //Definición de element (elemento) que contendrá la pila <<stack>>
 typedef struct element
 {
+  double n;
   char c;
 } element;
 //Definición de node (nodo) que contendrá elementos y estarán conectados en la pila <<stack>>
