@@ -20,7 +20,7 @@
 FUNCIÓN: int tipoValor(char caracter)
 DESCRIPCIÓN: Evalula un cracter para ver que tipo de dato es.
 RECIBE: char caracter (Caractér a evauluar).
-DEVUELVE: int.
+DEVUELVE: int(Tipo de valor asignado).
 OBSERVACIONES: Regresa 4 en caso de que el caracter sea una letra, regresa la 1 si el signo es + o -,regresa la 1 si el signo es + o -, 
 */
 int tipoValor(char caracter)
@@ -40,7 +40,7 @@ int tipoValor(char caracter)
 		if (caracter == ')')
 			return -2;
 	}
-	printf("\n");
+	printf("\n %c es caracter no valido", caracter);
 	exit(EXIT_FAILURE);
 	return 0;
 }
@@ -308,9 +308,13 @@ int main()
 			if (tam <= 100 && comprobarParentesis(expInf, tam))
 			{
 				printf("\nParentesís validos\n");
-				char *post = cambioPostFijo(expInf);
-				char *variables = extraerVariables(post);
-				evaluacion(post, variables);
+				char *post = malloc(tam), *variables = malloc(tam);
+				if (post != NULL)
+				{
+					post =  cambioPostFijo(expInf);
+					variables = extraerVariables(post);
+					evaluacion(post, variables);
+				}
 			}
 			else
 				printf("\nParentesis no validos");
