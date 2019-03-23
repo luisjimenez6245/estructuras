@@ -1,0 +1,30 @@
+LALO
+
+Tamaño de la tabla: 500
+El numero promedio de colisiones es de: 2
+El numero de listas vacias es 452
+El orden maximo de busqueda es: 11
+El numero maximo de pasos para encontrar un elemento es: 12
+
+Tamaño de la tabla: 500
+El numero promedio de colisiones es de: 7
+El numero de listas vacias es 276
+El orden maximo de busqueda es: 39
+El numero maximo de pasos para encontrar un elemento es: 40
+
+
+
+PAO
+
+Tamaño de la tabla: 500
+El numero promedio de colisiones es de: 2
+El numero de listas vacias es 407
+El orden maximo de busqueda es: 4
+El numero maximo de pasos para encontrar un elemento es: 5
+
+Tamaño de la tabla: 500
+El numero promedio de colisiones es de: 4
+El numero de listas vacias es 13
+El orden maximo de busqueda es: 15
+El numero maximo de pasos para encontrar un elemento es: 16
+
