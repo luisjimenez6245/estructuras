@@ -27,7 +27,7 @@ COMPILACIÓN PARA GENERAR EL CÓDIGO OBJETO: gcc TADListaSL.c -c
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "TADListaSL.h" 
+#include "TADListaDL.h" 
 
 //DEFINICIÓN DE FUNCIONES
 
@@ -242,7 +242,9 @@ elemento Element(lista *l, int n)
 		//Obtener el elemento en la posición n
 		aux=l->frente;
 		for(i=2;i<=n;i++)
+		{
 			aux=aux->siguiente;
+		}
 		r=aux->e;
 	}
 	else
@@ -342,7 +344,7 @@ void Insert (lista * l, posicion p, elemento e, boolean b)
 		if(l->final!=NULL) //Si la lista no esta vacia
 		{
 			aux->siguiente=l->frente;
-			aux->anterior=l->frente;
+			aux->anterior = aux->siguiente->anterior;
 			l->frente=aux;
 		}
 		else//Si esta vacia
@@ -427,6 +429,7 @@ void Add (lista *l,elemento e)
 	//Si la lista no esta vacia
 	else
 	{
+		aux->anterior = l->final;
 		l->final->siguiente=aux;
 		aux->siguiente=NULL;
 		l->final=aux;
@@ -456,7 +459,7 @@ void Remove (lista *l,posicion p)
 			l->final=NULL;
 			l->frente=NULL;
 			l->tamanio=0;
-		}		
+		}
 		//Si la p es el final
 		else if(p==l->final)
 		{
@@ -524,7 +527,7 @@ void VerLigasLista(lista *l)
 	printf("\n*************************************************************");
 	while(aux!=NULL)
 	{
-		printf("\nPosicion=%p\tSiguiente=%p",aux,aux->siguiente);
+		printf("\nPosicion=%p\tSiguiente=%p\tAnterior=%p",aux,aux->siguiente, aux->anterior);
 		aux=aux->siguiente;
 	}
 	printf("\n*************************************************************");

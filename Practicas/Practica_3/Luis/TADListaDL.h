@@ -32,8 +32,9 @@ typedef struct elemento
 typedef struct nodo
 {
 	elemento e;
-	//Realación con el siguiente nodo
+	//Realación con el nodo anterior
     struct nodo *anterior;
+	//Realación con el siguiente nodo
 	struct nodo *siguiente;		
 } nodo;
 
