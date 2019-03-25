@@ -1,0 +1,17 @@
+I would like to thank the many people without whom this book would not have been possible. A team of
+highly skilled people—who I really have enjoyed working with—has greatly assisted me in creating this work.
+First, I would like to thank the people at Apress involved in this project. Thanks to Steve Anglin for
+coming up with the idea for this book and for his assistance and insight in putting the initial table of content
+together. Thanks to project Manager Mark Powers for gently pushing me along and for keeping everything
+well scheduled and organized. Your experience and professionalism helped to make the book-writing
+process considerably easier than it otherwise might have been. Kezia Endsley, who copy edited the book, I
+would like to thank very much for your finely tuned eye and the precision and dedication you applied to the
+task. When I saw how many comments you had on each chapter I delivered, I knew this book would be even
+better than I had hoped. As a result, this book is not only full of new and interesting insights into NetBeans
+IDE, but also concisely written and consistently formulated.
+Next, many, many thanks to Josh Juneau. Not sure exactly when I first met Josh, probably at JavaOne
+some years ago! He’s an author in his own right and a very focused and technically savvy supporter of all
+things NetBeans. The second I was asked to provide a technical reviewer, I thought of Josh. Aside from
+many insights and shared wisdom, he’s contributed a large part of the Chapter 9 on profiling and tuning,
+with thanks to Andrew Binstock from the Oracle Java Magazine, who let us reuse parts of an article that Josh
+published there.
