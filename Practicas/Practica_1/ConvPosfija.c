@@ -16,9 +16,6 @@
 #include "TADPilaDin.h"
 #include <math.h>
 
-char *post;
-char *variables;
-
 /*
 FUNCIÓN: int tipoValor(char caracter)
 DESCRIPCIÓN: Evalula un cracter para ver que tipo de dato es.
@@ -291,37 +288,39 @@ char *cambioPostFijo(char expInf[])
 	while (!Empty(&pila))
 		res = appendString(res, Pop(&pila).c);
 	Destroy(&pila);
-	printf("Expresión Postfija: %s", res);
+	//
 	return res;
 }
 
 int main()
 {
 	char respuesta1 = 's';
-	char *expInf;
+	char expInf[100];
+	char *post,*variables;
 	printf("**************\nBIENVENIDO\n**************");
 	while (respuesta1 == 's' || respuesta1 == 'S')
 	{
 		printf("\nIngresa la expresion a convetir:\n");
-		scanf("%s", expInf);
+		scanf("%s",&expInf);
+		fflush(stdin);
+		printf("%s",expInf);
 		printf("\nComprobando...\n");
 		int tam = strlen(expInf);
+		printf("a %s", expInf);
 		if (tam <= 100)
 		{
-			if (tam <= 100 && comprobarParentesis(expInf, tam))
+
+		if (tam <= 100 && comprobarParentesis(expInf, tam))
 			{
 				printf("\nParentesís validos\n");
-				post = malloc(tam);
-				variables = malloc(tam);
-				if (post != NULL)
-				{
-					post =  cambioPostFijo(expInf);
-					variables = extraerVariables(post);
-					evaluacion(post, variables);
-				}
+				post=cambioPostFijo(expInf);
+				printf("Expresión Postfija: %s", post);
+				variables = extraerVariables(post);
+				evaluacion(post, variables);
 			}
 			else
 				printf("\nParentesis no validos");
+				
 		}
 		else
 		{
@@ -329,6 +328,7 @@ int main()
 		}
 		printf("\nQuieres volver a introducir una expresion? [S/N]:\n");
 		scanf("%s", &respuesta1);
+		
 	}
 	printf("Sale bye!\n");
 	return EXIT_SUCCESS;
