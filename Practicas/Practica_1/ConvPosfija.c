@@ -1,4 +1,4 @@
-/*
+﻿/*
 	AUTORES (C) Febrero 2019: 
 		Jiménez Delgado Luis Diego
 		Sánchez Castro Aarón Gamaliel
@@ -306,7 +306,6 @@ int main()
 		printf("%s",expInf);
 		printf("\nComprobando...\n");
 		int tam = strlen(expInf);
-		printf("a %s", expInf);
 		if (tam <= 100)
 		{
 
@@ -314,7 +313,7 @@ int main()
 			{
 				printf("\nParentesís validos\n");
 				post=cambioPostFijo(expInf);
-				printf("Expresión Postfija: %s", post);
+				printf("Expresion Postfija: %s", post);
 				variables = extraerVariables(post);
 				evaluacion(post, variables);
 			}
@@ -328,6 +327,7 @@ int main()
 		}
 		printf("\nQuieres volver a introducir una expresion? [S/N]:\n");
 		scanf("%s", &respuesta1);
+		system("cls");
 		
 	}
 	printf("Sale bye!\n");
