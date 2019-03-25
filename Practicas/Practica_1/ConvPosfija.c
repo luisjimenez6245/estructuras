@@ -16,6 +16,9 @@
 #include "TADPilaDin.h"
 #include <math.h>
 
+char *post;
+char *variables;
+
 /*
 FUNCIÓN: int tipoValor(char caracter)
 DESCRIPCIÓN: Evalula un cracter para ver que tipo de dato es.
@@ -308,7 +311,8 @@ int main()
 			if (tam <= 100 && comprobarParentesis(expInf, tam))
 			{
 				printf("\nParentesís validos\n");
-				char *post = malloc(tam), *variables = malloc(tam);
+				post = malloc(tam);
+				variables = malloc(tam);
 				if (post != NULL)
 				{
 					post =  cambioPostFijo(expInf);
