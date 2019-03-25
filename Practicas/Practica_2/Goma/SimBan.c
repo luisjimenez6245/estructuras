@@ -29,7 +29,7 @@ void printCajas(int *cordCliCajas){
 	int ANCHO_DISPLAY=num_cajas*ANCHO_CAJA;
 	system("cls");
 	printf("------------------------------------------------------------");
-	printf("\n\t\t\tBANCOGIDOTAS\n");
+	printf("\n\t\t\tBANCO DE MEXICO\n");
 	printf("------------------------------------------------------------\n");
 	for(aux=0;aux<num_cajas;aux++){
 		printf("#|CAJ|");//SE IMPRIMEN LAS CAJAS, EL ESPACIO EN BLANCO SE LLENARÁ POSTERIORMENTE CON C#,U#,P#
@@ -101,28 +101,95 @@ void simulacionBanco(int *tiemposAtencion){
 			persona.tipo='U';
 			Queue(&cUsuarios,persona);
 		}
-		//--------------------------------------
-		/*for(aux=0;aux<num_cajas;aux++){
-			if(tiemposAtencion[aux]%tClints==0&&!Empty(&cClientes)){
-				atenderPersona(aux,Dequeue(&cClientes),cordCliCajas);
-				pAtendidas++;
-			}
-		}*/
-		//--------------------------------------
 		printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
 		printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
 		printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
-		Sleep(200);//JAJA NOMAMES SI SIRVE B)
 
+		for(aux=0;aux<num_cajas;aux++){//RECORREMOS LAS CAJAS PARA VERIFICAR CUÁL PUEDE ATENDER CLIENTES
+			if(num_cajas==1){
+				if(tTranscurrido%tiemposAtencion[aux]==0){
+					if(!Empty(&cPreferentes)&&pAtendidas%5!=0){
+						atenderPersona(aux,Dequeue(&cPreferentes),cordCliCajas);
+						pAtendidas++;
+					}
+					else{
+						if(!Empty(&cClientes) && pAtendidas%5!=0){
+							atenderPersona(aux,Dequeue(&cClientes),cordCliCajas);
+							pAtendidas++;
+						}
+						else{
+							if(!Empty(&cUsuarios)){
+								atenderPersona(aux,Dequeue(&cUsuarios),cordCliCajas);
+								pAtendidas++;
+							}
+						}
+					}
+				}
+				printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
+				printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
+				printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
+			}
+			else{
+				if(num_cajas>1){
+					if(aux==num_cajas){
+						if(!Empty(&cClientes)){
+							atenderPersona(aux,Dequeue(&cClientes),cordCliCajas);
+							pAtendidas++;
+						}
+						else{
+							if(!Empty(&cPreferentes) && pAtendidas%5!=0){
+								atenderPersona(aux,Dequeue(&cPreferentes),cordCliCajas);
+								pAtendidas++;
+							}
+							else{
+								if(!Empty(&cUsuarios)){
+									atenderPersona(aux,Dequeue(&cPreferentes),cordCliCajas);
+									pAtendidas++;
+								}
+							}
+						}
+						printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
+						printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
+						printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);	
+					}
+					else{
+						if(!Empty(&cPreferentes) && pAtendidas%5!=0){
+							atenderPersona(aux,Dequeue(&cPreferentes),cordCliCajas);
+							pAtendidas++;
+						}
+						else{
+							if(!Empty(&cClientes) && pAtendidas%5!=0){
+								atenderPersona(aux,Dequeue(&cClientes),cordCliCajas);
+								pAtendidas++;
+							}
+							else{
+								if(!Empty(&cUsuarios)){
+									atenderPersona(aux,Dequeue(&cUsuarios),cordCliCajas);
+									pAtendidas++;
+								}
+							}
+							printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
+							printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
+							printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
+						}
+					}
+				}
+			}
+		}
+		Sleep(100);
 	}
 	return;
 }
 
 int main(){
-	printf("--------------------\nBUENAS TARDES. CHINGUE USTED A SU MADRE\n--------------------\n");
-	printf("Ingresa el numero de cajas que tiene el banco: ");
+	printf("--------------------------\n\tBIENVENIDO\n--------------------------\n");
+	printf("Ingresa el numero de cajas que tiene el banco 0<cajas<11: ");
 	scanf("%i",&num_cajas);//VARIABLE GLOBAL
 	fflush(stdin);
+	if(num_cajas<0||num_cajas>10){
+		printf("Oye no te pases mano, ingresa un numero valido 0<cajas<11\n");
+		exit(1);
+	}
 	int tiemposAtencion[num_cajas];//NECESARIO PARA SIMULACIÓNBANCO()
 	for(aux=0;aux<num_cajas;aux++){
 		printf("Ingresa el tiempo de atencion de la caja %i: ",aux+1);
