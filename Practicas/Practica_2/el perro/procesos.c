@@ -12,7 +12,7 @@ int main()
     cola listos, finalizados;
     elemento aux, anterior;
     int tiempo = 0;
-    initscr();   
+    initscr();
     Initialize(&listos);
     Initialize(&finalizados);
 PROCESO:
@@ -29,22 +29,34 @@ PROCESO:
     {
         aux = Dequeue(&listos);
         --aux.time;
-        if(aux.time == 0)
+        if (aux.time == 0)
             Queue(&finalizados, aux);
         else
             Queue(&listos, aux);
         tiempo = tiempo + aux.time;
-        move(0,0); 
+        move(0, 0);
         printw("Proceso Anterior:");
+        if (&anterior != NULL)
+        {
+        }
+        else
+        {
+        }
         printw("Proceso Posterior:");
-            if(!Emp)
+        if (!Empty(&listos))
+        {
+        }
+        else
+        {
+        }
+
         move(0, 40);
-        printw("Proceso actual:")
+        printw("Proceso actual:");
         printw("Nombre: %s", aux.processName);
         printw("ID: %s", aux.id);
         printw("Actividad: %s", aux.activity);
         printw("Tiempo: %i", aux.time);
-
+        anterior = aux;
         clear();
         refresh();
     }
@@ -52,7 +64,6 @@ PROCESO:
     printw("\n---------------------------------- RESUMEN -----------------------------------\n");
     while (!Empty(&finalizados))
     {
-
     }
     printw("\nTiempo total: %i", tiempo);
     printw("\nQuieres repetir el programa?:\n");
@@ -61,7 +72,7 @@ PROCESO:
         goto PROCESO;
     Destroy(&finalizados);
     Destroy(&listos);
-     endwin();
+    endwin();
     return EXIT_SUCCESS;
 }
 
@@ -70,9 +81,9 @@ elemento getProceso()
     elemento e;
     printw("Nuevo Proceso\n");
     printw("Ingresa nombre del proceso:\n");
-    scanw("%[^\n]%*c",e.processName);
+    scanw("%[^\n]%*c", e.processName);
     printw("Ingresa actividad del proceso:\n");
-    scanw("%[^\n]%*c",e.activity);
+    scanw("%[^\n]%*c", e.activity);
     printw("Ingresa id del proceso:\n");
     scanw("%s", e.id);
     printw("Ingresa tiempo del proceso:\n");
