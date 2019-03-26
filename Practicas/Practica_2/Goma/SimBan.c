@@ -73,7 +73,7 @@ void atenderPersona(int numeroCaja, elemento pAtendida, int *cordCliCajas){
 void simulacionBanco(int *tiemposAtencion){
 	int cordCliCajas[num_cajas]; //AREGLO CON LAS COORDENADAS PARA DIBUJAR A LOS CLIENTES AL MOMENTO EN QUE SON ATENDIDOS
 	int pAtendidas=0,=0,pccAtendidas=0,tTranscurrido=0;//pcc=Personas Con Cuenta
-	//LAS VARIABLES cLLegados,  y pLlegados SIRVEN COMO CONTADORES PARA CUMPLIR LAS POLÍTICAS DEL BANCO
+	
 	int *arregloCord=cordCliCajas;// APUNTADOR AL ARREGLO DE COORDENADAS, PARA FACILITAR SU MANIPULACIÓN
 	cola cClientes,cPreferentes,cUsuarios;//DECLARAMOS TRES COLAS PARA TRES TIPOS DE CLIENTES
 	elemento persona;
@@ -85,34 +85,60 @@ void simulacionBanco(int *tiemposAtencion){
 	
 	while(pAtendidas!=100){//EL PROCESO DE LLEGADA Y ATENCIÓN FUNCIONARÁ CUANDO pAtendidas<100
 		tTranscurrido++;
-		//CONDICIONES PARA LA LLEGADA DE CLIENTES
-		if(tTranscurrido%tClints==0){
+		//CONDICIONES PARA LA LLEGADA DE LAS PERSONAS
+		if(tTranscurrido%tClints==0){//LLEGA UN CLIENTE.
 			persona.tipo='C';
 			Queue(&cClientes,persona);
 		}
-		if(tTranscurrido%tPrefs==0){
+		if(tTranscurrido%tPrefs==0){//LLEGA UN PREFERENTE.
 			persona.tipo='P';
 			Queue(&cPreferentes,persona);
 		}
-		if(tTranscurrido%tUsus==0){
+		if(tTranscurrido%tUsus==0){//LLEGA UN USUARIO.
 			persona.tipo='U';
 			Queue(&cUsuarios,persona);
 		}
+
 		printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
 		printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
 		printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
+
 		//¿CUÁNTAS CAJAS HAY ABIERTAS?
-		if(num_cajas==1){//CASO EN EL QUE HAY UNA SOLA
-			if(tTranscurrido%tiemposAtencion[0]==0){
-
-			}else if(){
-
-			}else{
-
+		if(num_cajas==1&&tTranscurrido%tiemposAtencion[0]==0){//CASO EN EL QUE HAY UNA SOLA.
+			if(!Empty(&cPreferentes)){//HAY PERSONAS EN LA FILA PREFERENTE.
+				if(pccAtendidas<=5){//AÚN NO SE HAN ATENDIDO A LAS 5 PERSONAS (LIMITE ESTABLECIDO) PUEDE PASAR
+					ATENDER_PREFERENTE:
+					atenderPersona(0,Dequeue(&cPreferentes),arregloCord);
+					pccAtendidas++;// SE INCREMENTA EL NUMERO DE PERSONAS (CON CUENTA) ATENDIDAS
+					pAtendidas++;// SE INCREMENTA EL NÚMERO DE PERSONAS (INDISTINTO) ATENDIDAS
+					printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);//REFRECAR LA VENTANA
+				}else{
+					pccAtendidas=0;//REINICIAMOS EL CONTADOR
+					goto ATENDER_USUARIOS;
+				}
+			}else if(!Empty(&cClientes)){//PREFERENTES VACÍA PERO CLIENTES NO.
+				if(pccAtendidas<=5){
+					//NO TIENE CASO PONER ETIQUETA PUES EL PROGRAMA CONTINUARÁ EL WHILE
+					atenderPersona(0,Dequeue(&cClientes),arregloCord);
+					pccAtendidas++;
+					pAtendidas++;
+					printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
+				}else{
+					pccAtendidas=0;
+					goto ATENDER_USUARIOS;
+				}
+			}else{//PREFERENTES Y CLIENTES VACÍAS, ¿HAY USUARIOS?.
+				ATENDER_USUARIOS:
+				if(!Empty(&cUsuarios)){
+					atenderPersona(0,Dequeue(&cUsuarios),arregloCord);
+					pAtendidas++;
+					printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);	
+				}
 			}
-		}else{//LO MÁS COMÚN, DOS O MÁS CAJAS
-
+		}else if(){//LO MÁS COMÚN, DOS O MÁS CAJAS
+			exit(1);
 		}
+		//SI NO SE CUMPLE ALGUNA DE ESAS CONDICIONES, EL PROGRAMA CONTINÚA EL WHILE
 		Sleep(50);
 	}
 	return;
