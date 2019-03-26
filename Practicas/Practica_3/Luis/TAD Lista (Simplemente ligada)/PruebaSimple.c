@@ -70,7 +70,6 @@ int main (void)
 	//Ver la lista**********
 	printf("\nLista despues de remover al elemento 10 y al 5 de la lista si existe");
 	ImprimeLista(&mi_lista);
-abort	
 	//Remplazar a un elemento con el caracter 'T' si existe
 	printf("\nLista despues buscar a T y remplazar por t");
 	elemento a;

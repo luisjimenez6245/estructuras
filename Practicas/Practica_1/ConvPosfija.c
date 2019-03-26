@@ -303,7 +303,6 @@ int main()
 		printf("\nIngresa la expresion a convetir:\n");
 		scanf("%s",&expInf);
 		fflush(stdin);
-		printf("%s",expInf);
 		printf("\nComprobando...\n");
 		int tam = strlen(expInf);
 		if (tam <= 100)
