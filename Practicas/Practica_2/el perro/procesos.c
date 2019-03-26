@@ -35,19 +35,23 @@ PROCESO:
             Queue(&listos, aux);
         tiempo = tiempo + aux.time;
         move(0, 0);
-        printw("Proceso Anterior:");
+        printw("Proceso Anterior: \n");
         if (&anterior != NULL)
         {
+            printw("PROCESO: %S");
         }
         else
         {
+            printw("NO HAY PROCESO ANTERIOR");
         }
-        printw("Proceso Posterior:");
+        move(10, 0);
+        printw("Proceso Posterior:\n");
         if (!Empty(&listos))
         {
         }
         else
         {
+            printw("FIN DE PROCESOS");
         }
 
         move(0, 40);
