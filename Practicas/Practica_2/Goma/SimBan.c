@@ -72,8 +72,8 @@ void atenderPersona(int numeroCaja, elemento pAtendida, int *cordCliCajas){
 
 void simulacionBanco(int tiempoAtencion){
 	int cordCliCajas[num_cajas]; //AREGLO CON LAS COORDENADAS PARA DIBUJAR A LOS CLIENTES AL MOMENTO EN QUE SON ATENDIDOS
-	int pAtendidas=0,cLLegados=0,uLLegados=0,pLLegados=0,tTranscurrido=0,pccAtendidas=0;
-	//LAS VARIABLES cLLegados, uLlegados y pLlegados SIRVEN COMO CONTADORES PARA CUMPLIR LAS POLÃTICAS DEL BANCO
+	int pAtendidas=0,cLLegados=0,uLLegados=0,pLLegados=0,tTranscurrido=0;
+	int prefAten=0,ususAten=0,cliAtend=0; //CONTADORES QUE AYUDAN A CUMPLIR LAS POLITICAS DE LA EMPRESA
 	int *arregloCord=cordCliCajas;// APUNTADOR AL ARREGLO DE COORDENADAS, PARA FACILITAR SU MANIPULACIÃ“N
 	cola cClientes,cPreferentes,cUsuarios;//DECLARAMOS TRES COLAS PARA TRES TIPOS DE CLIENTES
 	elemento persona;
@@ -106,14 +106,44 @@ void simulacionBanco(int tiempoAtencion){
 		printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
 		printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
 
-		for(aux=0;aux<num_cajas;aux++){
-			if(num_cajas==1){//UN SOLO CAJERO
-
-			}else{//MAS DE UN CAJERO
-
+		if(num_cajas==1){//UN SOLO CAJERO
+			if(tTranscurrido%tiempoAtencion==0){
+				if(!Empty(&cPreferentes)){//HAY PERSONAS EN LA FILA PREFERENTE.
+					//¿CUÁNTOS PREFERENTES HE ATENDIDO?
+					if(prefAten<3){//MENOS DE 3, PUEDO SEGUIR ATENDIENDO
+						atenderPersona(0,Dequeue(&cPreferentes),cordCliCajas);
+						prefAten++;
+						pAtendidas++;//PERSONAS (INDISTINTAS) ATENDIDAS
+					}else{//YA ATENDÍ TRES, ¿YA ATENDÍ A 5 PERSONAS CON CUENTA?
+						if((prefAten+cliAtend)<=5){//NO, ME TOCA ATENDER UN CLIENTE ENTONCES.
+							prefAten=0;//REINICIAMOS EL CONTADOR
+							if(!Empty(&cClientes)){//NOS ASEGURAMOS DE QUE SEA POSIBLE, LO ES
+								goto ATENDER_CLIENTE;
+							}else{//NO HAY NADIE EN CLIENTES
+								goto ATENDER_USUARIO;
+							}
+						}else{//SI, HAY QUE ATENDER A UN USUARIO
+							prefAten=0;
+							cliAtend=0;
+							goto ATENDER_USUARIO;
+						}
+					}
+				}else if(!Empty(&cClientes)){//PREFERENTES VACÍA PERO CLIENTES NO.
+					ATENDER_CLIENTE:
+					atenderPersona(0,Dequeue(&cClientes),cordCliCajas);
+					cliAtend++;
+					pAtendidas++;
+				}else{//PREFERENTES Y CLIENTES VACÍAS, ¿HAY USUARIOS?.
+					ATENDER_USUARIO:
+					if(!Empty(&cUsuarios)){
+						atenderPersona(0,Dequeue(&cUsuarios),cordCliCajas);
+						pAtendidas++;
+					}
+				}
 			}
+		}else{//MAS DE UN CAJERO
+			exit(1);
 		}
-	
 		Sleep(100);
 	}
 	return;
