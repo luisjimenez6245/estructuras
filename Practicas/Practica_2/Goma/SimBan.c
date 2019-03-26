@@ -1,9 +1,9 @@
 /*
 	SIMULACIÓN DE UN BANCO
 	AUTOR: SÁNCHEZ CASTRO AARÓN GAMALIEL (C) MARZO 2019
-	VERSIÓN: 1.0
+	VERSIÓN: 1.3
 	DESCRIPCIÓN: NPI DE QUÉ HACE EL PROGRAMA
-	COMANDO PARA COMPILAR: gcc 
+	COMANDO PARA COMPILAR: gcc SimBan.c Gotoxy.o TADColaDin.o -o NombreEjecutable
 */
 //LIBRERÍAS A UTILIZAR 
 #include <stdio.h>
@@ -72,8 +72,8 @@ void atenderPersona(int numeroCaja, elemento pAtendida, int *cordCliCajas){
 
 void simulacionBanco(int *tiemposAtencion){
 	int cordCliCajas[num_cajas]; //AREGLO CON LAS COORDENADAS PARA DIBUJAR A LOS CLIENTES AL MOMENTO EN QUE SON ATENDIDOS
-	int pAtendidas=0,cLLegados=0,uLLegados=0,pLLegados=0,tTranscurrido=0;
-	//LAS VARIABLES cLLegados, uLlegados y pLlegados SIRVEN COMO CONTADORES PARA CUMPLIR LAS POLÍTICAS DEL BANCO
+	int pAtendidas=0,=0,pccAtendidas=0,tTranscurrido=0;//pcc=Personas Con Cuenta
+	//LAS VARIABLES cLLegados,  y pLlegados SIRVEN COMO CONTADORES PARA CUMPLIR LAS POLÍTICAS DEL BANCO
 	int *arregloCord=cordCliCajas;// APUNTADOR AL ARREGLO DE COORDENADAS, PARA FACILITAR SU MANIPULACIÓN
 	cola cClientes,cPreferentes,cUsuarios;//DECLARAMOS TRES COLAS PARA TRES TIPOS DE CLIENTES
 	elemento persona;
@@ -87,96 +87,33 @@ void simulacionBanco(int *tiemposAtencion){
 		tTranscurrido++;
 		//CONDICIONES PARA LA LLEGADA DE CLIENTES
 		if(tTranscurrido%tClints==0){
-			persona.n=++cLLegados;
 			persona.tipo='C';
 			Queue(&cClientes,persona);
 		}
 		if(tTranscurrido%tPrefs==0){
-			persona.n=++pLLegados;
 			persona.tipo='P';
 			Queue(&cPreferentes,persona);
 		}
 		if(tTranscurrido%tUsus==0){
-			persona.n=++uLLegados;
 			persona.tipo='U';
 			Queue(&cUsuarios,persona);
 		}
 		printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
 		printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
 		printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
+		//¿CUÁNTAS CAJAS HAY ABIERTAS?
+		if(num_cajas==1){//CASO EN EL QUE HAY UNA SOLA
+			if(tTranscurrido%tiemposAtencion[0]==0){
 
-		for(aux=0;aux<num_cajas;aux++){//RECORREMOS LAS CAJAS PARA VERIFICAR CUÁL PUEDE ATENDER CLIENTES
-			if(num_cajas==1){
-				if(tTranscurrido%tiemposAtencion[aux]==0){
-					if(!Empty(&cPreferentes)&&pAtendidas%5!=0){
-						atenderPersona(aux,Dequeue(&cPreferentes),cordCliCajas);
-						pAtendidas++;
-					}
-					else{
-						if(!Empty(&cClientes) && pAtendidas%5!=0){
-							atenderPersona(aux,Dequeue(&cClientes),cordCliCajas);
-							pAtendidas++;
-						}
-						else{
-							if(!Empty(&cUsuarios)){
-								atenderPersona(aux,Dequeue(&cUsuarios),cordCliCajas);
-								pAtendidas++;
-							}
-						}
-					}
-				}
-				printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
-				printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
-				printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
+			}else if(){
+
+			}else{
+
 			}
-			else{
-				if(num_cajas>1){
-					if(aux==num_cajas){
-						if(!Empty(&cClientes)){
-							atenderPersona(aux,Dequeue(&cClientes),cordCliCajas);
-							pAtendidas++;
-						}
-						else{
-							if(!Empty(&cPreferentes) && pAtendidas%5!=0){
-								atenderPersona(aux,Dequeue(&cPreferentes),cordCliCajas);
-								pAtendidas++;
-							}
-							else{
-								if(!Empty(&cUsuarios)){
-									atenderPersona(aux,Dequeue(&cPreferentes),cordCliCajas);
-									pAtendidas++;
-								}
-							}
-						}
-						printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
-						printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
-						printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);	
-					}
-					else{
-						if(!Empty(&cPreferentes) && pAtendidas%5!=0){
-							atenderPersona(aux,Dequeue(&cPreferentes),cordCliCajas);
-							pAtendidas++;
-						}
-						else{
-							if(!Empty(&cClientes) && pAtendidas%5!=0){
-								atenderPersona(aux,Dequeue(&cClientes),cordCliCajas);
-								pAtendidas++;
-							}
-							else{
-								if(!Empty(&cUsuarios)){
-									atenderPersona(aux,Dequeue(&cUsuarios),cordCliCajas);
-									pAtendidas++;
-								}
-							}
-							printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
-							printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
-							printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
-						}
-					}
-				}
-			}
+		}else{//LO MÁS COMÚN, DOS O MÁS CAJAS
+
 		}
-		Sleep(100);
+		Sleep(50);
 	}
 	return;
 }
