@@ -21,7 +21,7 @@
 #define MAX_PER_FILA 10
 
 //VARIABLES GLOBALES, CONVIENE MANEJARLAS ASÍ PORQUE VARIAS FUNCIONES LAS UTILIZAN
-int num_cajas,aux,tClints,tPrefs,tUsus;
+int num_cajas,aux,tClints,tPrefs,tUsus,tiempoAtencion;
 elemento fClientes[MAX_PER_FILA], fPreferentes[MAX_PER_FILA], fUsuarios[MAX_PER_FILA];
 
 void printCajas(int *cordCliCajas){
@@ -70,7 +70,7 @@ void atenderPersona(int numeroCaja, elemento pAtendida, int *cordCliCajas){
 	return;
 }
 
-void simulacionBanco(int *tiemposAtencion){
+void simulacionBanco(int tiempoAtencion){
 	int cordCliCajas[num_cajas]; //AREGLO CON LAS COORDENADAS PARA DIBUJAR A LOS CLIENTES AL MOMENTO EN QUE SON ATENDIDOS
 	int pAtendidas=0,cLLegados=0,uLLegados=0,pLLegados=0,tTranscurrido=0,pccAtendidas=0;
 	//LAS VARIABLES cLLegados, uLlegados y pLlegados SIRVEN COMO CONTADORES PARA CUMPLIR LAS POLÃTICAS DEL BANCO
@@ -101,53 +101,19 @@ void simulacionBanco(int *tiemposAtencion){
 			persona.tipo='U';
 			Queue(&cUsuarios,persona);
 		}
-		
+
 		printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
 		printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
 		printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
 
-		for(aux=0;aux<num_cajas;aux++){//RECORRIENDO LAS CAJAS
-			if(num_cajas==1){
-				if(tTranscurrido%tiemposAtencion[0]==0){//LE TOCA ATENDER 
-					if(!Empty(&cPreferentes)){//HAY PERSONAS EN LA FILA PREFERENTE.
-						if(pccAtendidas<=5){//AÚN NO SE HAN ATENDIDO A LAS 5 PERSONAS (LIMITE ESTABLECIDO) PUEDE PASAR
-							ATENDER_PREFERENTE:
-							atenderPersona(0,Dequeue(&cPreferentes),cordCliCajas);
-							pccAtendidas++;// SE INCREMENTA EL NUMERO DE PERSONAS (CON CUENTA) ATENDIDAS
-							pAtendidas++;// SE INCREMENTA EL NÚMERO DE PERSONAS (INDISTINTO) ATENDIDAS
-							//printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);//REFRECAR LA VENTANA
-						}else{
-							pccAtendidas=0;//REINICIAMOS EL CONTADOR
-							goto ATENDER_USUARIOS;
-						}
-					}else if(!Empty(&cClientes)){//PREFERENTES VACÍA PERO CLIENTES NO.
-						if(pccAtendidas<=5){
-							//NO TIENE CASO PONER ETIQUETA PUES EL PROGRAMA CONTINUARÁ EL WHILE
-							atenderPersona(0,Dequeue(&cClientes),cordCliCajas);
-							pccAtendidas++;
-							pAtendidas++;
-							//printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
-						}else{
-							pccAtendidas=0;
-							goto ATENDER_USUARIOS;
-						}
-					}else{//PREFERENTES Y CLIENTES VACÍAS, ¿HAY USUARIOS?.
-						ATENDER_USUARIOS:
-						if(!Empty(&cUsuarios)){
-							atenderPersona(0,Dequeue(&cUsuarios),cordCliCajas);
-							pAtendidas++;
-							//printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);	
-						}
-					}
-				}//¿NO LE TOCA ATENDER? NO PASA NAAAH :)
-				printCola(&cClientes,X_CLIENTES,Y_FILAS,fClientes);
-				printCola(&cPreferentes,X_PREFERENTES,Y_FILAS,fPreferentes);
-				printCola(&cUsuarios,X_USUARIOS,Y_FILAS,fUsuarios);
-			}else{
-				exit(1);
+		for(aux=0;aux<num_cajas;aux++){
+			if(num_cajas==1){//UN SOLO CAJERO
+
+			}else{//MAS DE UN CAJERO
+
 			}
-		
 		}
+	
 		Sleep(100);
 	}
 	return;
@@ -162,12 +128,9 @@ int main(){
 		printf("Oye no te pases mano, ingresa un numero valido 0<cajas<11\n");
 		exit(1);
 	}
-	int tiemposAtencion[num_cajas];//NECESARIO PARA SIMULACIÓNBANCO()
-	for(aux=0;aux<num_cajas;aux++){
-		printf("Ingresa el tiempo de atencion de la caja %i: ",aux+1);
-		scanf("%i",&tiemposAtencion[aux]);
-		fflush(stdin);
-	}
+	printf("Ingresa el tiempo de atencion para las cajas: ");
+	scanf("%i",&tiempoAtencion);
+	fflush(stdin);
 	printf("Ingresa el tiempo de llegada para los clientes: ");
 	scanf("%i",&tClints);//VARIABLE GLOBAL
 	fflush(stdin);
@@ -178,6 +141,6 @@ int main(){
 	scanf("%i",&tUsus);//VARIABLE GLOBAL
 	fflush(stdin);
 	//COMENZAMOS EL PROCESO
-	simulacionBanco(tiemposAtencion);
+	simulacionBanco(tiempoAtencion);
 	return 0;
 }
