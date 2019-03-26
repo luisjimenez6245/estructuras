@@ -141,8 +141,43 @@ void simulacionBanco(int tiempoAtencion){
 					}
 				}
 			}
-		}else{//MAS DE UN CAJERO
-			exit(1);
+		}else{//MAS DE UN CAJERO ¿CUÁNTOS TENGO?
+			for(aux=0;aux<num_cajas;aux++){//RECORREMOS TODOS
+				if(tTranscurrido%tiempoAtencion==0){//LES TOCA ATENDER
+					if(!Empty(&cPreferentes)){//HAY PERSONAS EN LA FILA PREFERENTE.
+						//¿CUÁNTOS PREFERENTES HE ATENDIDO?
+						if(prefAten<3){//MENOS DE 3, PUEDO SEGUIR ATENDIENDO
+							atenderPersona(aux,Dequeue(&cPreferentes),cordCliCajas);
+							prefAten++;
+							pAtendidas++;//PERSONAS (INDISTINTAS) ATENDIDAS
+						}else{//YA ATENDÍ TRES, ¿YA ATENDÍ A 5 PERSONAS CON CUENTA?
+							if((prefAten+cliAtend)<=5){//NO, ME TOCA ATENDER UN CLIENTE ENTONCES.
+								prefAten=0;//REINICIAMOS EL CONTADOR
+								if(!Empty(&cClientes)){//NOS ASEGURAMOS DE QUE SEA POSIBLE, LO ES
+									goto ATENDER_CLIENTE_N;
+								}else{//NO HAY NADIE EN CLIENTES
+									goto ATENDER_USUARIO_N;
+								}
+							}else{//SI, HAY QUE ATENDER A UN USUARIO
+								prefAten=0;
+								cliAtend=0;
+								goto ATENDER_USUARIO;
+							}
+						}
+					}else if(!Empty(&cClientes)){//PREFERENTES VACÍA PERO CLIENTES NO.
+						ATENDER_CLIENTE_N:
+						atenderPersona(aux,Dequeue(&cClientes),cordCliCajas);
+						cliAtend++;
+						pAtendidas++;
+					}else{//PREFERENTES Y CLIENTES VACÍAS, ¿HAY USUARIOS?.
+						ATENDER_USUARIO_N:
+						if(!Empty(&cUsuarios)){
+							atenderPersona(aux,Dequeue(&cUsuarios),cordCliCajas);
+							pAtendidas++;
+						}
+					}
+				}
+			}
 		}
 		Sleep(100);
 	}
@@ -159,7 +194,7 @@ int main(){
 		exit(1);
 	}
 	printf("Ingresa el tiempo de atencion para las cajas: ");
-	scanf("%i",&tiempoAtencion);
+	scanf("%i",&tiempoAtencion);//VARIABLE GLOBAL
 	fflush(stdin);
 	printf("Ingresa el tiempo de llegada para los clientes: ");
 	scanf("%i",&tClints);//VARIABLE GLOBAL
