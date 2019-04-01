@@ -15,13 +15,15 @@
 #include "TADColaDin.h"
 
 elemento getProceso();
+int ejecutaProceso(cola *listos, cola *finalizados);
+void creaResumen(cola *finalizados, int tiempo);
+void imprimeElemento(elemento e);
 
 int main()
 {
     char res = 's';
     cola listos, finalizados;
-    elemento aux, anterior;
-    int tiempo = 1;
+    int tiempo;
     initscr();
     Initialize(&listos);
     Initialize(&finalizados);
@@ -35,27 +37,43 @@ PROCESO:
         scanw("%s", &res);
         clear();
     }
-    printw("%i", Size(&listos));
+    tiempo = ejecutaProceso(&listos, &finalizados);
+    creaResumen(&finalizados, tiempo);
+    printw("\nQuieres repetir el programa?:\n");
+    scanw("%s", &res);
+    //Verifica si el ususario quiere volver a ejecutar el programa.
+    if (res == 's' || res == 'S')
+        goto PROCESO;
+    Destroy(&finalizados);
+    Destroy(&listos);
+    endwin();
+    return EXIT_SUCCESS;
+}
+
+/*
+FUNCIÓN: elemento getProceso()
+DESCRIPCIÓN: Hace el proceso de solicitar datos al usuario acerca de los procesos
+RECIBE: void.
+DEVUELVE: elemento e que es el elemento con los datos solicitados al usuario.
+OBSERVACIONES: El tiempo es validado para evitar errores con el tiempo
+*/
+int ejecutaProceso(cola *listos, cola *finalizados)
+{
+    int tiempo = 1;
+    elemento aux, anterior;
     printw("\n-------------------------------- INICIO  ---------------------------------\n");
     clear();
-    while (!Empty(&listos))
+    while (!Empty(listos))
     {
-        //Cominenza el proceso de ejecución de procesador  
-        aux = Dequeue(&listos);
+        //Cominenza el proceso de ejecución de procesador
+        aux = Dequeue(listos);
         --aux.time;
-        if (aux.time == 0)
-        {
-            aux.time = tiempo;
-            Queue(&finalizados, aux);
-        }
-        else
-            Queue(&listos, aux);
+
         move(0, 0);
         printw("Proceso Anterior:\n");
         if (tiempo > 1)
         {
-            printw("PROCESO: %s\n", anterior.processName);
-            printw("TIEMPO RESTANTE: %i", anterior.time);
+            imprimeElemento(anterior);
         }
         else
         {
@@ -63,15 +81,15 @@ PROCESO:
         }
         move(10, 0);
         printw("Proceso Posterior:\n");
-        if (!Empty(&listos))
+        if (!Empty(listos))
         {
-            printw("PROCESO: %s\n", Final(&listos).processName);
-            printw("TIEMPO RESTANTE: %i\n", Final(&listos).time);
+            imprimeElemento(Final(listos));
         }
         else
         {
             printw("FIN DE PROCESOS");
         }
+
         //Imprime el proceso actual
         move(5, 40);
         printw("Proceso actual:");
@@ -91,24 +109,42 @@ PROCESO:
     printw("\n--------------------------------   FIN   ---------------------------------\n");
     getch();
     clear();
+    return tiempo;
+}
+
+/*
+FUNCIÓN: void creaResumen(cola *finalizados, int tiempo)
+DESCRIPCIÓN: Hace el proceso de solicitar datos al usuario acerca de los procesos
+RECIBE: cola *finalizados, int tiempo.
+DEVUELVE: elemento e que es el elemento con los datos solicitados al usuario.
+OBSERVACIONES: El tiempo es validado para evitar errores con el tiempo
+*/
+void creaResumen(cola *finalizados, int tiempo)
+{
+    elemento aux;
     printw("\n---------------------------------- RESUMEN -----------------------------------\n");
-    while (!Empty(&finalizados))
+    while (!Empty(finalizados))
     {
-        aux = Dequeue(&finalizados);
+        aux = Dequeue(finalizados);
         printw("ID: %s PROCESO: %s TIEMPO: %i \n", aux.id, aux.processName, aux.time);
     }
     printw("\nTiempo total: %i", tiempo);
     getch();
     clear();
-    printw("\nQuieres repetir el programa?:\n");
-    scanw("%s", &res);
-    //Verifica si el ususario quiere volver a ejecutar el programa.
-    if (res == 's' || res == 'S')
-        goto PROCESO;
-    Destroy(&finalizados);
-    Destroy(&listos);
-    endwin();
-    return EXIT_SUCCESS;
+}
+
+/*
+FUNCIÓN: void imprimeElemento()
+DESCRIPCIÓN: Hace el proceso de solicitar datos al usuario acerca de los procesos
+RECIBE: elemento e.
+DEVUELVE: void.
+OBSERVACIONES: El tiempo es validado para evitar errores con el tiempo
+*/
+void imprimeElemento(elemento e)
+{
+    printw("PROCESO: %s\n", e.processName);
+    printw("TIEMPO RESTANTE: %i\n", e.time);
+    return;
 }
 
 /*
