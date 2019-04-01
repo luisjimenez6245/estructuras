@@ -68,7 +68,6 @@ int ejecutaProceso(cola *listos, cola *finalizados)
         //Cominenza el proceso de ejecución de procesador
         aux = Dequeue(listos);
         --aux.time;
-
         move(0, 0);
         printw("Proceso Anterior:\n");
         if (tiempo > 1)
@@ -83,13 +82,12 @@ int ejecutaProceso(cola *listos, cola *finalizados)
         printw("Proceso Posterior:\n");
         if (!Empty(listos))
         {
-            imprimeElemento(Final(listos));
+            imprimeElemento(Front(listos));
         }
         else
         {
             printw("FIN DE PROCESOS");
         }
-
         //Imprime el proceso actual
         move(5, 40);
         printw("Proceso actual:");
@@ -101,9 +99,16 @@ int ejecutaProceso(cola *listos, cola *finalizados)
         printw("Actividad: %s", aux.activity);
         move(9, 40);
         printw("Tiempo: %i", aux.time);
-        anterior = aux;
         getch();
         clear();
+        anterior = aux;
+        if (aux.time == 0)
+        {
+            aux.time = tiempo;
+            Queue(finalizados, aux);
+        }
+        else
+            Queue(listos, aux);
         ++tiempo;
     }
     printw("\n--------------------------------   FIN   ---------------------------------\n");
@@ -134,7 +139,7 @@ void creaResumen(cola *finalizados, int tiempo)
 }
 
 /*
-FUNCIÓN: void imprimeElemento()
+FUNCIÓN: void imprimeElemento(elemento e)
 DESCRIPCIÓN: Hace el proceso de solicitar datos al usuario acerca de los procesos
 RECIBE: elemento e.
 DEVUELVE: void.
