@@ -14,6 +14,7 @@
 #include <string.h>
 #include "TADColaDin.h"
 
+//declara los métodos
 elemento getProceso();
 int ejecutaProceso(cola *listos, cola *finalizados);
 void creaResumen(cola *finalizados, int tiempo);
@@ -51,11 +52,11 @@ PROCESO:
 }
 
 /*
-FUNCIÓN: elemento getProceso()
-DESCRIPCIÓN: Hace el proceso de solicitar datos al usuario acerca de los procesos
-RECIBE: void.
-DEVUELVE: elemento e que es el elemento con los datos solicitados al usuario.
-OBSERVACIONES: El tiempo es validado para evitar errores con el tiempo
+FUNCIÓN: int ejecutaProceso(cola *listos, cola *finalizados)
+DESCRIPCIÓN: Realiza toda la simulación de la ejecución de los procesos.
+RECIBE: cola *listos es el apuntador a la cola de los procesos listos , cola *finalizados  es el apuntador a la cola de los procesos finalizados con el método main main
+DEVUELVE: int tiempo el tiempo que se tomó para realizar el proceso.
+OBSERVACIONES: 
 */
 int ejecutaProceso(cola *listos, cola *finalizados)
 {
@@ -119,10 +120,10 @@ int ejecutaProceso(cola *listos, cola *finalizados)
 
 /*
 FUNCIÓN: void creaResumen(cola *finalizados, int tiempo)
-DESCRIPCIÓN: Hace el proceso de solicitar datos al usuario acerca de los procesos
-RECIBE: cola *finalizados, int tiempo.
-DEVUELVE: elemento e que es el elemento con los datos solicitados al usuario.
-OBSERVACIONES: El tiempo es validado para evitar errores con el tiempo
+DESCRIPCIÓN: genera el resumen de todos los elementos que se 
+RECIBE: cola *finalizados es el apuntador a la cola de los procesos finalizados, int tiempo se recibe el tiempo solicitados.
+DEVUELVE: void.
+OBSERVACIONES: Se genera el resumen del uso de los procesos.
 */
 void creaResumen(cola *finalizados, int tiempo)
 {
@@ -140,10 +141,10 @@ void creaResumen(cola *finalizados, int tiempo)
 
 /*
 FUNCIÓN: void imprimeElemento(elemento e)
-DESCRIPCIÓN: Hace el proceso de solicitar datos al usuario acerca de los procesos
-RECIBE: elemento e.
+DESCRIPCIÓN: Dado un elemento imprime el proceso y el tiempo restante.
+RECIBE: elemento e a imprimir.
 DEVUELVE: void.
-OBSERVACIONES: El tiempo es validado para evitar errores con el tiempo
+OBSERVACIONES: el elemento requiere tener información.
 */
 void imprimeElemento(elemento e)
 {
