@@ -27,6 +27,7 @@ typedef struct nodo
 	elemento e;
 	//Realacion con el siguiente y anterior nodo
 	struct nodo *siguiente;
+	struct nodo *anterior;
 	//Numero de pasos en los que se encuentra el nodo
 	int pasos;
 } nodo;

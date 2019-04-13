@@ -142,7 +142,7 @@ void cargarDiccionario(tablaHash *diccionario){
 			}
 		}
 	}
-	printf("\nPor favor, espere...");
+	printf("\n\nPor favor, espere...");
 	sleep(2);
 	system("cls");
 	//system("clear");
@@ -150,7 +150,7 @@ void cargarDiccionario(tablaHash *diccionario){
 }
 
 void nuevaPalabra(tablaHash *diccionario){
-	elemento nueva;
+	registro nueva;
 	char palabra[100],definicion[255];
 	int aux;
 	printf("Ingresa la nueva palabra:\n>");
@@ -179,7 +179,7 @@ void nuevaPalabra(tablaHash *diccionario){
 }
 
 void buscaPalabra(tablaHash *diccionario){
-	elemento buscame,encontrada;
+	registro buscame,encontrada;
 	char palabra[100],null[4]="NULL";
 	int aux,index;
 	printf("Ingresa la palabra a buscar:\n>");
@@ -197,6 +197,50 @@ void buscaPalabra(tablaHash *diccionario){
 	return;
 }
 
+void eliminarPalabra(tablaHash *diccionario){
+	registro eliminame;
+	char palabra[100];
+	int aux,index;
+	printf("Ingresa la palabra a eliminar\n>");
+	scanf("%s[a-zA-Z ]",&palabra);
+	for(aux=0;aux<strlen(palabra);aux++){//LIMPIAMOS LA CADENA POR ESO DE LOS CArACTERES RAROS
+		palabra[aux]=caracterLatino(palabra[aux]);
+	}
+	strcpy(&eliminame.palabra[0],&palabra[0]);//COPIAMOS LA PALABRA INGRESADA A LA PALABRA DEL NUEVO ELEMENTO
+	printf("Eliminando...\n");
+	EliminarDeTabla(diccionario,eliminame);
+	printf("Eliminada exitosamente!\nPor favor espere...\n");
+	sleep(2);
+	system("cls");
+	//system("clear");
+	return;
+}
+
+void modificarDefinicion(tablaHash *diccionario){
+	registro eModificado;
+	char palabra[100],nuevaDefinicion[255];
+	int aux,index;
+	printf("Ingresa la palabra a modificar su definicion\n>");
+	scanf("%s[a-zA-Z ]",&palabra);
+	for(aux=0;aux<strlen(palabra);aux++){//LIMPIAMOS LA CADENA POR ESO DE LOS CArACTERES RAROS
+		palabra[aux]=caracterLatino(palabra[aux]);
+	}
+	strcpy(&eModificado.palabra[0],&palabra[0]);//COPIAMOS LA PALABRA INGRESADA A LA PALABRA DEL ELEMENTO ACTUAL
+	printf("Ingresa la nueva definicion:\n>");
+	scanf("%s[a-zA-Z ]",&nuevaDefinicion);
+	for(aux=0;aux<strlen(nuevaDefinicion);aux++){//LIMPIAMOS LA CADENA POR ESO DE LOS CArACTERES RAROS
+		nuevaDefinicion[aux]=caracterLatino(nuevaDefinicion[aux]);
+	}
+	strcpy(&eModificado.definicion[0],&nuevaDefinicion[0]);
+	printf("Modificando...\n");
+	ModificarTabla(diccionario,eModificado);
+	printf("Modificada exitosamente!\nPor favor espere...\n");
+	sleep(2);
+	system("cls");
+	//system("clear");
+	return;
+}
+
 int main(){
 	int opcion=9,aux;
 	tablaHash diccionario;
@@ -207,7 +251,7 @@ int main(){
 		printf("-------------------------\n\tBIENVENIDO\n--------------------------\n");
 		printf("Ingrese la opcion deseada:\n1.- Cargar un archivo de definiciones\n");
 		printf("2.- Agregar una palabra\n3.- Buscar una palabra\n4.- Eliminar palabra");
-		printf("\n5.- Mostrar estadisticas de la tabla\n>");
+		printf("\n5.- Modificar definicion de una palabra\n6.- Mostrar estadisticas de la tabla\n>");
 		scanf("%i",&opcion);
 		switch(opcion){
 			case 1:
@@ -220,10 +264,16 @@ int main(){
 				buscaPalabra(&diccionario);
 			break;
 			case 4:
-				//eliminarPalabra(diccionario);
+				eliminarPalabra(&diccionario);
 			break;
 			case 5:
-				//mostrarEstats(diccinario);
+				modificarDefinicion(&diccionario);
+			break;
+			case 6:
+				Estadisticas(&diccionario);
+				system("pause");
+				system("cls");
+				//system("clear");
 			break;
 			default:
 				printf("Ash, me chocas\n");
