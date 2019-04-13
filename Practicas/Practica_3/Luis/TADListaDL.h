@@ -17,11 +17,8 @@ typedef unsigned char boolean;
 
 typedef struct elemento
 {
-	//Lo que gustes	
-	//int n;
-	char nombre [300];
-	char email [254];
-	char numero [20];
+	char palabra[100];
+	char definicion[251];
 }elemento;
 
 //Estructura de un NODO DOBLEMENTE LIGADO
@@ -29,8 +26,9 @@ typedef struct nodo
 {
 	elemento e;
 	//Realacion con el siguiente y anterior nodo
-	struct nodo *siguiente;		
-	struct nodo *anterior;	
+	struct nodo *siguiente;
+	//Numero de pasos en los que se encuentra el nodo
+	int pasos;
 } nodo;
 
 //Se define una posicion como un apuntador a nodo
@@ -48,7 +46,7 @@ typedef struct lista
 void Initialize (lista *l);
 
 //Efecto: Recibe una lista l y la libera completamente
-void Destroy (lista *l);	
+void Destroy (lista *l);
 //Efecto: Recibe una lista l y retorna la posicion del elemento al final de esta.
 posicion Final (lista *l);
 
@@ -65,7 +63,7 @@ posicion Previous (lista *l,posicion p);
 //Efecto: Recibe una lista l y un elemento e, devuelve la posicion del elemento que coincida exactamente con e.
 posicion Search (lista *l,elemento e);
 
-//Efecto: Recibe una lista l, una posicion p y devuelve el elemento en dicha posicion. 
+//Efecto: Recibe una lista l, una posicion p y devuelve el elemento en dicha posicion.
 //Requerimientos: La lista l es no vacía y la posicion p es una posicion valida.
 elemento Position (lista *l,posicion p);
 
@@ -101,7 +99,7 @@ void Remove (lista *l,posicion p);
 //Requerimientos: La lista l es no vacia y la posicion p es una posicion valida.
 void Replace (lista *l,posicion p, elemento e);
 
-//Funcion para usarse en depuracion, la cual imprime las direcciones de 
+//Funcion para usarse en depuracion, la cual imprime las direcciones de
 //memoria de los nodos y su apuntador a siguiente
 void VerLigasLista(lista *l);
 #endif    // __TADLista_H

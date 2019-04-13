@@ -171,11 +171,13 @@ a nivel de bytes.
 posicion Search (lista *l,elemento e)
 {	
 	posicion aux=l->frente;
+	int pasos;
 	while(aux!=NULL)
 	{
-		if(memcmp(&aux->e,&e,sizeof(elemento))==0)
-		{
-			return aux;			
+		pasos++;
+		aux->pasos=pasos;
+		if(strcmp(aux->e.palabra,e.palabra)==0){
+			return aux;
 		}
 		aux=aux->siguiente;
 	}
