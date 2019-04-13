@@ -23,9 +23,8 @@ typedef unsigned char boolean;
 
 typedef struct elemento
 {
-	//Lo que gustes	
-	int n;
-	char c;
+	char palabra[100];
+	char definicion[251];
 }elemento;
 
 //Estructura de un NODO DOBLEMENTE LIGADO
@@ -36,6 +35,8 @@ typedef struct nodo
     struct nodo *anterior;
 	//Realación con el siguiente nodo
 	struct nodo *siguiente;		
+	//Numero de pasos en los que se encuentra el nodo
+	int pasos;
 } nodo;
 
 //Se define una posicion como un apuntador a nodo
