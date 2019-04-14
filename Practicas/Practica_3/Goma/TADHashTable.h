@@ -1,7 +1,7 @@
 #include "TADListaDL.h"
 /*
 IMPLEMENTACIONES DEL TAD LISTA (TADLista.h)
-AUTORES: 
+AUTORES:
     Luis Diego Jiménez Delgado (Abril 2019)
     Aarón Gamaliel Sanchez Castro (Abril 2019)
 VERSION: 1.0
@@ -28,4 +28,3 @@ void EliminarDeTabla(tablaHash *tabla, elemento e);
 elemento BuscarEnTabla(tablaHash *tabla, elemento e);
 void ModificarTabla(tablaHash *tabla, elemento e);
 void Estadisticas(tablaHash *tabla);
-void ListarElementos(tablaHash *tabla);

@@ -3,6 +3,11 @@
 #include <string.h>
 #include <math.h>
 
+
+#define ArrayNumber 509
+#define AKEY 73571
+
+
 int aplicarHash(char *palabra,int tamTabla){
 	int index=0,m_posicion,valor_letra,aux;//m_posicion = MÚLTIPLO DE LA POSICIÓN
 	for(aux=0;aux<strlen(palabra);aux++){
@@ -25,6 +30,10 @@ void InicializarTabla(tablaHash *tabla){
 }
 
 void DestruirTabla(tablaHash *tabla){
+	int aux;
+	for(aux=0;aux<tabla->tamTabla;aux++){
+		Destroy(&tabla->listas[aux]);
+	}
 	return;
 }
 
@@ -36,6 +45,11 @@ void AgregarATabla(tablaHash *tabla, elemento e){
 }
 
 void EliminarDeTabla(tablaHash *tabla, elemento e){
+	int index;
+	posicion posEnTabla;
+	index=aplicarHash(e.palabra,tabla->tamTabla);
+	posEnTabla=Search(&tabla->listas[index],e);
+	Remove(&tabla->listas[index],posEnTabla);
 	return;
 }
 
@@ -57,13 +71,27 @@ elemento BuscarEnTabla(tablaHash *tabla, elemento e){
 }
 
 void ModificarTabla(tablaHash *tabla, elemento e){
+	int index;
+	posicion posEnTabla;
+	index=aplicarHash(e.palabra,tabla->tamTabla);
+	posEnTabla=Search(&tabla->listas[index],e);
+	Replace(&tabla->listas[index],posEnTabla,e);
 	return;
 }
 
 void Estadisticas(tablaHash *tabla){
-	return;
-}
-
-void ListarElementos(tablaHash *tabla){
+	printf("Total de listas en la tabla: %i\n",TABLE_SIZE);
+	int aux,vacias=0,tamLista,totalElementos=0,noVacias=0;
+	for(aux=0;aux<TABLE_SIZE;aux++){
+		tamLista=Size(&tabla->listas[aux]);
+		totalElementos=totalElementos+tamLista;
+		if(tamLista==0){
+			vacias++;
+		}
+		printf("La lista %i contiene %i elemento(s)\n",aux,tamLista);
+	}
+	printf("Total de listas vacias: %i\n",vacias);
+	noVacias=TABLE_SIZE-vacias;
+	noVacias!=0?printf("Promedio de colisiones: %i\n",totalElementos/noVacias):printf("No se ha podido determinar el promedio de colisiones\n");
 	return;
 }

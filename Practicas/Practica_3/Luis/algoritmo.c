@@ -3,7 +3,7 @@
 #include <string.h>
 #include <math.h>
 
-#define size 509
+#define size 299
 #define AKEY 73571
 
 
@@ -91,18 +91,13 @@ void hashFunc(char palabra[25], int numero)
 	tam = strlen(palabra);
 	for (i = 0; i < tam; ++i)
 	{
-		/*aux = ((AKEY *  palabra[i]) % ((int) pow(2,i + 5))) >> ((int)(pow(8,i +5)));
-		if(aux < 0)
-			aux = -1*aux;
-		resultado += aux;*/
-		derecha = ((int)pow(2,i));
-		aux = (palabra[i])* derecha;
-				printf("aux: %i\n", aux);
-		if(aux < 0)
-			aux = aux*-1;
+		aux = ((AKEY *  palabra[i]) % ((int) pow(2,i + 13))) >> ((int)(pow(8,i +3)));
 		resultado += aux;
 	}
 	resultado = (resultado % size);
+	if(resultado < 0)
+		resultado = size - 1 + resultado;
+	
 	if (arr[resultado] == 1)
 	{
 		printf("valio verga %i\n ", choques);

@@ -9,6 +9,7 @@
 
 
 int aplicarHash(char *palabra,int tamTabla){
+	
 	int index=0,m_posicion,valor_letra,aux;//m_posicion = MÚLTIPLO DE LA POSICIÓN
 	for(aux=0;aux<strlen(palabra);aux++){
 		m_posicion=pow(2,aux+1);
@@ -19,6 +20,20 @@ int aplicarHash(char *palabra,int tamTabla){
 		index=index*-1;
 	}
 	return index%tamTabla;
+	/*
+	int aux = 0;
+	int i = 0, resultado = 0, tam,  derecha;
+	tam = strlen(palabra);
+	for (i = 0; i < tam; ++i)
+	{
+		aux = ((AKEY *  palabra[i]) % ((int) pow(2,i + 13))) >> ((int)(pow(8,i +3)));
+		resultado += aux;
+	}
+	resultado = (resultado % tamTabla);
+	if(resultado < 0)
+		resultado = tamTabla + resultado;
+
+	return resultado;*/
 }
 
 void InicializarTabla(tablaHash *tabla){
