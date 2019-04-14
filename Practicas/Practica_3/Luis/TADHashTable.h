@@ -28,4 +28,3 @@ void EliminarDeTabla(tablaHash *tabla, elemento e);
 elemento BuscarEnTabla(tablaHash *tabla, elemento e);
 void ModificarTabla(tablaHash *tabla, elemento e);
 void Estadisticas(tablaHash *tabla);
-void ListarElementos(tablaHash *tabla);
