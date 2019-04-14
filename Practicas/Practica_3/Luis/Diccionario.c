@@ -90,7 +90,6 @@ void cargarDiccionario(tablaHash *diccionario){
 	archivo = fopen(rutaArchivo,"r");
 	palabraAlt[0] = '#';
 	while((charArchivo = getc(archivo)) != EOF){
-		printf("%c",charArchivo);
 		charArchivo = caracterLatino(charArchivo);
 		if(charArchivo != 195){
 			if (charArchivo=='/' && estado == 'p'){
@@ -161,7 +160,7 @@ void nuevaPalabra(tablaHash *diccionario){
 		palabra[aux]=caracterLatino(palabra[aux]);
 	}
 	printf("Ingresa su definicion:\n>");
-	scanf("%s[a-zA-Z ,.]",&definicion);
+	scanf("%[a-zA-Z ,.]s",&definicion);
 	fflush(stdin);
 	//LIMPIANDO CARACTERES
 	for(aux=0;aux<strlen(definicion);aux++){
@@ -194,6 +193,7 @@ void buscaPalabra(tablaHash *diccionario){
 	}
 	system("pause");
 	system("cls");
+	//system("clear");
 	return;
 }
 
@@ -227,7 +227,7 @@ void modificarDefinicion(tablaHash *diccionario){
 	}
 	strcpy(&eModificado.palabra[0],&palabra[0]);//COPIAMOS LA PALABRA INGRESADA A LA PALABRA DEL ELEMENTO ACTUAL
 	printf("Ingresa la nueva definicion:\n>");
-	scanf("%s[a-zA-Z ]",&nuevaDefinicion);
+	scanf("%[a-zA-Z ,.]s",&nuevaDefinicion);
 	for(aux=0;aux<strlen(nuevaDefinicion);aux++){//LIMPIAMOS LA CADENA POR ESO DE LOS CArACTERES RAROS
 		nuevaDefinicion[aux]=caracterLatino(nuevaDefinicion[aux]);
 	}
@@ -244,7 +244,6 @@ void modificarDefinicion(tablaHash *diccionario){
 int main(){
 	int opcion=9,aux;
 	tablaHash diccionario;
-	printf("TAMANIO %i",TABLE_SIZE);
 	diccionario.tamTabla=TABLE_SIZE;
 	InicializarTabla(&diccionario);
 	while(opcion!=0){

@@ -9,7 +9,7 @@
 
 
 int aplicarHash(char *palabra,int tamTabla){
-	
+	/*
 	int index=0,m_posicion,valor_letra,aux;//m_posicion = MÚLTIPLO DE LA POSICIÓN
 	for(aux=0;aux<strlen(palabra);aux++){
 		m_posicion=pow(2,aux+1);
@@ -19,8 +19,8 @@ int aplicarHash(char *palabra,int tamTabla){
 	if(index<0){
 		index=index*-1;
 	}
-	return index%tamTabla;
-	/*
+	return index%tamTabla;*/
+	
 	int aux = 0;
 	int i = 0, resultado = 0, tam,  derecha;
 	tam = strlen(palabra);
@@ -33,7 +33,7 @@ int aplicarHash(char *palabra,int tamTabla){
 	if(resultado < 0)
 		resultado = tamTabla + resultado;
 
-	return resultado;*/
+	return resultado;
 }
 
 void InicializarTabla(tablaHash *tabla){
@@ -108,5 +108,6 @@ void Estadisticas(tablaHash *tabla){
 	printf("Total de listas vacias: %i\n",vacias);
 	noVacias=TABLE_SIZE-vacias;
 	noVacias!=0?printf("Promedio de colisiones: %i\n",totalElementos/noVacias):printf("No se ha podido determinar el promedio de colisiones\n");
+	printf("Total de elementos: %i",totalElementos);
 	return;
 }
