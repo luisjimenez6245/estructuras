@@ -87,20 +87,25 @@ int corregirChar(int c)
 void hashFunc(char palabra[25], int numero)
 {
 	int aux = 0;
-	int i = 0, resultado = 0, tam, derecha;
+	int i = 0, resultado = 0, tam,  derecha;
 	tam = strlen(palabra);
 	for (i = 0; i < tam; ++i)
 	{
-		aux = ((AKEY *  palabra[i]) % ((int) pow(2,i + 5))) >> ((int)(pow(8,i +5)));
+		/*aux = ((AKEY *  palabra[i]) % ((int) pow(2,i + 5))) >> ((int)(pow(8,i +5)));
 		if(aux < 0)
 			aux = -1*aux;
-		printf("aux: %i", aux);
+		resultado += aux;*/
+		derecha = ((int)pow(2,i));
+		aux = (palabra[i])* derecha;
+				printf("aux: %i\n", aux);
+		if(aux < 0)
+			aux = aux*-1;
 		resultado += aux;
 	}
 	resultado = (resultado % size);
 	if (arr[resultado] == 1)
 	{
-		printf("valio verga\n");
+		printf("valio verga %i\n ", choques);
 		++choques;
 	}
 	else

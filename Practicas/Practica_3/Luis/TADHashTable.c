@@ -3,6 +3,11 @@
 #include <string.h>
 #include <math.h>
 
+
+#define ArrayNumber 509
+#define AKEY 73571
+
+
 int aplicarHash(char *palabra,int tamTabla){
 	int index=0,m_posicion,valor_letra,aux;//m_posicion = MÚLTIPLO DE LA POSICIÓN
 	for(aux=0;aux<strlen(palabra);aux++){
@@ -25,6 +30,10 @@ void InicializarTabla(tablaHash *tabla){
 }
 
 void DestruirTabla(tablaHash *tabla){
+	int aux;
+	for(aux=0;aux<tabla->tamTabla;aux++){
+		Destroy(&tabla->listas[aux]);
+	}
 	return;
 }
 
@@ -61,9 +70,12 @@ void ModificarTabla(tablaHash *tabla, elemento e){
 }
 
 void Estadisticas(tablaHash *tabla){
+	int vacias = 0, pcolisiones = 0;
 	return;
 }
 
 void ListarElementos(tablaHash *tabla){
+	int i = 0;
+	for(i = 0; i < )
 	return;
 }
