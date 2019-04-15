@@ -8,74 +8,58 @@
 #include <unistd.h>
 #include "TADHashTable.h"
 
+/*
+	FUNCIÓN: caracterLatino(int c)
+	RECIBE: int c (VALOR ASCII DE UN CARACTER)
+	DEVUELVE: int 
+	DESCRIPCIÓN: ESTA FUNCIÓN RECIBE EL VALOR ASCII DE UN CARACTER QUE MUESTRA UN SÍMBOLO EN LA CONSOLA Y LO CONVIERTE A SU CORRESPONDIENTE CARACTER
+	OBSERVACIONES:
+*/
 int caracterLatino(int c){
 	switch(c){
-		case 177: 
-			return 164; //ñ
+		case 177: return 164; //ñ
 		break;
-
-		case 145:
-			return 165; //Ñ
+		case 145: return 165; //Ñ
 		break;
-
-		case 193:
-			return 181; //Á
+		case 193: return 181; //Á
 		break;
-
-		case 201:
-			return 144; //É
+		case 201: return 144; //É
 		break;
-
-		case 205:
-			return 214; //Í
+		case 205: return 214; //Í
 		break;
-
-		case 211:
-			return 224; //Ó
+		case 211: return 224; //Ó
 		break;
-
-		case 218:
-			return 233; //Ú
+		case 218: return 233; //Ú
 		break;
-
-		case 225:
-			return 160; //á
+		case 225: return 160; //á
 		break;
-
-		case 233:
-			return 130; //é
+		case 233: return 130; //é
 		break;
-
-		case 237:
-			return 161; //í
+		case 237: return 161; //í
 		break;
-
-		case 243:
-			return 162; //ó
+		case 243: return 162; //ó
 		break;
-
-		case 250:
-			return 163; //ú
+		case 250: return 163; //ú
 		break;
-
-		case 241:
-			return 164; //ñ
+		case 241: return 164; //ñ
 		break;
-
-		case 209:
-			return 165; //Ñ
+		case 209: return 165; //Ñ
 		break;
-
-		case 252:
-			return 129; //ü
+		case 252: return 129; //ü
 		break;
-
-		default:
-			return c;
+		default: return c; //RETORNA EL MISMO CARACTER
 		break;
 	}
 }
 
+/*
+	FUNCIÓN: cargarDiccionario(tablaHash *diccionario).
+	RECIBE: int (DIRECCIÓN DE MEMORIA DE LA TABLA HASH A OPERAR).
+	DEVUELVE: NADA.
+	DESCRIPCIÓN: SE ENCARGA DE EXTRAER LOS CARACTERES CONTENIDOS EN UN ARCHIVO DE TEXTO, SEPARANDO LA PALABRA DE SU DEFINICIÓN. POSTERIORMENTE
+		AGREGA ESTE PAR DE CADENAS A UN ELEMENTO Y ES AGREGADO A UNA LISTA DENTRO DE LA TABLA HASH INDICADA EN EL PARÁMETRO.
+	OBSERVACIONES:
+*/
 void cargarDiccionario(tablaHash *diccionario){
 	FILE *archivo;
 	registro nuevaPalabra; 
@@ -92,26 +76,26 @@ void cargarDiccionario(tablaHash *diccionario){
 	while((charArchivo = getc(archivo)) != EOF){
 		charArchivo = caracterLatino(charArchivo);
 		if(charArchivo != 195){
-			if (charArchivo=='/' && estado == 'p'){
+			if (charArchivo=='/' && estado == 'p'){//ESTA PALABRA TIENE UNA VERSIÓN ALTERNATIVA
 				estado='q';
 				palabra[i] = '\0';
 				i=0;
 				continue;
 			}
-			if (charArchivo==':'){
-				if(estado == 'p')
+			if (charArchivo==':'){//COMIENZA LA DEFINICIÓN
+				if(estado == 'p')//SE TRATA DE UNA PALABRA SIN ALTERNATIVAS
 					palabra[i] = '\0';
-				if(estado == 'q')
+				if(estado == 'q')//SE TRATA DE LA ALTERNATIVA DE ALGUNA PALABRA
 					palabraAlt[i] = '\0';
 				estado='s';
 				i=0;
 				continue;
 			}
-			if (charArchivo=='\n'){
+			if (charArchivo=='\n'){//SI OCURRE UN SALTO DE LÍNEA ES EL FINAL DE LA DEFINICIÓN
 				definicion[i]=charArchivo;
-				definicion[i+1] = '\0';
-				strcpy(&nuevaPalabra.palabra[0],&palabra[0]);
-				strcpy(&nuevaPalabra.definicion[0],&definicion[0]);
+				definicion[i+1] = '\0';//SE CIERRA LA DEFINICIÓN
+				strcpy(&nuevaPalabra.palabra[0],&palabra[0]);//LA PALABRA SE COPIA AL ATRIBUTO palabra DEL NUEVO registro
+				strcpy(&nuevaPalabra.definicion[0],&definicion[0]);//LA PALABRA SE COPIA AL ATRIBUTO palabra DEL NUEVO registro
 				AgregarATabla(diccionario,nuevaPalabra);
 				printf("\nPalabra %s agregada exitosamente!",nuevaPalabra.palabra);
 				if(palabraAlt[0] != '#'){
@@ -127,15 +111,15 @@ void cargarDiccionario(tablaHash *diccionario){
 				i=0;
 				continue;
 			}
-			if(estado == 'p'){
+			if(estado == 'p'){//ESCRIBE LA PALABRA NORMAL
 				palabra[i]=charArchivo;
 				i++;
 			}
-			if(estado == 'q'){
+			if(estado == 'q'){//COMIENzA A ESRIBIR LA PALABRA ALTERNA
 				palabraAlt[i]=charArchivo;
 				i++;
 			}
-			if(estado == 's'){
+			if(estado == 's'){//COMIENZA A ESCRIBIR LA DEFINICIÓN
 				definicion[i]=charArchivo;
 				i++;
 			}
@@ -148,6 +132,14 @@ void cargarDiccionario(tablaHash *diccionario){
 	return;
 }
 
+/*
+	FUNCIÓN: nuevaPalabra(tablaHash *diccionario).
+	RECIBE: int (DIRECCIÓN DE MEMORIA DE LA TABLA HASH A OPERAR).
+	DEVUELVE: NADA.
+	DESCRIPCIÓN: SE ENCARGA DE SOLICITAR UNA NUEVA PALABRA CON SU RESPECTIVA DEFINICIÓN, AÑADE ESTAS CADENAS A UN NUEVO ELEMENTO Y ÉSTE ES AGREGADO
+		AL DICCIONARIO INDICADO EN EL PARÁMETRO.
+	OBSERVACIONES: NO SE VALIDA SI EL USUARIO INTRODUCE UNA PALABRA CON ALGUNA ALTERNTIVA. EJEMPLO: PIEDRA/ROCA
+*/
 void nuevaPalabra(tablaHash *diccionario){
 	registro nueva;
 	char palabra[100],definicion[255];
@@ -177,6 +169,14 @@ void nuevaPalabra(tablaHash *diccionario){
 	return;
 }
 
+/*
+	FUNCIÓN: buscaPalabra(tablaHash *diccionario).
+	RECIBE: int (DIRECCIÓN DE MEMORIA DE LA TABLA HASH A OPERAR).
+	DEVUELVE: NADA.
+	DESCRIPCIÓN: SE ENCARGA DE SOLICITAR LA PALABRA QUE SE DESEA BUSCAR, ÉSTA ES INGRESADA A UN NUEVO ELEMENTO TEMPORAL Y ENVIADA A LA FUNCIÓN
+		CORRESPONDIENTE DE LA LIBRERÍA TADHashTable.h 
+	OBSERVACIONES: EL USUARIO NO DEBE INTRODUCIR PALABRAS ALTERNATIVAS EN LA MISMA CADENA. NO ES NECESARIO SOLICITAR LA DEFINICIÓN.
+*/
 void buscaPalabra(tablaHash *diccionario){
 	registro buscame,encontrada;
 	char palabra[100],null[4]="NULL";
@@ -197,6 +197,14 @@ void buscaPalabra(tablaHash *diccionario){
 	return;
 }
 
+/*
+	FUNCIÓN: eliminarPalabra(tablaHash *diccionario).
+	RECIBE: int (DIRECCIÓN DE MEMORIA DE LA TABLA HASH A OPERAR).
+	DEVUELVE: NADA.
+	DESCRIPCIÓN: SE ENCARGA DE SOLICITAR LA PALABRA QUE SE DESEA ELIMINAR, LA ALMACENA EN UN NUEVO ELEMENTO TEMPORAL Y LA ENVÍA A LA RESPECTIVA
+		FUNCIÓN DE LA LIBRERÍA TADHashTable.h
+	OBSERVACIONES: EL USUARIO NO DEBE INTRODUCIR PALABRAS ALTERNATIVAS EN LA MISMA CADENA. NO ES NECESARIO SOLICITAR LA DEFINICIÓN.
+*/
 void eliminarPalabra(tablaHash *diccionario){
 	registro eliminame;
 	char palabra[100];
@@ -216,6 +224,14 @@ void eliminarPalabra(tablaHash *diccionario){
 	return;
 }
 
+/*
+	FUNCIÓN: modificarDefinicion(tablaHash *diccionario).
+	RECIBE: int (DIRECCIÓN DE MEMORIA DE LA TABLA HASH A OPERAR).
+	DEVUELVE: NADA.
+	DESCRIPCIÓN: SE ENCARGA DE SOLICITAR UNA PALABRA Y SU NUEVA DEFINICIÓN, ESTAS CADENAS SON AGREGADAS A UN NUEVO ELEMENTO Y ENVIADAS A LA RESPECTIVA
+		FUNCIÓN DE LA LIBRERÍA TADHasTable.h
+	OBSERVACIONES: NO SE VALIDA SI EL USUARIO INTRODUCE UNA PALABRA CON ALGUNA ALTERNTIVA. EJEMPLO: PIEDRA/ROCA
+*/
 void modificarDefinicion(tablaHash *diccionario){
 	registro eModificado;
 	char palabra[100],nuevaDefinicion[255];
