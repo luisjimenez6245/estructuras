@@ -290,6 +290,10 @@ int main(){
 				system("cls");
 				//system("clear");
 			break;
+			case 7:
+				printf("Exportando...\n");
+				ExportarTabla(&diccionario);
+			break;
 			default:
 				printf("Ash, me chocas\n");
 				exit(1);

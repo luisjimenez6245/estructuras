@@ -111,3 +111,31 @@ void Estadisticas(tablaHash *tabla){
 	printf("Total de elementos: %i",totalElementos);
 	return;
 }
+
+void ExportarTabla(tablaHash *tabla){
+	int aux;
+	FILE *nuevoArchivo;
+	char nombreArchivo[]="Diccionario.txt",palabra[100],definicion[255];
+	nuevoArchivo=fopen(nombreArchivo,"w");
+	if(nuevoArchivo!=NULL){
+		posicion finLista;
+		elemento actual;
+		for(aux=0;aux<TABLE_SIZE;aux++){
+			finLista=tabla->listas[aux].frente;
+			while(finLista!=NULL){
+				actual=Position(&tabla->listas[aux],finLista);
+				strcpy(palabra,actual.palabra);
+				strcpy(definicion,actual.definicion);
+				strcat(palabra,": ");
+				strcat(palabra,definicion);
+				fprintf(nuevoArchivo,palabra);
+				finLista=finLista->siguiente;
+			}
+		}
+		fclose(nuevoArchivo);
+		printf("Exportado exitosamente!\n");
+	}else{
+		printf("Exportado exitosamente fallido!\n");
+	}
+	return;
+}
