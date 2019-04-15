@@ -266,7 +266,7 @@ int main(){
 		printf("-------------------------\n\tBIENVENIDO\n--------------------------\n");
 		printf("Ingrese la opcion deseada:\n1.- Cargar un archivo de definiciones\n");
 		printf("2.- Agregar una palabra\n3.- Buscar una palabra\n4.- Eliminar palabra");
-		printf("\n5.- Modificar definicion de una palabra\n6.- Mostrar estadisticas de la tabla\n>");
+		printf("\n5.- Modificar definicion de una palabra\n6.- Mostrar estadisticas de la tabla\n7.- Exportar tabla a archivo de texto\n>");
 		scanf("%i",&opcion);
 		switch(opcion){
 			case 1:
@@ -293,6 +293,10 @@ int main(){
 			case 7:
 				printf("Exportando...\n");
 				ExportarTabla(&diccionario);
+				printf("Por favor espere...\n");
+				sleep(2);
+				system("cls");
+				//system("");
 			break;
 			default:
 				printf("Ash, me chocas\n");
