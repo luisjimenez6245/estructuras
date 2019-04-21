@@ -7,7 +7,15 @@
 #define ArrayNumber 509
 #define AKEY 73571
 
-
+/*
+	FUNCIÓN: aplicarHash(char *palabra, int tamTabla)
+	RECIBE: char * (APUNTADOR A UNA CADENA DE CARACTERES), int (TAMAÑO DE LA TABLA)
+	DEVUELVE: 
+	DESCRIPCIÓN: RECIBE COMO PARÁMETRO UNA CADENA DE CARACTERES, APLICA LA FUNCIÓN HASH A DICHA CADENA
+		Y REGRESA EL ÍNDICE QUE LE CORRESPONDE DENTRO DE LA TABLA HASH.
+	OBSERVACIONES: LA FRECUENCIA CON LA QUE ESTA FUNCIÓN REGRESE EL MISMO VALOR PARA DIFERENTES PALABRAS
+		DEPENDERÁ DE LA FUNCIÓN HASH DISEÑADA POR EL EQUIPO.
+*/
 int aplicarHash(char *palabra,int tamTabla){
 	/*
 //Esta variante consiste en tomar el valor de cada carácter
@@ -83,6 +91,13 @@ int HashCode(char *palabra, int tamTabla)
 	return resultado;
 }
 
+/*
+	FUNCIÓN: InicializarTabla(tablaHash *tabla).
+	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash).
+	DEVUELVE:
+	DESCRIPCIÓN: SE ENCARGA DE INICIALIZAR TODAS LAS LISTAS DOBLEMENTE LIGADAS CONTENIDAS EN LA TABLA HASH.
+	OBSERVACIONES: EL USUARIO DEBE CREAR UNA STRUCT DEL TIPO tablaHash.
+*/
 void InicializarTabla(tablaHash *tabla){
 	int aux;
 	for(aux=0;aux<tabla->tamTabla;aux++){
@@ -91,6 +106,13 @@ void InicializarTabla(tablaHash *tabla){
 	return;
 }
 
+/*
+	FUNCIÓN: DestruirTabla(tablaHash *tabla)
+	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash).
+	DEVUELVE:
+	DESCRIPCIÓN: SE ENCARGA DE DESTRUIR LA TABLA HASH, DESTRUYENDO CADA LISTA CONTENIDA EN LA TABLA.
+	OBSERVACIONES: EL USUARIO DEBE CREAR UN STRUCT DEL TIPO tablaHash.
+*/
 void DestruirTabla(tablaHash *tabla){
 	int aux;
 	for(aux=0;aux<tabla->tamTabla;aux++){
@@ -99,6 +121,13 @@ void DestruirTabla(tablaHash *tabla){
 	return;
 }
 
+/*
+	FUNCIÓN: AgregarATabla(tablaHash *tabla, elemento e)
+	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash), elemento (ELEMENTO QUE SERÁ AÑADIDO).
+	DEVUELVE:
+	DESCRIPCIÓN: ECARGADA DE AGREGAR UN NUEVO ELEMENTO A LA LISTA CORRESPONDIENTE INDICARA POR LA FUNCIÓN HASH.
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA.
+*/
 void AgregarATabla(tablaHash *tabla, elemento e){
 	int index;
 	index=aplicarHash(e.palabra,tabla->tamTabla);
@@ -106,6 +135,14 @@ void AgregarATabla(tablaHash *tabla, elemento e){
 	return;
 }
 
+/*
+	FUNCIÓN: EliminarDeTabla
+	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash), elemento (ELEMENTO QUE SERÁ REMOVIDO).
+	DEVUELVE: 
+	DESCRIPCIÓN: SE ENCARGA DE REMOVER EL ELEMENTO INDICADO DE SU CORRESPONDIENTE LISTA, UTILIZA LA FUNCIÓN HASH.
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO 
+		SE ENCUENTRA VACÍA.
+*/
 void EliminarDeTabla(tablaHash *tabla, elemento e){
 	int index;
 	posicion posEnTabla;
@@ -115,6 +152,14 @@ void EliminarDeTabla(tablaHash *tabla, elemento e){
 	return;
 }
 
+/*
+	FUNCIÓN: BuscarEnTabla (tablaHash *tabla, elemento e)
+	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash).
+	DEVUELVE: elemento (ELEMENTO ENCONTRADO DENTRO DE LA TABLA)
+	DESCRIPCIÓN:
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO 
+		SE ENCUENTRA VACÍA.
+*/
 elemento BuscarEnTabla(tablaHash *tabla, elemento e){
 	elemento encontrada;
 	int index;
@@ -132,6 +177,14 @@ elemento BuscarEnTabla(tablaHash *tabla, elemento e){
 	return encontrada;
 }
 
+/*
+	FUNCIÓN: ModificarTabla (tablaHash *tabla, elemento e).
+	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash).
+	DEVUELVE: 
+	DESCRIPCIÓN: REEMPLAZA UN ELEMENTO EXISTENTE EN UNA LISTA POR EL INDICADO EN EL PARÁMETRO.
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO 
+		SE ENCUENTRA VACÍA.
+*/
 void ModificarTabla(tablaHash *tabla, elemento e){
 	int index;
 	posicion posEnTabla;
@@ -141,6 +194,14 @@ void ModificarTabla(tablaHash *tabla, elemento e){
 	return;
 }
 
+/*
+	FUNCIÓN: Estadisticas(tablaHash *tabla)
+	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash).
+	DEVUELVE: IMPRIME EN PANTALLA.
+	DESCRIPCIÓN: MUESTRA EL NÚMERO DE LISTAS CONTENIDAS EN LA TABLA, PROMEDIO DE COLISIONES PARA LA FUNCIÓN,
+		CANTIDAD DE LISTAS VACÍAS Y CANTIDAD DE ELEMENTOS QUE CONTIENE CADA LISTA.
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA.
+*/
 void Estadisticas(tablaHash *tabla){
 	printf("Total de listas en la tabla: %i\n",TABLE_SIZE);
 	int aux,vacias=0,tamLista,totalElementos=0,noVacias=0;
@@ -159,6 +220,16 @@ void Estadisticas(tablaHash *tabla){
 	return;
 }
 
+/*
+--------------------OPCIONAL--------------------
+	FUNCIÓN: ExportarTabla(tablaHash *tabla)
+	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash).
+	DEVUELVE: CREA UN ARCHIVO .txt EN LA UBICADO EN LA CARPETA CONTENEDORA DE ESTE PROGRAMA.
+	DESCRIPCIÓN: OBTIENE TODOS LOS ELEMENTOS DE LAS LISTAS CORRESPONDIENTES A LA TABLA HASH INDICADA
+		Y LAS AGREGA A UN ARCHIVO .txt CREADO POR ESTA MISMA FUNCIÓN.
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO 
+		SE ENCUENTRA VACÍA.
+*/
 void ExportarTabla(tablaHash *tabla){
 	int aux;
 	FILE *nuevoArchivo;
