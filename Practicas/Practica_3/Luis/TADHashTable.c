@@ -1,14 +1,46 @@
+/*
+IMPLEMENTACIONES DE LA LIBRERIA DEL TAD LISTA (TADLista.h)
+AUTORES: 
+	Luis Diego Jiménez Delgado (Abril 2019) © 
+    Aarón Gamaliel Sanchez Castro (Abril 2019) © 
+    Citlalli Yasmin Sanchez Tirado (Abril 2019) © 
+VERSION: 1.0 (Abril 2019)
+
+DESCRIPCION: TAD lista o (list)
+Estructura de datos en la que se cumple:
+Los elementos se consultan, aniaden y se remueven con base en posiciones 
+dentro de un arreglo lineal el cual cuenta con un frente o cabeza 
+y un final o cola.
+
+OBSERVACIONES: TADLista por definicion es una Estructura de Datos dinamica. 
+La implementacion del presente codigo se realiza mediante el principo de "Lista Doblemente Ligada"
+i.e. nodos que contienen un elemento y se encuentran ligados hacia siguiente de estos y al anterior de estos.
+
+COMPILACION PARA GENERAR EL CODIGO OBJETO: gcc TADListaDL.c -c 
+
+*/
+
+//LIBRERAS
 #include "TADHashTable.h"
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 
-
-#define ArrayNumber 509
+//DEFINICION DE CONSTANTES
 #define AKEY 73571
 
+//DEFINICION DE FUNCIONES
 
-int aplicarHash(char *palabra,int tamTabla){
+
+/*
+int aplicarHash(char *palabra, int tamTabla)
+Descripcion: 
+Recibe: 
+Devuelve:
+Observaciones: 
+*/
+int aplicarHash(char *palabra, int tamTabla)
+{
 	/*
 //Esta variante consiste en tomar el valor de cada carácter
 //y hacer dos corrimientos de bits
@@ -67,121 +99,198 @@ int HashCode(char *palabra, int tamTabla)
 		index=index*-1;
 	}
 	return index%tamTabla;*/
-	
+
 	int aux = 0;
-	int i = 0, resultado = 0, tam,  derecha;
+	int i = 0, resultado = 0, tam, derecha;
 	tam = strlen(palabra);
 	for (i = 0; i < tam; ++i)
 	{
-		aux = ((AKEY *  palabra[i]) % ((int) pow(2,i + 13))) >> ((int)(pow(8,i +3)));
+		aux = ((AKEY * palabra[i]) % ((int)pow(2, i + 13))) >> ((int)(pow(8, i + 3)));
 		resultado += aux;
 	}
 	resultado = (resultado % tamTabla);
-	if(resultado < 0)
+	if (resultado < 0)
 		resultado = tamTabla + resultado;
 
 	return resultado;
 }
 
-void InicializarTabla(tablaHash *tabla){
+/*
+void InicializarTabla(tablaHash *tabla)
+Descripcion: Inicializar lista (Iniciar una lista para su uso)
+Recibe: lista *l (Referencia a la lista "l" a operar)
+Devuelve:
+Observaciones: El usuario a creado una lista y l tiene la referencia a ella, 
+si esto no ha pasado se ocasionara un error.
+*/
+void InicializarTabla(tablaHash *tabla)
+{
 	int aux;
-	for(aux=0;aux<tabla->tamTabla;aux++){
+	for (aux = 0; aux < tabla->tamTabla; aux++)
+	{
 		Initialize(&tabla->listas[aux]);
 	}
 	return;
 }
 
-void DestruirTabla(tablaHash *tabla){
+/*
+void DestruirTabla(tablaHash *tabla)
+Descripcion: 
+Recibe: 
+Devuelve:
+Observaciones: 
+*/
+void DestruirTabla(tablaHash *tabla)
+{
 	int aux;
-	for(aux=0;aux<tabla->tamTabla;aux++){
+	for (aux = 0; aux < tabla->tamTabla; aux++)
+	{
 		Destroy(&tabla->listas[aux]);
 	}
 	return;
 }
 
-void AgregarATabla(tablaHash *tabla, elemento e){
+/*
+void AgregarATabla(tablaHash *tabla, elemento e)
+Descripcion: 
+Recibe: 
+Devuelve:
+Observaciones: 
+*/
+void AgregarATabla(tablaHash *tabla, elemento e)
+{
 	int index;
-	index=aplicarHash(e.palabra,tabla->tamTabla);
-	Add(&tabla->listas[index],e);
+	index = aplicarHash(e.palabra, tabla->tamTabla);
+	Add(&tabla->listas[index], e);
 	return;
 }
 
-void EliminarDeTabla(tablaHash *tabla, elemento e){
+/*
+void EliminarDeTabla(tablaHash *tabla, elemento e)
+Descripcion: 
+Recibe: 
+Devuelve:
+Observaciones: 
+*/
+void EliminarDeTabla(tablaHash *tabla, elemento e)
+{
 	int index;
 	posicion posEnTabla;
-	index=aplicarHash(e.palabra,tabla->tamTabla);
-	posEnTabla=Search(&tabla->listas[index],e);
-	Remove(&tabla->listas[index],posEnTabla);
+	index = aplicarHash(e.palabra, tabla->tamTabla);
+	posEnTabla = Search(&tabla->listas[index], e);
+	Remove(&tabla->listas[index], posEnTabla);
 	return;
 }
 
-elemento BuscarEnTabla(tablaHash *tabla, elemento e){
+/*
+elemento BuscarEnTabla(tablaHash *tabla, elemento e)
+Descripcion: 
+Recibe: 
+Devuelve:
+Observaciones: 
+*/
+elemento BuscarEnTabla(tablaHash *tabla, elemento e)
+{
 	elemento encontrada;
 	int index;
 	posicion posEnTabla;
-	index=aplicarHash(e.palabra,tabla->tamTabla);
-	posEnTabla=Search(&tabla->listas[index],e);
-	if(posEnTabla!=NULL){//COMPROBAMOS QUE EXISTE LA PALABRA DENTRO DE LA LISTA
-		encontrada=Position(&tabla->listas[index],posEnTabla);
-		printf("Encontrada en %i pasos\n",posEnTabla->pasos);
-	}else{
+	index = aplicarHash(e.palabra, tabla->tamTabla);
+	posEnTabla = Search(&tabla->listas[index], e);
+	if (posEnTabla != NULL)
+	{ //COMPROBAMOS QUE EXISTE LA PALABRA DENTRO DE LA LISTA
+		encontrada = Position(&tabla->listas[index], posEnTabla);
+		printf("Encontrada en %i pasos\n", posEnTabla->pasos);
+	}
+	else
+	{
 		printf("La palabra solicitada no existe en el diccionario...\n");
-		char no_encontrada[4]="NULL";
-		strcpy(&encontrada.palabra[0],&no_encontrada[0]);
+		char no_encontrada[4] = "NULL";
+		strcpy(&encontrada.palabra[0], &no_encontrada[0]);
 	}
 	return encontrada;
 }
 
-void ModificarTabla(tablaHash *tabla, elemento e){
+/*
+void ModificarTabla(tablaHash *tabla, elemento e)
+Descripcion: 
+Recibe: 
+Devuelve:
+Observaciones: 
+*/
+void ModificarTabla(tablaHash *tabla, elemento e)
+{
 	int index;
 	posicion posEnTabla;
-	index=aplicarHash(e.palabra,tabla->tamTabla);
-	posEnTabla=Search(&tabla->listas[index],e);
-	Replace(&tabla->listas[index],posEnTabla,e);
+	index = aplicarHash(e.palabra, tabla->tamTabla);
+	posEnTabla = Search(&tabla->listas[index], e);
+	Replace(&tabla->listas[index], posEnTabla, e);
 	return;
 }
 
-void Estadisticas(tablaHash *tabla){
-	printf("Total de listas en la tabla: %i\n",TABLE_SIZE);
-	int aux,vacias=0,tamLista,totalElementos=0,noVacias=0;
-	for(aux=0;aux<TABLE_SIZE;aux++){
-		tamLista=Size(&tabla->listas[aux]);
-		totalElementos=totalElementos+tamLista;
-		if(tamLista==0){
+/*
+void Estadisticas(tablaHash *tabla)
+Descripcion: 
+Recibe: 
+Devuelve:
+Observaciones: 
+*/
+void Estadisticas(tablaHash *tabla)
+{
+	printf("Total de listas en la tabla: %i\n", TABLE_SIZE);
+	int aux, vacias = 0, tamLista, totalElementos = 0, noVacias = 0;
+	for (aux = 0; aux < TABLE_SIZE; aux++)
+	{
+		tamLista = Size(&tabla->listas[aux]);
+		totalElementos = totalElementos + tamLista;
+		if (tamLista == 0)
+		{
 			vacias++;
 		}
-		printf("La lista %i contiene %i elemento(s)\n",aux,tamLista);
+		printf("La lista %i contiene %i elemento(s)\n", aux, tamLista);
 	}
-	printf("Total de listas vacias: %i\n",vacias);
-	noVacias=TABLE_SIZE-vacias;
-	noVacias!=0?printf("Promedio de colisiones: %i\n",totalElementos/noVacias):printf("No se ha podido determinar el promedio de colisiones\n");
-	printf("Total de elementos: %i",totalElementos);
+	printf("Total de listas vacias: %i\n", vacias);
+	noVacias = TABLE_SIZE - vacias;
+	noVacias != 0 ? printf("Promedio de colisiones: %i\n", totalElementos / noVacias) : printf("No se ha podido determinar el promedio de colisiones\n");
+	printf("Total de elementos: %i", totalElementos);
 	return;
 }
 
-void ExportarTabla(tablaHash *tabla){
+/*
+void ExportarTabla(tablaHash *tabla)
+Descripcion: 
+Recibe: 
+Devuelve:
+Observaciones: 
+*/
+void ExportarTabla(tablaHash *tabla)
+{
 	int aux;
 	FILE *nuevoArchivo;
-	char nombreArchivo[]="Diccionario.txt",palabra[100],definicion[255];
-	nuevoArchivo=fopen(nombreArchivo,"w");
-	if(nuevoArchivo!=NULL){
+	char nombreArchivo[] = "Diccionario.txt", palabra[100], definicion[255];
+	nuevoArchivo = fopen(nombreArchivo, "w");
+	if (nuevoArchivo != NULL)
+	{
 		posicion finLista;
 		elemento actual;
-		for(aux=0;aux<TABLE_SIZE;aux++){
-			finLista=tabla->listas[aux].frente;
-			while(finLista!=NULL){
-				actual=Position(&tabla->listas[aux],finLista);
-				strcpy(palabra,actual.palabra);
-				strcpy(definicion,actual.definicion);
-				strcat(palabra,": ");
-				strcat(palabra,definicion);
-				fprintf(nuevoArchivo,palabra);
-				finLista=finLista->siguiente;
+		for (aux = 0; aux < TABLE_SIZE; aux++)
+		{
+			finLista = tabla->listas[aux].frente;
+			while (finLista != NULL)
+			{
+				actual = Position(&tabla->listas[aux], finLista);
+				strcpy(palabra, actual.palabra);
+				strcpy(definicion, actual.definicion);
+				strcat(palabra, ": ");
+				strcat(palabra, definicion);
+				fprintf(nuevoArchivo, palabra);
+				finLista = finLista->siguiente;
 			}
 		}
 		fclose(nuevoArchivo);
 		printf("Exportado exitosamente!\n");
-	}else{
+	}
+	else
+	{
 		printf("Exportado exitosamente fallido!\n");
 	}
 	return;

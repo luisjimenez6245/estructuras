@@ -1,6 +1,9 @@
 /*
 IMPLEMENTACIONES DE LA LIBRERIA DEL TAD LISTA (TADLista.h)
-AUTOR: Luis Diego Jiménez DelgadoC) 
+AUTORES: 
+	Luis Diego Jiménez Delgado (Abril 2019) © 
+    Aarón Gamaliel Sanchez Castro (Abril 2019) © 
+    Citlalli Yasmin Sanchez Tirado (Abril 2019) © 
 VERSION: 1.0 (Abril 2019)
 
 DESCRIPCION: TAD lista o (list)
