@@ -1,22 +1,23 @@
 /*
 IMPLEMENTACIONES DE LA LIBRERIA DEL TAD LISTA (TADLista.h)
-AUTORES: 
-	Luis Diego Jiménez Delgado (Abril 2019) © 
-    Aarón Gamaliel Sanchez Castro (Abril 2019) © 
-    Citlalli Yasmin Sanchez Tirado (Abril 2019) © 
+AUTORES:
+	Luis Diego Jiménez Delgado (Abril 2019) ©
+    Aarón Gamaliel Sanchez Castro (Abril 2019) ©
+    Citlalli Yasmin Sanchez Tirado (Abril 2019) ©
+		Copyright (c) 2019 Copyright Holder All Rights Reserved.
 VERSION: 1.0 (Abril 2019)
 
 DESCRIPCION: TAD lista o (list)
 Estructura de datos en la que se cumple:
-Los elementos se consultan, aniaden y se remueven con base en posiciones 
-dentro de un arreglo lineal el cual cuenta con un frente o cabeza 
+Los elementos se consultan, aniaden y se remueven con base en posiciones
+dentro de un arreglo lineal el cual cuenta con un frente o cabeza
 y un final o cola.
 
-OBSERVACIONES: TADLista por definicion es una Estructura de Datos dinamica. 
+OBSERVACIONES: TADLista por definicion es una Estructura de Datos dinamica.
 La implementacion del presente codigo se realiza mediante el principo de "Lista Doblemente Ligada"
 i.e. nodos que contienen un elemento y se encuentran ligados hacia siguiente de estos y al anterior de estos.
 
-COMPILACION PARA GENERAR EL CODIGO OBJETO: gcc TADListaDL.c -c 
+COMPILACION PARA GENERAR EL CODIGO OBJETO: gcc TADListaDL.c -c
 
 */
 
@@ -32,7 +33,7 @@ COMPILACION PARA GENERAR EL CODIGO OBJETO: gcc TADListaDL.c -c
 /*
 	FUNCIÓN: aplicarHash(char *palabra, int tamTabla)
 	RECIBE: char * (APUNTADOR A UNA CADENA DE CARACTERES), int (TAMAÑO DE LA TABLA)
-	DEVUELVE: 
+	DEVUELVE:
 	DESCRIPCIÓN: RECIBE COMO PARÁMETRO UNA CADENA DE CARACTERES, APLICA LA FUNCIÓN HASH A DICHA CADENA
 		Y REGRESA EL ÍNDICE QUE LE CORRESPONDE DENTRO DE LA TABLA HASH.
 	OBSERVACIONES: LA FRECUENCIA CON LA QUE ESTA FUNCIÓN REGRESE EL MISMO VALOR PARA DIFERENTES PALABRAS
@@ -58,11 +59,11 @@ int HashCode(char *palabra, int tamTabla)
 		//utilizamos operadores de desplazamiento
 		//<< corrimiento 5 espacios a la izquierda
 		//>> corrimiento 27 espacios a la derecha
-		
+
 		h=(h<<5)|(h>>27);
 		h+=(unsigned int)palabra[i];
 	}
-	return h;	
+	return h;
 }
 
 
@@ -81,12 +82,21 @@ int HashCode(char *palabra, int tamTabla)
         //primo a 32 lo que ayuda con el avalanchamiento
         //ya que un caracter ascii puede considerarse como un selector de tipo
         //caracteres de 4 bits
-            hash1 = ((hash1 << 5) + hash1) + c; // hash * 33 + c 
+            hash1 = ((hash1 << 5) + hash1) + c; // hash * 33 + c
 
         return hash1;
     }
     */
 	/*
+		LA SIGUIENTE FUNCIÓN CONSISTE EN OBTENER EL VALOR ASCII DEL CARACTER EN TURNO Y MULTIPLICARLO POR UNA POTENCIA
+		DE 2, DE ACUERDO A SU ÍNDICE CORRESPONDIENTE DENTRO DE UNA CADENA. EJEMPLO
+		H = 72*2^0
+		O = 79*2^1
+		L = 76*2^2
+		A = 65*2^3
+		POSTERIORMENTE ESTOS VALORES SON SUMADOS Y FINALMENTE SOMETIDOS AL OPERADOR % JUNTO CON EL TAMAÑO DE LA TABLA
+		ESTO GARANTIZA QUE EL VALOR OBTENIDO POR LA FUNCIÓN SE ENCUENTRE SIEMPRE DENTRO DE LOS LÍMITES DE LA TABLA
+	*/
 	int index=0,m_posicion,valor_letra,aux;//m_posicion = MÚLTIPLO DE LA POSICIÓN
 	for(aux=0;aux<strlen(palabra);aux++){
 		m_posicion=pow(2,aux+1);
@@ -96,9 +106,9 @@ int HashCode(char *palabra, int tamTabla)
 	if(index<0){
 		index=index*-1;
 	}
-	return index%tamTabla;*/
+	return index%tamTabla;
 
-	int aux = 0;
+	/*int aux = 0;
 	int i = 0, resultado = 0, tam, derecha;
 	tam = strlen(palabra);
 	for (i = 0; i < tam; ++i)
@@ -110,7 +120,7 @@ int HashCode(char *palabra, int tamTabla)
 	if (resultado < 0)
 		resultado = tamTabla + resultado;
 
-	return resultado;
+	return resultado;*/
 }
 
 /*
@@ -162,9 +172,9 @@ void AgregarATabla(tablaHash *tabla, elemento e){
 /*
 	FUNCIÓN: EliminarDeTabla
 	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash), elemento (ELEMENTO QUE SERÁ REMOVIDO).
-	DEVUELVE: 
+	DEVUELVE:
 	DESCRIPCIÓN: SE ENCARGA DE REMOVER EL ELEMENTO INDICADO DE SU CORRESPONDIENTE LISTA, UTILIZA LA FUNCIÓN HASH.
-	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO 
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO
 		SE ENCUENTRA VACÍA.
 */
 void EliminarDeTabla(tablaHash *tabla, elemento e){
@@ -181,7 +191,7 @@ void EliminarDeTabla(tablaHash *tabla, elemento e){
 	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash).
 	DEVUELVE: elemento (ELEMENTO ENCONTRADO DENTRO DE LA TABLA)
 	DESCRIPCIÓN:
-	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO 
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO
 		SE ENCUENTRA VACÍA.
 */
 elemento BuscarEnTabla(tablaHash *tabla, elemento e){
@@ -207,9 +217,9 @@ elemento BuscarEnTabla(tablaHash *tabla, elemento e){
 /*
 	FUNCIÓN: ModificarTabla (tablaHash *tabla, elemento e).
 	RECIBE: tablaHash * (APUNTADOR A UNA STRUCT DEL TIPO tablaHash).
-	DEVUELVE: 
+	DEVUELVE:
 	DESCRIPCIÓN: REEMPLAZA UN ELEMENTO EXISTENTE EN UNA LISTA POR EL INDICADO EN EL PARÁMETRO.
-	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO 
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO
 		SE ENCUENTRA VACÍA.
 */
 void ModificarTabla(tablaHash *tabla, elemento e){
@@ -254,7 +264,7 @@ void Estadisticas(tablaHash *tabla){
 	DEVUELVE: CREA UN ARCHIVO .txt EN LA UBICADO EN LA CARPETA CONTENEDORA DE ESTE PROGRAMA.
 	DESCRIPCIÓN: OBTIENE TODOS LOS ELEMENTOS DE LAS LISTAS CORRESPONDIENTES A LA TABLA HASH INDICADA
 		Y LAS AGREGA A UN ARCHIVO .txt CREADO POR ESTA MISMA FUNCIÓN.
-	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO 
+	OBSERVACIONES: EL USUARIO CUENTA CON UNA tablaHash INICIALIZADA Y LA LISTA QUE CORRESPONDE AL ELEMENTO NO
 		SE ENCUENTRA VACÍA.
 */
 void ExportarTabla(tablaHash *tabla){
