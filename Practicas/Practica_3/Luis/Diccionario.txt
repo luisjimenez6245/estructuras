@@ -1,2283 +1,2283 @@
-Chamuyeta:  Charlatan, persona que habla de mas.
-Crepar:  Morir.
-Desinflarse:  Asustarse.
-Garpar:  pagar dinero o algunas cuentas de amor.
-Marroquero:  Taca§o.
-Matoneo:  Intimidacion.
-Melonazo:  Tonto.
-Oriyero:  Arrabalero, de las orillas.
-Torvelo:  Dinero.
-Amarretear:  Mezquinar.
-Bolazo:  Mentira.
-Diqueo:  Aspaviento.
-Graserio:  Cafila, grupo mersa.
-Lastrar:  Comer.
-Murga:  Comparsa que actua en los carnavales con diversos instrumentos y vistosos trajes.
-Apiolarse:  Despabilarse.
-Boyo:  Pu§etazo.
-Hinchaguindas:  Fastidioso.
-Humo:  Engreimiento.
-Mopio:  Tonto.
-Sabandija:  Travieso, picaro.
-Tarro, mear fuera del:  Errar, equivocarse.
-Tortera:  Lesbiana.
-Yuto:  Desleal, falso / Policia de investigaciones.
-Amarrocador:  Taca§o.
-Canguela:  Temor / Indigencia / Prostibulo.
-Despelotado:  Desordenado.
-Empinado:  Ebrio.
-Estrolar:  Zurrar.
-Hocicar:  Flaquear.
-Hocicar:  Fracasar / Errar.
-Mufa:  Mal humor, fastidio, animo decaido, mala suerte.
-Palmar:  Morir.
-Ranada:  Viveza.
-Relojear:  Observar.
-Vamo y vamo:  Por mitades.
-Bonafide:  Candido.
-Breto:  Sobretodo / Ataud.
-Cascada:  Zurra, paliza.
-Cocear:  Presentir.
-Despelote:  Desorden, lio.
-Empiedrada:  Brillantes.
-Fame:  Hambre, apetito.
-Frilo:  Tonto.
-Ligar:  Recibir castigo.
-Ro§a:  Enojo.
-Dopado:  Drogado.
-Fiaca:  Pereza, holganza.
-Quiveve:  Prostibulo.
-Rechipe:  Chispe, excelente, con prefijo aumentativo.
-Refilar un lao:  Prepararlo para la trampa por sutil limado de bordes.
-Tarupido:  Tarado y estupido.
-Abrancar:  Atrapar.
-Aceitar:  Sobornar.
-Embalado:  Predispuesto.
-Encajado:  Endeudado.
-Ensiyarse:  Enojarse.
-Angelito:  Candido.
-Angelito:  Herramienta para abrir cerraduras desde afuera.
-Chance:  Ocasion.
-Chanceleta:  Afeminado / Mujer.
-Changa:  Trabajo breve.
-Chivato:  Alcahuete / Barbado.
-Pelechar:  Progresar.
-Zarpar:  Irse rapido.
-Analfabestia:  Ignorante.
-Campante:  despreocupado, impavido.
-Cascar. Castigar, pegar.:  Zurra, paliza.
-Matonear:  Intimidar.
-Ojete:  Suerte.
-Sebon:  Haragan, indolente.
-Chocolatero:  Chabon.
-Engrupido:  Vanidoso, fatuo.
-Navo:  Persona de poco valor.
-Papusa:  Muy bonita.
-Retacear:  Mezquinar.
-Rula:  ruleta.
-Sabalo:  Arrabalero / Hampon orillero / Mal viviente.
-Tigrero:  Audaz, valiente, que ejecuta accion temeraria.
-Grasun:  Ordinario, rustico.
-Lapicero:  pasador clandestino de apuestas.
-Lechera:  En el juego de las bolitas, la predilecta del jugador, por lo comun es blanca.
-Maquina:  Beldad.
-Solfear:  Robar.
-Talompa:  Pantalones.
-Avivarse:  Despabilarse.
-Empilche:  Traje, ropa.
-Humo, se hizo:  Escape, huida.
-Bate:  Delata.
-Chacado:  Enfermo.
-Dolorosa:  Factura de gastos, generalmente, del restaurante.
-Lancero:  Ladron (opera con dos dedos) / Galanteador.
-Lancero:  ladron, ratero.
-Opiarse:  Malhumorarse.
-Sonsaje:  Grupo de tontos.
-Timbear:  Jugar.
-Bulin:  Habitacion, cuarto, aposento, vivienda de soltero.
-Burros:  Caballos.
-Clinudo:  Pelilargo, desprolijo.
-Espirarse:  Irse, alejarse.
-Falocrata:  Partidario de la falocracia.
-Guitarrero:  Charlatan / Guitarrista.
-Jugado:  Achacoso.
-Tocado:  Sobornado, enloquecido.
-Antropofago:  Invertido.
-Balero:  Cabeza.
-Boton:  Agente policial, guardia.
-Farabute :  Ostentoso, fanfarron.
-Farabute :  Ostentoso, fanfarron.
-Gruyera:  Billetera.
-Humedo:  Ebrio.
-Tayador:  Banquero.
-Amasijo:  Castigo, zurra.
-Burro:  Ignorante.
-Encufar:  Apresar.
-Entrador:  Decidido, audaz.
-Franela:  Manoseo sexual.
-Kilombificar:  Alborotar, complicar.
-Pichicho:  Perrito.
-Socotroco:  Pu§etazo.
-Yoni:  Ingles.
-Chupar:  Beber.
-Cocinar:  Matar.
-Ensillar:  Comenzar.
-Ensuciar:  Denigrar, difamar.
-Espirajuse:  Escape, huida.
-Esquiyo:  Berrinche, enojo.
-Forrarse:  Progresar.
-Limosnero:  Ladron de alcancias de iglesias.
-Siete:  Asentaderas.
-Chivado:  Enojado.
-Cola:  trasero.
-Despiolado:  Desordenado.
-Esteca:  Parte de robo.
-Jai:  Lechuguino, petimetre, abreviatura de jaileife.
-Maletro:  Se le llama al ladron de equipaje.
-Pechar:  Pedir, dominar, alcanzar.
-Quemar:  Desprestigiar. Matar con un arma de fuego.
-Apunte, llevar el:  Atender.
-Cascarudo:  Valiente, decidido.
-Embagayar:  Embrollar.
-Esco§ado:  Achacoso, deteriorado. Zurrado.
-Esquillo:  Rabieta.
-Fangos :  Zapatos.
-Fangos :  Zapatos.
-Feca:  Cafe.
-Jetear:  Gorronear.
-Maroma:  Situacion de riesgo, suscitarse.
-Ojito, de:  Gratuitamente.
-Tajada:  Soborno.
-Yeyatore:  Tipo de mal agÅero.
-Batata:  Temor.
-Chupete:  Ebrio.
-Fiambre:  Muerte.
-Gacho:  Sombrero masculino flexible cuya ala se inclina hacia abajo.
-Kukay:  Avecilla. Semejante al tordo.
-Bandola:  Bandoneon.
-Cajetiya:  Petimetre.
-Culastro:  Sodomita.
-Empaquetar:  Embrollar / Ahorrar mezquinando.
-Esparragos:  Dedos.
-Pebete:  Ni§o.
-Toldo:  Cabellera.
-Cafe:  Reprimenda.
-Estrolada:  Zurra, paliza.
-Arreglo:  Soborno.
-Bacan:  Concubinario; hombre que mantiene una mujer; bien de plata.
-Bestia:  Mujer (arcaismo).
-Bolas tristes:  Tonto.
-Boleto:  Mentira.
-Buyonear:  Comer.
-Escoba:  Guitarra.
-GÅevon:  Tonto.
-Amasijar:  Zurrar / Matar.
-Melenudo:  Pelilargo, desgre§ado.
-Taca§uzo:  Avaro.
-Colgado:  Despedido, cesanteado.
-Desafrecharse:  Fornicar.
-Juntapuchos:  Vago.
-Dragonear:  Enamorar, cortejar.
-Formador:  El que paga.
-Olfa:  Obsecuente / Chupamedias.
-Sanata:  Hibrido oral, galimatias.
-Yeca:  Experiencia.
-Bataclana:  Mujer, artista de teatro con el pretexto de cantar y bailar.
-Desbolado:  Desordenado.
-Lastre:  Comida.
-Matete:  Desorden, lio.
-Seco:  Indigente, pobre.
-Tute:  Enojo.
-Afano:  Robo.
-Biyuya:  Dinero.
-Gomera:  Tirador.
-Olivetti:  Despido.
-Abocado:  Irreflexivo.
-Blanbeta:  Charlatan.
-Ca§o:  Vivienda de soltero.
-Charleta:  Charlatan, tipo que habla sin fundamento.
-Garufear:  Divertirse.
-Mi§ango:  Trozo.
-Sesera:  Cabeza.
-Tarros:  Zapatos, botin.
-Borracheria:  Bar, despacho de bebidas alcoholicas.
-Cuete, al:  Inutilmente.
-Dura§ona:  Chambom.
-Enajar:  Irse, alejarse.
-Esgunfiar:  Fastidiar.
-Jeton:  Cara grande. Persona de cara grande y rasgos pronunciados.
-Rantifusa:  Despreciable, vil.
-Verdurita:  Frusleria.
-Chinchudo:  Enojado.
-Compadron:  Fatuo, presumido.
-Forro:  Ataud, preservativo.
-Gayeta, colgar la:  Despido.
-Guada§a, la:  Muerte.
-Lentazo :  Ojeada.
-Lentazo :  Ojeada.
-Manguear:  Sablear. Pedir dinero.
-Perro:  Torpe, incapaz. Cantor de mala calidad.
-Tarro:  Suerte / Asentaderas.
-Aceite:  Soborno.
-Banda, en:  Indigente.
-Falopiarse:  Drogarse.
-Piantao:  Loco, demente.
-Shomeria:  Ordinario, mala calidad.
-Desbole:  Desorden, lio.
-Enchincharse:  Enojarse.
-Escrachar:  accion de poner en evidencia.
-Felpa:  Zurra.
-Funyi: Sombrero.
-Garron:  gratuito.
-Lonyi:  Tonto.
-Malevaje:  Maleantes.
-•ata, la:  Muerte.
-Alzado:  Rijoso.
-Batistela:  Delator.
-Calce:  Ocasion.
-Carnavales:  A§os / Edad.
-Deca:  Decadencia.
-Encopado:  Ebrio.
-Lateria:  Relojeria, joyeria.
-Manyaoreja:  Obsecuente.
-Traste:  Asentaderas.
-Beberaje:  Bebida alcoholica.
-Boncha:  Chabon, tonto.
-Buscaglia:  Buscavidas.
-Dragoneo:  Galanteo.
-Estrilo:  Enojo, rabieta.
-Hincha:  Fanatico de una divisa o institucion.
-Manyin:  Ebrio, consuetudinario.
-Mayorengo:  Oficial mayor (policia), comisario.
-Zanagoria (Zanahoria):  Tonto.
-Acu§ado:  Recomendado.
-Boliya, dar:  Atender.
-Clines:  Cabellos largos y desprolijos.
-Fajarse:  Drogarse.
-Fenomeno:  Obsecuente.
-Formativo:  baile en donde los bailarines debian pagar derecho de piso.
-Gorila:  Fascista.
-Kilo, esta un:  Excelente.
-Mosqueta:  Dinero.
-Narigueta:  Narigon.
-Rebaje de naipe:  Trampa que consiste en preparar ciertos naipes con un minimo rebaje de sus bordes.
-Guarda, a la:  Mucho, en cantidad.
-Tigre:  El que ejecuta una accion con energia y habilidad.
-Abrochado:  Casado.
-Agayas, de:  Valiente.
-Escarbadientes:  Arma blanca.
-Maceta:  Torpe.
-Matrimoniado:  Casado.
-Corrido:  Baquiano.
-Encanar:  Apresar, arrestar.
-Minerva:  Mujer.
-Nisperos:  Pies.
-Frio:  Vanidad.
-Lance:  Accion que se ejecuta sin seguridad de exito.
-Levante:  Reprimenda / Conquista amorosa.
-Popa:  Asentadores.
-Rati:  Policia de investigaciones.
-Alumbrar:  Proveer dinero.
-Batuque:  Desorden, lio, confusion.
-Bufoso:  Revolver.
-Chamuchina:  Chusma / Frusleria.
-Chinchera:  Cama.
-Monse§or:  Herramienta para violar cerraduras.
-Caquero:  Petimetre.
-Cartero:  Delincuente que coloca y revisa el ìcorreoî.
-Chusmaje:  Cafila.
-Curado:  Ebrio.
-Escracho:  Cara / Mujer fea.
-Fayada:  Yerro, fracaso.
-Guillar:  Cosechar, hacer ganancia.
-Rascada:  Beneficio exiguo, trabajo ocasional.
-Taita:  Hombre valiente y audaz. Maton.
-Estrilar:  Enojarse.
-Gayina:  Cobarde.
-Liquidar:  Asesinar.
-Tostero:  Mentiroso.
-Viola:  Guitarra.
-Botijas:  Ni§o.
-Escorchar:  Fastidiar, molestar.
-Milonguita:  Mujer de vida aireada.
-Montonera:  Mucho, en cantidad.
-Pibe:  Ni§o.
-Cinchar:  dar fuerza, vigor. Trabajo duro.
-Cinchar:  Trabajar, esforzar.
-Curdelin :  Borracho.
-Curdelin :  Borracho.
-Emputecer:  Indisponerse, enojarse.
-Farrear:  Divertirse / Mofarse.
-Garchar:  Fornicar.
-Globo:  Mentira.
-Guiyado:  Adinerado.
-Regadera:  Crica / Cargoso, pesado.
-Sesenta y uno:  En una de las claves numericas significa ìenemigoî.
-Viscachear:  Observar disimuladamente.
-Boleta, hacer la:  Matar.
-Degoyar:  Estafar, defraudar.
-Remos:  Piernas.
-Tranca:  Borrachera.
-Borrarse:  Irse.
-Cana:  prision.
-Chacabuco:  Enfermoso.
-Cuete:  Balazo.
-Fundas:  Medias.
-Limones:  Senos.
-Opa:  Idiota.
-Yiro:  Ramera.
-Yuta:  Personal policiaco.
-Cafetear:  Reprender.
-Cafetera:  Vehiculo desvencijado.
-Camelo:  enga§o, trampa, farsa.
-Homo:  Invertido.
-Meodromo:  Retrete.
-Mujerage:  Grupo de mujeres.
-Sosha:  Dinero.
-Berretin:  Capricho, ilusion.
-Capo:  Jefe.
-Desiderio:  Decidido.
-Faca:  Arma blanca.
-Falocracia:  Supremacia del hombre.
-Funda:  Preservativo.
-Galo:  Trozo.
-Ladeado:  Enojado.
-Pilchas:  Ropa.
-Pungia:  Hurto, perpetrado en el bolsillo de la victima.
-Bramaje:  Mujeres.
-Cacho:  Parte de un robo / Trozo.
-Espiantar:  Quitar.
-Garca:  Tramposo, estafador.
-Jetatore:  Infortunio, influencia malefica.
-Minaje:  Grupo de mujeres.
-Naranja:  Nada.
-Ortiba:  Delator.
-Achacador:  Malhechor.
-Altiyero:  Excelente.
-Arrastre:  Prestigio / Predicamento / Influencia.
-Camasutra:  Cama.
-Chamullar:  Conversar, murmurar.
-Escarpios:  Zapatos.
-Esquifuso:  Raido, sucio.
-Fresquete:  Frio.
-Furbo:  Informal, tramposo, de mala entra§a.
-Gorda, se armo la:  Enojo.
-Matungo:  Caballo viejo, achacoso, inutil.
-Metejon:  Cari§o, pasion, amor.
-Regalado:  Indigente, pobre / Extenuado, vencido..
-Rejuntado:  Amancebado.
-Adobado:  Ebrio.
-Barato, es un:  Ordinario.
-Bocina:  Alcahuete.
-Calabaza:  Cabeza.
-Espinchar:  Morir.
-Purria minga:  Expresion que significa ìno se podraî.
-Sombra:  Carcel.
-Tayarin:  Banquero.
-Ventudo:  Adinerado.
-Engrupir:  Enga§ar.
-Metido :  Enamorado apasionadamente.
-Metido :  Enamorado apasionadamente.
-Pan Dulce:  Pavo.
-Sopardos:  Pesos, dinero.
-Canela:  Carcel.
-Morondanga:  Naderia.
-Abriles:  sinonimo de a§os.
-Baldosa :  Cabeza.
-Baldosa :  Cabeza.
-Crepo:  Murio.
-Garuar:  Lloviznar.
-Tipa:  Carcel.
-Apuntamento:  Conquista amorosa.
-Atorro:  Vivienda del tipo vago o del soltero.
-Capelo:  Sombrero.
-Fulo:  Enojado.
-Guarda:  Atencion!.
-Hamacarse:  Trabajar esforzadamente.
-Minerio:  Grupo de mujeres.
-Valeriano :  Vale del Turf.
-Valeriano :  Vale del Turf.
-Vinacho:  Vino.
-Caso:  Tonto.
-Feba:  Mujer.
-Felpeada:  Zurra, reprimenda.
-Furca:  Accion de distraer a un persona para que la otra la ataque de una manera determinada y quede inmovil.
-Infante:  Peaton.
-Lancear:  Robar.
-Versero:  Tipo que habla sin conocimiento.
-Amargo:  Cobarde.
-Apa§ado:  Encarcelado.
-Chata:  Carruaje de caballos.
-Coroniya:  Cabeza.
-Cortarse:  Retirarse, apartarse.
-Encajetado:  Enamorado apasionadamente.
-Marcha atras:  Invertido, gay.
-Millonaria:  Sifilis.
-Mixto:  Pederasta, ambidiestro.
-Tumba:  Trozo de carne hervido en agua, comida de las carceles.
-Bombero:  arbitro que perjudica a un equipo.
-Coceo:  Cabala.
-Garfi§ar:  Robar.
-Gatiyar:  Pagar.
-Joder:  Divertirse. Bromear, mofarse. Perjudicarse.
-Ropero:  Contrabajo.
-Desquicio:  Desorden, lio.
-Engrupichir:  Enga§ar, engrupir.
-Hembra:  Mujer, concubina.
-Macanudo:  Excelente.
-Marinante :  Marinero.
-Marinante :  Marinero.
-Taqueria:  Comisaria.
-Afrechudo:  Rijoso.
-Bagaseta:  Ramera.
-Estaso:  Tonto.
-Fanguyos:  Zapatos.
-Garaba, Garabita:  Muchacha.
-Laicero :  Levanta juego (clandestino).
-Laicero :  Levanta juego (clandestino).
-Ranterio:  Cafila, grupo mersa.
-Tranquila, la:  Cama.
-Aguanti§ar:  Afrontar, soportar.
-Chabonada:  Torpeza.
-Disquero:  Se dice del Fanfarron y de cuanto sirve para fanfarronear.
-Fachada:  Cara.
-Minola :  Mujer.
-Minola :  Mujer.
-Ternera:  Mujer, jovencita.
-Agachada:  Deslealtad, vileza.
-Alcancia:  Carcel.
-Enjetado:  Enojado.
-Fichar:  Observar detenidamente.
-Fumante:  Cigarrillo.
-Morfeta:  Hermafrodita, invertido.
-Shome:  Indigente, pobre.
-Miqueta:  Pu§etazo.
-Pequero:  Delincuente dedicado a la estafa por medio de trampas en juegos de azar.
-Taquero:  Comisario de policia.
-Trotera:  Ramera.
-Chivatazo:  Enojo / Delacion.
-Fari§era:  Arma blanca de grandes dimensiones.
-Golpista:  Militar y adepto al golpe militar.
-Limpio:  Indigente. Libre de cuentas pendientes con la Justicia.
-Revirarse:  Enloquecer.
-Sabiola:  Cabeza.
-Chuca:  Ebriedad.
-Filado:  Embrollado.
-Matina:  Ma§ana, primera mitad del dia.
-Zapaba:  Trabajaba.
-Abacanado:  Presuntuosos.
-Boleta:  Hacer boleta, matar.
-Campana:  Ayudante del ladron que vigila.
-Canal:  Cicatriz de arma blanca en el rostro.
-Colibriyo:  loco, insensato, perturbado mental.
-Envinarse:  Embriagarse.
-Jabonearse:  Asustarse.
-Lunfardo:  Ladron, maleante.
-Manflorita:  Invertido.
-Morena:  Pistola.
-Revire:  Locura.
-Tablero:  Vidriera, escaparate. Traste, asentaderas.
-Terraja:  Vago.
-Baratieri:  Ocasion.
-Bulevar:  calle ancha con plazoleta en el medio.
-Cargada:  Mofa / Chance.
-Chacamento:  Robo.
-Fragote:  Rebelion militar.
-Nuria:  Voz infrecuente de significado incierto.
-Sofaifa:  Mujer.
-Torniyo:  Frio.
-Chantar:  Endilgar, enjaretar.
-Florearse:  Alardear, lucirse.
-Incendiar :  Denigrar.
-Incendiar :  Denigrar.
-Semaforo:  De mal agÅero.
-Viscachazo:  Ojeada, mirada.
-Aplicar:  Encarecer.
-Batifondero:  Alborotador.
-Chingar:  Errar, fracasar.
-Desbolar:  Alborotar, desordenar.
-Gay:  Invertido.
-Meresunda:  Droga.
-Orto:  Suerte.
-Pispear:  Percibir indirectamente algo con la vista o el oido.
-Pur- sang:  Frances, designacion de caballo pura sangre.
-Sobra:  Adular.
-Acamalador:  Taca§o.
-Al pucho:  De inmediato.
-Andante:  Peaton.
-Bolacero:  Mentiroso.
-Pato:  Pobre.
-Telo:  Albergue transitorio.
-Adornado:  Sobornado.
-Coco:  Cabeza.
-Coco:  Cocaina.
-Culata:  Bolsillo trasero del pantalon.
-Julepe:  Susto.
-Leona:  Beldad.
-Mistongueria:  Indigencia.
-Quemo:  Desprestigio, descredito (neologismo).
-Secante:  Aburridor.
-Tacho:  Reloj / Asentaderas. Taxi.
-Armarse:  Progresar, enriquecer.
-Cabulear:  Presentir, agorar.
-Calavera:  trasnochador, licencioso, desenfrenado.
-Elemento:  Mujer.
-Enchufado:  Apresado / Preocupado, enojado.
-Lurpiar:  Defraudar, estafar.
-Metido:  Endeudado.
-Pichibirlo:  Ni§o.
-Azotarse:  Arrojarse, decidirse.
-Bandera :  Aspaviento.
-Bandera :  Aspaviento.
-Biaba:  paliza.
-Bolsa, hacer:  Zurrar.
-Budin:  Mujer hermosa.
-Canuto:  Tubo de metal que los presos esconden dinero o droga.
-Casa del Pueblo:  Cementerio.
-Casoriado:  Casado.
-Chantunazo:  Informal, tramposo.
-Comision:  Soborno.
-Escamoteador:  Delincuente que opera por escamoteo, por rapido y habil ocultamiento de lo robado.
-Gabion:  Pretendiente, amante.
-Guarango:  Grosero, ordinario.
-Lonyipietro:  Tonto.
-Malanfio:  Asunto, hecho dudoso.
-Quilombo, tener:  Experiencia.
-Acomodado:  Recomendado.
-Atenti:  palabra que sirve para llamar la atencion o advertir de algun peligro.
-Biandazo:  Pu§etazo.
-Depa :  Departamento, generalmente, de soltero.
-Depa :  Departamento, generalmente, de soltero.
-Escarpiantes:  Zapatos.
-Guitarrear:  Improvisar con desconocimiento total.
-Jodon:  Burlon.
-Arranyar:  Castigar.
-Chiquilinada:  Chiquillada.
-Churrasca:  Beldad.
-Desechar:  Eliminar.
-Guri:  Chiquillo.
-Malandra :  Delincuente. Mal viviente en general.
-Malandra :  Delincuente. Mal viviente en general.
-Napiun:  Narigon.
-Rompebolas:  Fastidioso.
-Soga, dar:  Ventaja supuesta.
-Tropeadura:  Zurra.
-Zampar:  Enjaretar / Encajar.
-Cocinero:  Cinco pesos.
-Levantar:  Conquistar / Pagar / Reprender.
-Lorenzo:  Mujer sin atractivos.
-Palpitar:  Imaginar.
-Averia, de:  Malhechor.
-Biandun:  Pu§etazo.
-Caspera:  Cabeza.
-Corneta:  Alcahuete.
-Embalurdado:  Embrollado, enga§ado, enga§ar, embaucar.
-Empalmadores:  Cierto tipo de escamoteadores de naipes u objetos.
-Ensombrar:  Apresar.
-Estrilento:  Enojado.
-Guasada:  Groseria.
-Zaranda:  Zurra.
-Cabalete:  Bolsillo superior externo del saco.
-Calo:  Trozo.
-Calo:  Jerga de la delincuencia.
-Chaira:  Herramienta para afilar.
-Copar:  Afrontar.
-Cuadrado:  Ignorante.
-Cufa:  Carcel.
-Enchufe:  Predisposicion, preocupacion / Influencia.
-Garfios:  los dedos del punguista (ladron).
-Honda:  Tirador.
-Jeta, de:  Gratuitamente.
-Jiquero:  Delincuente que opera por medio de jicas, a distancia.
-Liso:  Proxeneta.
-Milonga:  Cabaret, baile, festin.
-Rechiflar:  Enloquecer, predisponer, perturbar.
-Rosca, entregar la:  Morir,.
-Ancu:  Como araca, voz de alarma.
-Batida:  Delacion.
-Cachirulo:  Candido.
-Canchereada:  Aspaviento, alarde.
-Chabona:  Mujer.
-Descuerear:  Chismear.
-Fajado:  Drogado.
-Mate:  Cabeza.
-Morfi:  Comida.
-Canero:  Relativo a la carcel.
-Chamuscado:  Enojado.
-Miron:  Ojos.
-Ventajear:  Prevalecer / Exceder.
-Amurado:  Abandonado.
-Buque sin mancada:  Disimulo.
-Jamon:  Violin.
-Manyado:  Conocido.
-Rifado:  Extenuado, Agotado.
-Taradez:  Torpeza.
-Torniquete:  instrumento que usan los escruchantes para forzar rejas.
-Viniso:  Borracho.
-Acoyarado:  Casado.
-Casatero:  Cumnilinguo.
-ChangÅi:  ventaja, enga§oso.
-Chauchon:  Tonto.
-Gayetear:  Echar, despedir.
-Lunfaverseante:  Poeta lunfa.
-Percantina:  Es la mujer cuando se hace referencia a su punto sexual.
-Piantar:  Quitar, dejar.
-Rafi§ar:  Robar.
-Taura:  Audaz.
-Astiyado:  Reparto de robo.
-Briyo:  Brillante.
-Churros:  Beldad.
-Dona:  Mujer.
-Enquilombar:  Desordenar.
-Gomia:  Forma versica de amigo.
-Mangar:  Sablear.
-Nasun:  Narigon.
-Pintusa:  Presencia, pinta, aspecto.
-Rana:  Vivo, listo.
-Baile:  Desorden (Merengue).
-Calandraca:  Achacoso, deteriorado.
-Fatigante:  Trabajador.
-Junar:  Mirar.
-Runflero:  Pandillero, gavillero.
-Tranquear:  Caminar, andar.
-Tungo:  Caballo (aferesis de matungo).
-Upa, de:  Gratuitamente.
-Apestiyado:  Zurrado.
-Batilana:  Alcahuete, delator.
-Canejo:  Caray! (interjeccion).
-Descangayado:  Achacoso, deteriorado.
-Jovato. Viejo.):  Ataud.
-Acoyarse:  Casarse.
-Bacanaje:  poderosos, oligarcas.
-Beguen:  Capricho amoroso con deseo vehemente; cari§o.
-Chimentero:  Chismoso, murmurador.
-Chispeado:  Achispado.
-Fiacun:  Haragan, Indolente.
-Jaula:  Vivienda de soltero / bandoneon / carcel.
-Reviente:  Accion de reventar. Deterioro o enfermedad.
-Santo:  Cortafrio.
-Tubo:  Telefono.
-Via, en la:  Indigencia.
-Barullero:  Alborotador.
-Chorlito:  Candido.
-Consumision:  Consumo.
-Croqueta:  Cabeza.
-Curda (Espa§ol):  Borrachera.
-Desmayarse:  Dormir.
-Fifar:  Fornicar.
-Hacer Sapo:  Fracasar.
-Masacre:  Asesinato.
-Mormoso:  Magullado.
-Piola:  Vivo, despierto, "abusado".
-Queso:  Tonto.
-Remaba:  Trabajaba esforzadamente.
-Verano:  VergÅenza.
-AlcagÅeteria:  Delacion.
-Dandy:  Correctos y buenos mozos.
-Deste§ir:  Traicionar informalmente.
-Embretado:  Encerrados.
-Trompa:  Patron.
-Adorno:  Soborno.
-Bichicome:  Tipo que juta desperdicios, vagabundo.
-Embrocantes:  Prismaticos.
-Garcador :  Informal, tramposo.
-Garcador :  Informal, tramposo.
-Matadero:  Albergue transitorio.
-Sueco (Espa§ol):  Desentendido.
-Tragada:  Estafa, fraude.
-Rabona:  Ratearse, espantarse.
-Achumarse:  Embriagarse.
-Clavar:  perjudicar.
-Cobrar:  Recibir castigo.
-Empelotado:  Confundido.
-Yigolo:  Individuo joven mantenido por una mujer mayor.
-Chabonazo:  Chabon.
-Chiquilin:  Chiquillo / Bolsillo chico del pantalon (adelante).
-Espirajusar:  Irse, huir.
-Fiyingo:  Arma blanca.
-Fulminante:  Fosforo.
-Otario:  Tonto, candido.
-Retacon:  De baja estatura y grueso.
-Viviyo:  Despabilado, astuto.
-Abanicarse:  Irse.
-Batimento:  Delacion.
-Brodo, al:  Arruinarse economicamente.
-Grillero:  Ladron que sustrae desde el grillo.
-Toco:  Paquete con dinero.
-Aceitosa:  Cabeza.
-Apiolado:  Despabilado.
-Araca:  Atencion! Cuidado.
-Bolada:  Ocasion.
-Carucha:  Cara.
-Cliente:  Candidato.
-Garfi§a:  Robo.
-Mangagases:  Dinero, pesos.
-Reversible:  Pancista.
-Cafua:  Carcel.
-Canyengue:  Arrabalero de baja condicion social, bailes con muchos cortes.Con ritmo estilizado.
-Compadre (adj.):  Bonito, coqueto.
-Delantero:  Senos.
-Dientudo:  Piano.
-Empilchado:  Vestido.
-Guiye:  Fraude / Locura.
-Mancusado:  Conocido.
-Quinta del §ato:  Cementerio.
-Rosca:  Desorden, pelea / Pu§etazo.
-Ventanas:  Ojos.
-Abanico:  Soplon / Agente policial.
-Batitu:  Delator.
-Carozos:  Ojos.
-Enchastrar:  Denigrar.
-Ambidextro:  Pederasta, activo y pasivo.
-Botonazo:  Alcahuete.
-Escabiado:  Borracho.
-Fangote:  Mucho, en cantidad.
-Marrusa :  Zurra, paliza, golpes.
-Marrusa :  Zurra, paliza, golpes.
-Merengue:  Afeminado / Desorden, lio.
-Mita y mita:  Por mitades.
-Neura:  Neurastenia.
-Velas:  mocos.
-Vigil:  Guardian.
-Catramina:  Armatoste, vehiculo desvencijado.
-Chusmear:  Chismear.
-Embolsicar:  Ahorrar mezquinando.
-Encanastar:  Apresar.
-Escurrirse:  Despabilarse.
-Joderse:  Perjudicarse.
-Morlacos:  Dinero.
-Prise:  Pulgarada de cocaina.
-Registradora:  Cabeza.
-Africar:  Entregar con fuerza.
-Atorra:  Vago, holgazan.
-Borrego:  Muchacho.
-Cachucha:  Crica.
-Cartabon:  Prontuario.
-Engrupimiento:  Engreirse.
-Festichola:  Fiesta.
-Fula:  Mujer sin atractivos.
-Gansada:  Tonteria.
-Isa:  Atencion.
-Malario:  Infortunio.
-Menesunda:  Droga / Desorden, lio.
-Pirar:  Irse, llevarse.
-Rata:  Novillos / Indigente.
-Adicion:  Factura de gastos del restaurante.
-Apaparse:  Desorientarse.
-Bicicleatear:  Eludir, trampa comercial.
-Chanceletas, en:  Abandonado.
-Coimear:  Sobornear.
-Conversa, la:  Conversacion.
-Fueyista:  Bandoneonista.
-Gavion:  Burlador que seduce a las mujeres.
-Jarangon:  Fiesta.
-Morlaco:  peso.
-Mostrador:  Senos / Experiencia.
-Refilar la vianda:  Castigar, golpear.
-Repartija:  Reparto de robo.
-Bocho:  Cabeza.
-Bocho:  Cabeza.
-Chamuya:  Habla.
-Chiquetero:  Exagerado, "largo".
-Deschavar:  Delatar, confesar.
-Franelero:  El que pasa el tiempo en una casa de tolerancia sin hacer uso de ninguna mujer.
-Garqueta:  Informal, tramposo.
-Garufa:  Diversion, fiesta. Muchacho divertido.
-Jonca:  Ataud.
-Mondonguera:  Estomago.
-Azotetis:  Somatizacion de origen psiquico.
-Bombear:  Fornicar. Estafar, defraudar.
-Circulado:  Baquiano, experto.
-Corcho:  Pancista.
-Frilan:  Tonto.
-Rascar:  Atrapar.
-Sobaquina:  Tufo axilar (olor).
-Achacado:  Achacoso.
-Bolearse:  Desorientarse.
-Currar:  Estafar.
-Esteta:  Invertido.
-Gruyos:  Pesos, dinero.
-Mujica:  Mujer.
-Timbo:  Zapato botin.
-Viyuyera:  Billetera, cartera.
-Abanicar:  Agente Policial.
 Abaragar:  Parar con el cuchillo los golpes del adversario.
-Atorado:  Atolondrado.
-Calotear:  Robar.
-Chirlo:  Bofetada.
-Embroque:  Mirada.
-Enchufarse:  Irritarse.
-Hijoputez :  Deslealtad, vileza.
-Hijoputez :  Deslealtad, vileza.
-Ranteria:  Indigencia.
-Bacanazo:  Refinado.
-Bailetin:  Fiesta bailable modesta.
-Betun:  Soborno.
-Cascarse:  Drogarse, doparse.
-Chupandina:  Borrachera.
-Enfundar:  Callar.
-Enyugar:  Encarcelar.
-Marusa:  Golpiza.
-Mejicaneada:  robo o atraco a contrabandistas u otros delincuentes apropiandose de su motin.
-Carpeta:  Categoria.
-Funche:  Sombrero.
-Quilombear :  Alborotar.
-Quilombear :  Alborotar.
-Viorsi:  Ba§o.
-Julepeado:  Asustado.
-Logi:  Gil.
-Ranfa§osa:  Raido, sucio.
-Taquera:  Bailarina contratada.
-Tayar:  Mandar, el que ordena.
-Trincar:  Agarrar, atrapar / Fornicar.
-Canillita:  chico vendedor de diarios en la via publica.
-Cantor:  Elegante / Alcahuete.
-Justiniano:  Escaso, limitado, justo.
-N.P. (No place):  Perdedor, sin figurar.
-Acomodo:  Influencia favorable.
-Archivado:  Encarcelado.
-Biorse:  ba§o.
-Corso:  Locura.
-Durazno:  Chambon.
-Enguantado:  Apresado.
-Flotador:  Pancista.
-Lufania:  La musa lunfa.
-Manguiyos:  Dinero.
-Mosaico:  Moza, mujer.
-Repuntar:  Progresar.
-Sacudir:  Decir, aclara.
-Semifusa:  Baston que utilizan los policias.
-Amarroto:  Amarrete / Taca§o.
-Bicicleta:  Elusion, trampa comercial.
-Brodo:  Estafa, fraude.
-Buchon:  persona delatora.
-Cafiolo:  Cantinflero, vivir de la mujer prostituta.
-Cafisho:  Gigolo, vividor.
-Embrocado:  Conocido.
-Escorchador:  Latoso, pesado.
-Maula (Espa§ol):  Cobarde.
-Sacar la chala:  Obtener dinero.
-Sultan:  Rufian.
-Apuntar:  Delatar / Conquistar amor.
-Bebestible:  Bebida alcoholica.
-Cuerito:  Dinero.
-Mamadero:  Bar, despacho de bebidas alcoholicas.
-Vagoneta:  Haragan, vago.
-Atorrantismo:  Vagancia.
-Catriela:  Mujer.
-Engrampar:  Atrapar, asir.
-Fatigar:  Trabajar esforzadamente. Andar, caminar.
-Montoto:  Personaje inexistente utilizado en el lenguaje popular.
-Orejero:  Obsecuente.
-Dechavar:  Delatar.
-Engayolado:  Preso.
-Guay:  Estafa, fraude.
-Raja:  Escapar, huir. Correr.
-Voracero:  Valenton.
-Ave Negra:  Abogado.
-Bolacear:  Mentir.
-Faninte:  Holgazan.
-Galleteao:  Rechazado o desairado por una mujer.
-Manyaca§a:  Borracho.
-Tela:  Dinero.
-Trajeado:  Vestido con traje.
-Brigido:  Tonto.
-Cabrero:  Enojado.
-Carata:  Desfachatado.
-Coca:  Cocaina.
-Enchufar:  Apresar / Acertar / Enjaretar.
-Marronazo:  Pu§etazo.
-Muerto:  Facturacion de gastos.
-Orejudo:  Conservador.
-Tilingo:  Cursi.
-Bandearse:  Fracasar.
-Fasear:  Fumar.
-Faseria:  Cigarreria.
-Gorrion:  Gorronero.
-Inflado:  Engreido / Fastidiado.
-Lechusear:  Agorar, dar mala suerte.
-Pierna:  Diestro, experimentado, habil.
-Pierna:  Individuo listo y habil.
-Shusheta:  Petimetre.
-Acomodar:  Recomendar, influenciar / Zurrar.
-Candidato:  Candido.
-Chacar:  Robar.
-Chala:  dinero.
-Chichipio:  Tonto.
-Engrasado:  Sobornado.
-Escasany:  Indigente, pobre.
-Fulmine:  Aciago, de mala suerte.
-Manyapapeles:  Abogado.
-Ponchazo:  Verdad, reto.
-Ranero:  Del barrio de Las ranas.
-Amarretismo:  Mezquindad.
-Bife:  Cachetada a mano abierta.
-Bondi:  Omnibus.
-Campaniya:  Alcahuete.
-Cojudo:  Valisnte, decidido.
-Fiolo:  Proxeneta.
-Garuga:  Llovizna.
-Malevo:  Peleador.
-Requintado:  Sombrero inclinado o ladeado.
-Robreca:  Inversion silabica de cabrero, enojadizo, enojado.
-Abotonado:  Casado (abrochado, acoyarado, casoriado).
-Botas, ponerse las:  Progresar.
-Crosta:  Chambon / Vago.
-Descarnada:  Muerte, la.
-Fayutear:  Enga§ar.
-Locatelli:  Loco.
-Lunfapoesia:  Poetica lunfa.
-Biabazo:  Pu§etazo.
-Cachaba:  Asia, atrapaba.
-Empapelar:  Sobornar.
-Guinchero:  Levanta juego.
-Musiqueros:  Musicos.
-Ronga, de:  Gratuitamente.
-Aceitado:  Sobornado.
-Achaco:  Robo.
-Batacazo:  Exito inesperado.
-Laburar:  Trabajar.
-Mangruyos:  Dinero, pesos.
-Milanesero:  Mentiroso.
-Minga:  Nada, no.
-Mono:  Enseres del linyera en un atado.
-Peinado:  Simulacion de corte o cambio de naipes, sin hacerlo.
-Alca:  Alcahuete.
-Apampada:  Desorientado.
-Empacar:  Ahorrar.
-Fanfa:  Ostentoso (Fanfarron).
-Lisa:  Flaca, descarnada.
-Marengos:  Dinero, pesos.
-Altiyo:  Cabeza.
-Cautivo:  Peso de moneda nacional.
-Comilon :  Sodomita.
-Comilon :  Sodomita.
-Espiro:  Escape, huida.
-Fajada:  Paliza.
-Filtrado:  Achacoso.
-Gasolero:  Economico, taca§o.
-Guapeando:  Valientemente.
-Mosca, quedarse:  Impasible, quieto.
-Naso:  Nariz.
-Raye:  Locura.
-Reventar:  Morir violentamente.
-Trucha:  Cara.
-Vichadores:  Ojos.
-Zurdo:  el corazon.
-Entubado:  Vestido, trajeado.
-Masacrar:  Matar, asesinar.
-Abrirse:  Apartarse, desviarse, hacerse a un lado.
-Atorranta:  Ramera.
-Borregada:  Muchachada.
-Canflia:  Proxenestismo, rufianismo.
-Carburar:  pensar, idear.
-Enconchado:  Enamorado apasionadamente.
-Misto:  Candido.
-Calentura:  Apetito sexual / Enojo.
-Cargosear:  Fastidiar.
-Compadrada:  Bravuconada, accion propia de un compadre o compadrito.
-Dilatar:  Confusion, desorden.
-Fanega:  Tonto.
-Tarugo:  De baja estatura.
-Tirar el carro:  Vivir a expensas de alguien.
-Yiradicta:  Ramera.
-Botoneo:  Delacion.
-Ca§ota:  Carcel.
-Carcaman:  italiano de mal aspecto.
-Entregador:  Alcahuete.
-Lenguaraz:  Tipo que practica el cunnilinguo.
-Molde, en el:  Quieto.
-Musica:  Cartera, billetera / Dinero.
-Percanta:  Mujer. Amante.
-Aguila :  Indigente.
-Aguila :  Indigente.
-Cargar:  Mofarse.
-Carpa:  Astucia.
-Cupula:  Cabeza.
-Escrushar:  Robar mediante llaves o elementos.
-Manijear:  Impulsar, influenciar.
-Metejonearse :  Enamoramiento.
-Metejonearse :  Enamoramiento.
-Changar:  Trabajar brevemente, trabajo pasajero.
-Chispear:  Observar / Mirar.
-Fumista:  Charlatan.
-Jeta:  Cara, rostro.
-Laburador :  Trabajador.
-Laburador :  Trabajador.
-Liendre:  Astuto, despabilado.
-•ato:  Tipo innominado.
-Oligarca:  Conservador.
-Rufino :  Rufian.
-Rufino :  Rufian.
-Sobrador:  Valiente, "castigador".
-Sorete:  Informal, tramposo, hombre de poco valor moral.
-Tongo:  Trampa, fulleria.
-Bolo:  Mentira.
-Brisco:  Invertido.
-Guapeada:  Guapeza.
-Hilo:  Telefono.
-Mancado:  Conocido.
-Naifa:  Jovencita, mujer.
-Najusar:  Echar / despedir / irse / observar.
-Sartenazo:  Azar, imprevisto.
-Vichenzo:  Tonto.
-Amarrete:  Taca§o.
-Bodegon (Esp.):  Taberna.
-Clavarse:  Perjudicarse.
-Cocinado:  Muerto, asesinado.
-Ensartarse:  Errar, fracasar.
-Hecho:  Ebrio.
-Lambeculos:  Obsecuente.
-Croto:  Vago.
-Entrevero:  Desorden, lio.
-Guiso:  Tonto.
-Tetera:  Sosten.
-Belin:  Nada.
-Blandengue:  Blando; alusion a una erencion a medida.
-Desgrilar:  Robar.
-Enfriar:  Matar.
-Gambeta:  Informalidad.
-Ratero:  Novillero / Ladron.
-Raviol:  Sobre con cocaina.
-Abombado:  Tonto.
-Banana, muy de la:  Excelente.
-Cirquero:  Paciente de comportamiento muy teatral.
-Enroscar:  Embrollar, enga§ar.
-Gayola:  Carcel.
-Mamchimbre :  Concubino.
-Mamchimbre :  Concubino.
-Marimba:  Zurra, paliza.
-Mufarse:  Aburrirse, malhumorarse.
-Abrir cancha:  Despejar el sitio de una contienda.
-Calabocear:  Apresar.
-Chingolo:  Candido.
-Claraboyas:  Ojos.
-Estarado:  Apresado.
-Fayuto o falluto:  Desleal, falso o falsificador / Ordinario, mala calidad.
-Grua:  Levanta juego clandestino / Ramera.
-GÅevudo:  Indolente.
-Mangos:  Pesos.
-Rante:  Aferesis de atorrante, vago y mal entretenido.
-Soprabito:  Sobretodo.
-Terraza:  Cabeza.
-Apunte:  Delacion.
-Bronca:  Rabia.
-Cien, numero:  Retrete.
-Opio:  Malhumor.
-Apedado:  Ebrio.
-Bardo, al:  Inutilmente.
-Catinga:  Tufo.
-Chantun:  Informal, tramposo.
-Escombrero:  Ostentoso.
-Gil:  Tonto.
-Macro:  Alcahuete que prostituye mujeres.
-Marquillado:  Se dice del naipe preparado de cierto modo tramposo.
-Torta:  Lesbiana.
-Corpi§o:  Sosten.
-Guita:  Dinero.
-Mancusar:  Conocer.
-Sensa:  Sin.
-Sobatina:  Roce amoroso.
-Tapamugre:  Sobretodo.
-Balurdo:  Mentira, embrollo, enga§ar.
-Escolasiarse:  jugarse, entregarse.
-Fundido:  Achacoso, indigente.
-Julepearse:  Asustarse.
-Liebre, correr la:  Padecer de hambre.
-Pinta (Espa§ol):  Tipo.
-Acu§ar:  Recomendar, favorecer.
-Batilio:  Alcahuete.
-Calenton:  Rijoso.
-Embetunar:  Sobornar.
-Escabiar:  Beber, tomar bebida alcoholica.
-Fruncirse:  Engreirse, asustarse.
-Mamarse:  Embriagarse.
-Muzarela:  Silencio.
-Sandia:  Cabeza.
-Carreteles:  A§os / Edad.
-Carrindanga:  Armatoste / Vehiculo desvencijado.
-Tranquilino:  Indolente.
-Aceite, tomarse el:  Irse rapidamente.
-Border:  Se dice del paciente fronterizo entre neurosis y psicosis.
-Caripela:  Cara.
-Choreo:  Robo.
-Ensartar:  Engatusar.
-Escolasar:  Jugar por dinero.
-Verdolaga:  Billete de diez pesos que circulo hasta 1947.
-Cusifai:  Tipo innominado.
-Galgueo:  Indigencia.
-Marote:  Cabeza.
-Matrero:  Fugitivo.
-Pamela:  Bombin, sombrero hongo.
-Purria:  Podra.
-Retobar:  Oponer.
-Solfeo:  Robo.
-Apronte:  Movimiento preliminar, entrenamiento, preparativos.
-Conventillo:  Casa de inquilinos. Casa de vecindad de aspecto pobre y de muchas habitaciones.
+Al pucho:  De inmediato.
 Empedarse:  Embriagarse.
-Facon (Espa§ol):  Cuchillo.
-Farrista:  Juerguista.
-Finir:  Morir.
-Gilimursi:  Tonto.
-Hinchabolas:  Cargoso.
-Lata:  Ficha metalica por la que la pupila canjeaba a la madame el dinero recibido por el cliente.
-Matasanos:  Medico.
-Papa:  Informacion beneficiosa; cosa hermosa, de gran calidad.
-Yurno:  Yorno, dia.
-Astiya:  Parte de robo.
-Cabula:  Cabala.
-Centro, tiene:  Experiencia.
-Chupadin:  Borracho.
-Entripao:  Amargura, intimidad.
-Fato:  Asunto, cuestion, "movida".
-Filo:  Estafa, fraude. Noviazgo. Novio, festejante.
-Franelear:  Roce amoroso.
-Lloron:  Violin.
-Menta:  Fama, voz u opinion acerca de un persona.
-Narigada :  Porcion de droga.
-Narigada :  Porcion de droga.
-Rolar:  Caminar acompa§ado / Funcionar, andar.
-Solfa:  Paliza.
-Bichoco:  Achacoso. De mucha edad o con apariencia a viejo.
-Crudo:  Chambon, torpe.
-Embolar:  Desordenar.
-Grilo:  Cartera.
-Mandamas:  Autoridad, patron, jefe.
-Oblar:  Pegar.
-Afilador:  Cortejante.
-Boliche:  Cantina.
-Cataplasma:  Latoso, fastidioso.
-Choclo:  Desorden, lio.
-Corno, un:  Nada, no importar / Ignorar adrede.
-Guada§ar:  Atrapar, ganar, asir, agarrar.
-Timba:  Juego.
-Tintacho:  Vino.
-Alpistero:  Ebrio.
-Bocado:  Soborno.
-Camorra:  pelea, ri§a.
-Chimento:  Chismerio.
-Colarse:  Gorronear.
-Despelotar:  Desordenar.
-Giliberto:  Tonto.
-Gorra, de:  Gratuitamente.
-Testamento:  Cabeza.
-Caraculico:  Enojado, pesimista.
-Carburadora:  Cabeza.
-Casta§a :  Pu§etazo.
-Casta§a :  Pu§etazo.
-Escolaseador:  Jugador por dinero, timbero.
-Estufar:  Fastidiar.
-Guiyar:  Estafar, defraudar.
-Mancarron:  Achacoso, viejo.
-Rufino:  Cornudo.
-Arrugarse:  Asustarse.
-Compadrear:  Baladronear, alardear.
-Dique:  Presuncion, vanidad.
-Falopero:  Drogadicto.
-Granfi§ar:  Robar.
-Sotreta:  Canalla, mentecato.
-Tragar:  Estafar, defraudar.
-Abotonarse:  Casarse.
-Academia:  Salones de baile, mujeres, tragos.
-Achuchado:  Asustado.
-Conga:  Fiesta.
-Cotorrear:  Chismear.
-Enyante:  Comida.
-Estancia:  Cortujo.
-Galguear:  Sentir apetito de algo.
-Raspar:  Reprender / Robar.
-Vaiven:  Cuchillo, arma blanca.
-Alacransar:  Hablar mal.
-Cantar:  Delatar. Confesar un delito.
-Caradura:  Desfachatado.
-Cayetano:  Callado.
-Chefun:  Aumentativo de funche, que es inversion silabica de Funge o Funyi, sombrero.
-Garua:  Llovizna.
-Luca:  Billete de mil pesos.
-Mechera:  Ladrona en tiendas.
-Viniyo:  Vino.
-Yugador :  Trabajador.
-Yugador :  Trabajador.
-Cachador:  Burlon.
-Catar:  Atrapar, agarrar.
-Embrocar:  Mirar, fijar la vista.
-Encanado:  Apresado.
-Estaro:  Carcel.
-Gambas:  Piernas.
-Mersa:  Conjunto de personas de baja condicion.
-Morocho:  Telefono.
-Peringundines:  Bailes, salones de barrio.
-Rastacuero:  Ostentoso.
-Tirado:  Indigente / Deprimido.
-Tumbado:  Deprimido.
-Serruchar:  Desprestigiar, perjudicar / Fornicar.
-Ti§uso:  Avaro.
-Transfuga:  Pancista, desleal.
-Trenzada:  Disputa.
-Avivato:  Despabilado, aprovechador.
-Biromista:  Levanta juego clandestino.
-Dar dique:  Enga§ar con falsas apariencias.
-Felpudo:  Obsecuente.
-Gayeta:  Desaire o rechazo de la mujer al que requiere su mano.
-Ranfi§ar:  Robar.
-Shacador:  Ladron.
-Aliviar:  Robar.
-Bejarano:  Viejo.
-Budinazo:  Beldad.
-Chirrinada:  Rebelion militar.
-Enguiyarse:  Prosperar, enriquecerse.
-Hinchar:  Fastidiar.
-Orejear:  Adular.
-Batidor:  Alcahuete.
-Berreta:  Ordinario. Cualquier objeto falsificado.
-Curro:  Estafa, fraude.
-Opio, dar el:  Despido.
-Cazote:  Pu§etazo, golpe.
-Chitrulo:  Tonto, "menso".
-Envinado:  Ebrio.
-Jeringa:  Fastidioso, cargoso / Rijoso.
-Pirao:  Insano.
-Punga:  Ladron.
-Purrete:  Ni§o.
-Quia:  Tipo innominado.
-Tintiyo:  Vino.
-Agrampar:  Atrapar, asir.
-Cabrear:  enojar, molestar con bromas de mal gusto.
-Encurdelarse:  Embriagarse.
-Faroles:  Ojos.
-Mamao:  Borracho.
-Mirantes :  Ojos.
-Mirantes :  Ojos.
-Atorrancia:  Vagancia.
-Cachiporra:  pegar.
-Casiorarse:  Casarse.
-Cerebrar:  Funcion mental.
-Entromparse:  Enojarse.
-Gaga:  viejo, arruinado, debilitado mentalmente.
-Gurda:  Excelencia, gran calidad.
-Marciano:  Idiota.
-Quilombera:  Alborotador.
-Zapar:  Trabajar esforzadamente.
-Bute:  Excelencia, gran calidad.
-Cachaciento:  despacioso, lento para ejecutar cualquier accion.
-Carbura:  Funciona.
-Chaquetero:  Pancista.
-Contreras:  Opositor.
-Manyamiento:  Reconocimiento policial.
-Quilombo:  Prostibulo, alborotar, perturbar.
-Secar:  Fastidiar.
-Acanalar:  Herir con arma blanca.
-Ainenti:  Piedritas (Juego de ni§os).
-Anduma:  Vamos.
-Bochinche:  Algarabia.
-Buzon:  Sodomita / Boca grande / Carcel.
-Chivarse:  enojarse.
-Entrompado:  Enojado.
-Pechazo:  Pedir prestado.
-Relache:  Interrupcion o ausencia.
-Violero:  Guitarrista.
-Buenudo:  Tonto.
-Buscapleitos:  Abogado.
-Cancherear:  Alardear.
-Chubasco:  Reprimido.
-Chupin:  Ebrio.
-Cuore:  Corazon.
-Reventar al burro:  Forzar un caja o un cajon que contiene dinero.
-Rompepeines:  Cabeza.
-Tambo:  Prostibulo.
-Trabucarse:  Confundirse.
-Canchero:  Conocedor, perito.
-Enyetar:  Agorar, dar mala suerte.
-Gavilan:  Picaflor, seductor.
-Ablandado:  Asustado / Sobornado.
-Avivado:  despabilado, desvergonzado.
-Envainar:  Clavar.
-Sobrado:  Conocido.
-Tololo:  Chabon.
-Barra Brava:  Pandilla.
-Chapar:  Agarrar, tomar, asir.
-Formar:  Pagar.
-Grillo:  Bolsillo lateral del pantalon.
-Hojaldra, de:  Gratuito.
-Mino:  Invertido.
-Moscarda:  Dinero.
-Retobarse:  Revelarse.
-Rua:  Calle.
-Ventolina:  Vento, dinero.
-Yeta:  Influjo malefico, suerte adversa.
-Alpedologia:  Hablar sobre un tema sin conocimiento.
-Canfinfla :  Rufian, proxeneta que explota a una sola mujer.
-Canfinfla :  Rufian, proxeneta que explota a una sola mujer.
-Chantapufi:  Informal, tramposo. Persona que contrae deudas sin intencion de saldarlas.
-Diquear:  Alardear.
-Jailaife:  Petimetre.
-Kilombo:  Prostibulo. Desorden, lio.
-Lentear:  Observar.
-Rayadura:  Locura.
-Abatatado:  Asustado.
-Bancar:  pagar.
-Desbrujulado:  Desorientado.
-Junado:  Conocido.
-Ladiya:  Fastidioso.
-Mistongo:  Humilde, insignificante.
-Pego:  Adhesivo.
-Reseco:  Sin dinero.
-Biabado:  Zurrado. Drogado.
-Calor:  VergÅenza.
-Charamusca:  Frusleria.
-Fusilado:  Deprimido.
-Patota:  pe§a, pandilla.
-Bogolico:  Tonto.
-Busca:  Picaro, despabilado / Ramera.
-Cocota:  Ramera.
-Cometa:  Soborno.
-Encurdelan:  Embriagan.
-Ensartenar:  Apresar.
-Forrado:  Adinerado.
-Reprise:  Reaparicion.
-Yugaba:  Trabajaba esforzadamente.
-Arrimado:  Amancebado.
-Fachinero:  Valiente, resoluto.
-Lompas:  Pantalones.
-Ortibar:  Ver, mirar, delatar.
-Bocon:  Soplon.
-Despe:  Desorden, lio.
-Empilchar:  Emperifollarse.
-La Pesada:  Sector del delito que agrupa a los pistoleros.
-Macanazo:  Mentira.
-Ostra:  Crica.
-Pebeta:  Muchacha.
-Salamin:  Tonto.
-Abocarse:  Precipitarse.
-Apuntador:  Batidor, delator.
-Azotea:  Cabeza ; tener gente en la azotea ; facultades mentales alteradas.
-Codeguin:  Tonto.
-Comunacho :  Comunista.
-Comunacho :  Comunista.
-Curdela:  Borracho / Borrachera.
-Embroncarse:  Enojarse.
-Enfarolado:  Ebrio. Tambien significa adornado, decorado.
-Fana:  Fanatico.
-Miti y miti:  Por mitades.
-•ata:  Nariz.
-Aceitunas, le dieron las:  Despido.
-Asnaf:  Por mitades.
-Blanca, la:  Cama.
-Bola:  Impotancia.
-Canasta:  Carcel.
-Colchonear:  Dormir, holguear.
-Empaquetado:  Embrollado.
-Firulete:  Adorno, mudanza exagerada en un bailarin.
-Jilguero:  Tonto.
-Joda:  Broma, mofa / Fiesta.
-Lunfardologia:  Inventario del lunfa.
-Mancada:  Yerro.
-Musa:  Mentira.
-Rosquete, entregar el:  Morir.
-Chiche:  Revolver.
-Enacarajinar:  Complicar.
-Espamento:  Aspaviento.
-Labia:  Facilidad para dialogar.
-Mamua:  Ebriedad.
-Pechador:  Sablista.
-Pillado:  Engreido.
-Cascote:  Achacoso, deteriorado.
-Chivo:  Barbado / Enojado.
-Encurdan:  Embriagan.
-Enfocar:  Observar, mirar.
-Gastar:  Mofarse.
-GÅevear:  Tontear.
-Jeteador:  Gorronero.
-Sardo:  Sargento.
-Tomado:  Borracho.
-Vivanco:  Despabilado, astuto.
-Viyuya:  Dinero.
-Antenas:  Orejas.
-Concurdaneo:  Colega del ebrio.
-Fortacho:  Fuerte, vigoroso.
-Fulera:  Fea.
-Guardar:  Apresar.
-Solari:  En soledad.
-Tosto:  Mentira.
-Afrecho:  Apetito sexual.
-Batistin:  indiscreto, incapaz de guardar un secreto.
-Bebe:  Prostibulo, quibebe.
-Facheta :  Cara.
-Facheta :  Cara.
-Floreo:  Alarde, aspaviento. Ademas significa aumento o disminucion del grabado del reves del naipe.
-Morfilar:  Comer.
-Votacen:  Centavo.
-Burrero:  Ladron de cajas registradoras.
-Chapetonada:  Torpeza, tonteria.
-Engrane:  Enojo.
-Farra:  Juerga.
-Turro:  Incapaz, inepto, necio.
-Bisagra:  Alcahuete.
-Caralisa:  Rufian, proxeneta.
-Cascara:  Aspaviento.
-Lampar:  Dar / pegar.
-Marmote:  Torpe.
-Meterse:  Encari§arse.
-Rasca :  Indigente.
-Rasca :  Indigente.
-Sobrante:  Sobretodo.
-Trepador:  Pancista.
-Aprontar:  Hacer correr los caballos de carrera.
-Chusmon:  Murmurador.
-Largavistas:  Prismaticos.
-Manga:  Sablazo / Mucho, gran cantidad.
-Pua:  Astuto, sagaz, piola.
-Royo:  Dinero / Charla, discurso.
-Yirar:  Andar.
-Amarro:  Taca§o.
-Cabrearse:  Enojarse.
-Embarrado:  Desprestigiado.
-Lunfo:  Alto.
-Lunfo:  Alto.
-Remar:  Trabajar esforzadamente.
-Achumado:  Ebrio.
-Esparo:  Colaborador del punguista distrayendo la vista.
-Faso:  Cigarrillos.
-Impermeable:  Preservativo.
-Maturrango:  Caballo viejo, achacoso, inutil.
-Vento:  Dinero.
-Arrugue:  Temor.
-Bicicletero:  Informal comercial.
-Empacador:  Taca§o.
-Mamado:  Ebrio.
-Payana:  Juego de habilidad que se practica con huesos de frutas y peque§as piedras.
-Rejilla, irse por la:  Morir.
-Sosegate:  Pu§etazo / Reprimenda.
-Ba§o:  Retrete.
-Camba:  forma vesrica de bacan.
-Cirujano:  Junta huesos, desperdicios.
-Guacho:  Huerfano.
-Rama, en la:  Indigencia.
-Solapear:  Adular.
-Aceitunas, cambiar el agua de las:  Orinar.
-Chorizo:  Ladron.
-Esguifuso:  Asqueroso, repugnante.
-Feites. Tajos en la cara, cortadas, charrasquinadas.:  Cafe.
-Manyar:  Comer. Darse cuenta.
-Merza:  Pe§a.
-Sequeira:  Indigente "De seco".
-Bodega:  Estomago.
-Espiante:  Escape, huida, partida, retirada.
-Mueble:  Albergue transitorio / Mujer.
-Trua:  Borrachera.
-Upite:  Asentaderas, Suerte.
-Yanta, en:  Indigente.
-Arrabal:  barrio de extramuros donde alguien canta o baila un tango.
-Huevos:  Testiculos.
-Linuso:  Perezoso.
-Rechalarse:  Es el verbo chalarse ìenloquecerseî con el prefijo re.
-Taca§un:  Amarrete.
-Vivo:  Despabilado, astuto.
-Acamalarse:  Amancebarse.
-Cachuso:  Achacoso, deteriorado.
-Costiya:  Mujer.
-Magallanes:  Tonto.
-Suertudo:  Afortunado.
-Untar:  Sobornar.
-Vagon, un:  Muchos, en cantidad.
-Cable, tirar un:  Socorrer.
-Encajar:  Enjaretar.
-Fideos:  Cabellos.
-Grata:  Ladron.
-Servir:  Zurrar. Golpear, acertar un pu§etazo.
-Tijeretear:  Chismear.
-Chorro:  Ladron.
-Forfait:  Falto de alguna cosa, dinero, salud, etc.
-Fosforera:  Cabeza.
-Fule:  Ordinario, mala calidad.
-Ranfi§a:  Robo / Ladron.
-Repe:  En el juego de bolitas, rebote.
-Verso:  Reiteracion constante.
-Ambiguo:  Afeminado.
-Carpetero:  Ducho, habilidoso.
-Colado:  Garron.
-Fayuta:  Falsa.
-Guaso:  Grosero.
-Morfetear:  Comer.
-Rebusques:  Medios de vida.
-Atorrante:  SinvergÅenza.
-Bombo:  Nalgas, asentaderas.
-Cascarazo:  Bofetada.
-Chucho:  Temor / Cabello.
-Cocina:  Estomago.
-Languido:  Indigente / pobre.
+Encopetinada:  Ebrio.
+Flotador:  Pancista.
 Menega:  Dinero.
-Mistificador:  Farsante, simulador.
-Bagayero:  Contrabandista.
-Bochin:  Cabeza.
-Buzarda:  barriga, panza, Estomago.
-Cajetear:  Estafar, defraudar.
-Canoas:  Zapatos.
-Coquitos:  Testiculos.
-Cuerear:  Chismear.
-Dragoneante:  Cortejante.
-Mistificar:  Defraudar, estafar.
-Descuidista:  Ladron que aprovecha el descuido de sus victimas.
-Feten:  Excelente.
-Tamangos:  Zapatos.
-Adobarse:  Embriagarse.
-Alacranear:  Chismosear.
-Canoa:  Carcel.
-Felpear:  Zurrar / Reprender.
-Jirafa:  Linterna.
-Mula:  Estafa, fraude.
-Ranfa§a:  Raido, sucio.
-Shiome:  Decadente, empobrecido.
-Ablandarse:  Asustarse.
-Catanga:  Persona de color.
-Dequera:  Alerta, atencion.
-Escruche:  Robo.
-Fesa:  Tonto.
-Junta:  Yunta.
-Morocha:  Pistola.
-Tarrudo:  Afortunado.
-Aceite, dar el:  Despido.
-Ca§azo:  Copula.
-Capacha:  Carcel.
-Hideputa:  Vastago de ramera.
-Aflojar:  Delatar.
-Escombro:  Ostentacion.
-Esquenun:  Vago.
-Gilardo :  Tonto.
-Gilardo :  Tonto.
-Rabiosa:  Pistola.
-Ragu:  Hambre.
-Abatatarse:  Asustarse.
-Acamalar:  Acaparar / Proteger / Atrapar, asir / Ahorrar mezquinando.
-Alcachofa:  Alcahuete.
-Borrado:  Retirado. Muerto.
-Buyon:  Alimento, comida.
-Mariano:  Valiente.
-Salir picando:  Correr.
-Biografo:  Aspaviento.
-Enculado:  Enojado.
-Faltazo:  Informalidad, falta a una cita o compromiso.
-Grupos:  Cuentos, mentiras.
-Hinchapelotas:  Fastidioso.
-Manija:  Influencia, poder.
-Runfla:  Gavilla, pandilla.
-Secarse:  Tronar.
-Valenciano:  Levantajuego.
-Caduta, la:  Decadencia.
-Craneo:  Cabeza / Inteligencia.
-Esco§ar:  Zurrar.
-Marchanta:  Arrebati§a.
-Sanguijuela:  Rufian.
-Desprendido:  Despreocupado, indiferente.
-Llenar:  Fastidiar.
-Blanco, la de:  Muerte.
-Convoy:  Casa de inquilinato.
-Datiles:  Dedos de las manos o pies.
-Deshilachado:  Deprimido.
-Escobero:  Guitarrista.
-Garabito:  Vago. Muchachito.
-Merlin :  Tonto.
-Merlin :  Tonto.
+Mufa:  Mal humor, fastidio, animo decaido, mala suerte.
 Nadadora:  Flaca, descarnada.
-Pingo:  Caballo.
+Olivo, dar el:  Despedir, Echar.
+Rama, en la:  Indigencia.
+Trotera:  Ramera.
+Amuro:  Carcel.
+Arranyar:  Castigar.
+Bodegon (Esp.):  Taberna.
+Carburadora:  Cabeza.
+Chirrinada:  Rebelion militar.
+Engrasado:  Sobornado.
+Grajera:  Atorrante distinguido, favorecido por los se§ores y familias.
+Guapear:  Afrontar.
+Guardar:  Apresar.
+Rascar:  Atrapar.
+Bola:  Impotancia.
+Caldosa:  Pu§etazo que provoca sangre.
+Esgunfiado:  Fastidiado.
+Fachatosta:  Desfachatado.
+Maturrango:  Caballo viejo, achacoso, inutil.
+Pichibirlo:  Ni§o.
+Timbo:  Zapato botin.
+Altiyero:  Excelente.
+Apaparse:  Desorientarse.
+Canoa:  Carcel.
+Claraboyas:  Ojos.
+Dolorosa:  Factura de gastos, generalmente, del restaurante.
+Dragonear:  Enamorar, cortejar.
+Duro:  Chambon.
+Enaje:  Huida, escape.
+Enculado:  Enojado.
+Falopiarse:  Drogarse.
+Gatiyar:  Pagar.
+Gay:  Invertido.
+Manyapapeles:  Abogado.
+Pechador:  Sablista.
+Verso:  Reiteracion constante.
+Ara§a:  Voz de alarma, lo mismo que araca.
+Balurdo:  Mentira, embrollo, enga§ar.
+Batilio:  Alcahuete.
+Chacabuco:  Enfermoso.
+Clines:  Cabellos largos y desprolijos.
+Cola:  trasero.
+Globo:  Mentira.
+Le§a :  Zurra, paliza.
+Le§a :  Zurra, paliza.
+Manyar:  Comer. Darse cuenta.
+Manyin:  Ebrio, consuetudinario.
+Regalado:  Indigente, pobre / Extenuado, vencido..
+Yigolo:  Individuo joven mantenido por una mujer mayor.
+Atorro:  Vivienda del tipo vago o del soltero.
+Chaira:  Herramienta para afilar.
+Corso:  Locura.
+Degoyar:  Estafar, defraudar.
+Garaba, Garabita:  Muchacha.
+Manu:  Tonto.
+Minaje:  Grupo de mujeres.
+Moscarda:  Dinero.
+Ranfa§osa:  Raido, sucio.
+Tropeadura:  Zurra.
+Atorra:  Vago, holgazan.
+Bocho:  Cabeza.
+Bocho:  Cabeza.
+Caminantes:  Zapatos.
+Canusa:  Afectivo de cana, carcel.
+Coroniya:  Cabeza.
+Enyugar:  Encarcelar.
+Escabiado:  Borracho.
+Faseando:  Fumando.
+Hincha:  Fanatico de una divisa o institucion.
+Martona:  Suerte / Senos.
+Mestizo:  Piano.
+Papa:  Informacion beneficiosa; cosa hermosa, de gran calidad.
+Regadera:  Crica / Cargoso, pesado.
+Zafar:  Escapar, librarse.
+Asnaf:  Por mitades.
+Banderudo:  Ostentoso.
+Chata:  Carruaje de caballos.
+Craneo:  Cabeza / Inteligencia.
+Funche:  Sombrero.
+Manguiyos:  Dinero.
+Marrusa :  Zurra, paliza, golpes.
+Marrusa :  Zurra, paliza, golpes.
+Murga:  Comparsa que actua en los carnavales con diversos instrumentos y vistosos trajes.
+Calar:  Observar; examinar atentamente.
+Matambre:  Muerto.
+Ortiba:  Delator.
+Croto:  Vago.
+Fasear:  Fumar.
+Llenarse:  Malhumorarse.
+Clinudo:  Pelilargo, desprolijo.
+Corneta:  Alcahuete.
+Fiambreria:  Cementerio.
+Hacer:  Robar.
+Mita y mita:  Por mitades.
+Burro:  Ignorante.
+Carreteles:  A§os / Edad.
+Chacado:  Enfermo.
+Mancarron:  Achacoso, viejo.
+Negraje:  Cafila, mersa.
+Buenudo:  Tonto.
+Corpi§o:  Sosten.
+Empiedrada:  Brillantes.
+Enguiyarse:  Prosperar, enriquecerse.
+Falopero:  Drogadicto.
+Guia:  Acomodo tramposo de una carta del mazo como referencia.
+Laicero :  Levanta juego (clandestino).
+Laicero :  Levanta juego (clandestino).
+Quilombear :  Alborotar.
+Quilombear :  Alborotar.
+Tortera:  Lesbiana.
+Buscaglia:  Buscavidas.
+Cafetear:  Reprender.
+Curro:  Estafa, fraude.
+Maceta:  Torpe.
+Bicicletero:  Informal comercial.
+Ca§os, a los:  Indigencia.
+Entrador:  Decidido, audaz.
+Fierrito:  Temor.
+Fragote:  Rebelion militar.
+Guardado:  Apresado.
+Levante:  Reprimenda / Conquista amorosa.
+Najar:  Irse / echar / despedir.
+Naranja:  Nada.
+Carrindanga:  Armatoste / Vehiculo desvencijado.
+Chumbo:  Balazo / Revolver.
+Mangar:  Sablear.
+Metido:  Endeudado.
+Abricola:  Distraido.
+Canero:  Relativo a la carcel.
+Mina:  Mujer.
+Mufarse:  Aburrirse, malhumorarse.
+Patota:  pe§a, pandilla.
+Sueco (Espa§ol):  Desentendido.
+Tayarin:  Banquero.
+Biandazo:  Pu§etazo.
+Biyuya:  Dinero.
+Cadenero:  Proxeneta.
+Circulado:  Baquiano, experto.
+Ensobrado:  Acostado / Apresado.
+Funcar:  Fornicar / Funcionar.
+La casa del pueblo:  Cementerio.
+Liquidado:  Asesinado.
+Muerto:  Facturacion de gastos.
+Roncar:  Mandar, ordenar.
+Aceitar:  Sobornar.
+Bolacero:  Mentiroso.
+Boncha:  Chabon, tonto.
+Cartabon:  Prontuario.
+Fari§era:  Arma blanca de grandes dimensiones.
+Guapeada:  Guapeza.
+Jugarse:  Arrojarse, intervenir.
+Ligar:  Recibir castigo.
+Pirao:  Insano.
+Requintado:  Sombrero inclinado o ladeado.
+Tostero:  Mentiroso.
+Acomodado:  Recomendado.
+Amarretear:  Mezquinar.
+Bisagra:  Alcahuete.
+Deschave:  Confesion. Apertura de una cerradura o cerrojo.
+Remos:  Piernas.
+Royito:  Ayuda memoria.
+Sosha:  Dinero.
+Biaba:  paliza.
+Cascote:  Achacoso, deteriorado.
+Chefun:  Aumentativo de funche, que es inversion silabica de Funge o Funyi, sombrero.
+Chirlo:  Bofetada.
+Colarse:  Gorronear.
+Compadre (adj.):  Bonito, coqueto.
+Empilchar:  Emperifollarse.
+Fiyingo:  Arma blanca.
+Garbia:  Llovizna.
+Goma:  Preservativo.
+Linyera:  Vagabundo / Enseres del linyera.
+Lunfardia:  Mundo del lunfa.
+Marengos:  Dinero, pesos.
+Oriyero:  Arrabalero, de las orillas.
+Sobrado:  Conocido.
+Zapayaso:  Azar, imprevisto / Pu§etazo.
+Caturo:  Agarro, tomo, capturo, comprendo.
+Culastro:  Sodomita.
+Desabrochado:  Despreocupado.
+Escombro:  Ostentacion.
+Gambetear:  Esquivar.
+Kukay:  Avecilla. Semejante al tordo.
+Manflorita:  Invertido.
+Matina:  Ma§ana, primera mitad del dia.
+Pifiar:  Errar. Dar un golpe en falso con el taco en la bola del billar.
+Piola:  Vivo, despierto, "abusado".
+Arreglo:  Soborno.
+Belin:  Nada.
+Bogolico:  Tonto.
+Budin:  Mujer hermosa.
+Capiya:  Cabeza.
+Dona:  Mujer.
+Empavonada:  Pistola.
 Rajar:  Despedir / Echar.
 Rajar:  Huir.
-Aspamento:  Ostentacion.
-Engranarse:  Enojarse.
-Furbante:  Informal, tramposo.
-Ganchos:  Dedos.
-Raje:  Escape / Huida.
-Breca:  Enojado.
-Faseando:  Fumando.
-Hornaya:  Nariz.
-Milonguera:  Joven cabaretera.
-Rayado:  Enloquecido.
-Careta:  Persona atrevida, desfachatada.
-Empavonada:  Pistola.
-Prontuario. Record, historia, archivo.arrasquinadas.:  Pulgarada de cocaina.
-Queco:  Prostibulo.
-Refundido:  Indigente, arruinado.
-Ablandar:  Sobornar.
-Alambrada:  Guitarra.
-Arbolito:  Levanta juego clandestino.
-Arrebezarse:  enojarse, insolentarse.
-Bandeado:  Indigente / Achacoso.
-Chancho:  Informal, tramposo, raido, sucio / inspector de transporte.
-Cotin, el:  Cama.
-Kaput:  Acto final, terminacion.
-Mamon:  Ebrio.
-Mistonguelaje:  Conjunto de gente, cosas o sucesos mistongos, pobres o humildes.
-Olivo, tomarse el:  Irse / Huir.
-Afiambrado:  Asesinado.
-Amachimbrado:  Amancebado.
-Avivada:  Viveza / Enga§ifa.
-Barra:  Palomilla.
-Boca de:  Trampa que permite ver la boca del mazo sobre una esponja.
-Cacheria:  Cursileria.
-Ca§os, a los:  Indigencia.
-Esputza:  Tufo, hedor.
-Ghirante:  Yirante, propio de las mujeres de vida aireada.
-Morder:  Cohechar.
-Ventolin:  Guita.
-Canusa:  Afectivo de cana, carcel.
-Chupado:  Borracho.
-Empinarse:  Embriagarse.
-Largar:  Delatar / Despedir, echar.
-Ligador:  Afortunado.
-Macanear:  Mentir.
-Mina:  Mujer.
-Cortado:  Indigente.
-Droguista:  Borracho.
-Engarfiar:  Atrapar.
-Estaribel:  Carcel.
-Gozar:  Mofarse.
-Nacarado:  Bandoneon.
-Quemado:  Desprestigiado.
-Sonar:  Morir / Errar, fracasar.
-Apoliyo:  Dormir.
-Boton, al divino:  Inutilmente.
-Cotizarse:  Pago o prorrateo.
-Crema:  Refinados, poderosos.
-Despiole :  Desorden, lio.
-Despiole :  Desorden, lio.
-Fayar:  Fracasar.
-Garron, de:  Gratuitamente.
-Liga:  Suerte / Agarra, atrapa.
-Matufia:  Embrollo con proposito de fraude.
-Mistonga:  pobreza.
-Negraje:  Cafila, mersa.
-Refilar:  Dar, entregar.
-Refliar:  Dar, entregar.
-Titear:  Mofarse, bromear.
-Calar:  Observar; examinar atentamente.
-Chalado:  Enamorado, apasionado.
-Purretada:  Chiquillada.
-Refistolear:  observar.
-Steca:  Soborno.
-Tarado:  Idiota.
-Tordo:  Abogado o medico.
-Alce:  Ocasion.
-Asfalto:  Experiencia.
-Espiche:  Charla / Muerte.
-Trolo:  Invertido, gay.
-Caliente:  Rijoso, enojado.
-Caraculismo:  Enojo, pesimismo.
-Caron:  Cara grande.
-Cogotudo:  Adinerado, oligarca.
-Formayo:  Muerte.
-Le§ar:  Zurrar.
-Mostaza:  Enojo.
-Trotadora:  Ramera.
-Zapayero:  Desordenado.
-Caldosa:  Pu§etazo que provoca sangre.
-Consulin :  Consultorio.
-Consulin :  Consultorio.
-Hacer:  Robar.
-Huesuda:  Muerte.
-Leones:  Pantalones.
-Melon:  Cabeza.
-Petisa:  Llave corta de tipo frances.
-Rechifle:  Enojo / Locura.
-Semblantear:  Observar fijamente.
-Sobre:  Cama.
-Tras carton:  Subitamente. Inmediatamente.
-Tilinguerio:  Cursileria.
-Bufonazo:  Balazo.
-Chumbazo:  Balazo.
-Ciruja:  persona que comercia con residuos.
-Cote :  Costado, lado.
-Cote :  Costado, lado.
-Escaso:  De baja estatura.
-Tracalada:  Multitud, gran numero de personas.
-Belinun:  Tonto.
-Chimenea:  Cabeza.
-Chirola:  Monedita.
-Fratachar :  Roce amoroso.
-Fratachar :  Roce amoroso.
-Quebracho:  Vino.
-Apoliyar:  Dormir, holgar.
-Facha:  Rostro, cara.
-Gileria:  Grupo de tontos.
-Grela:  mujer de medio ambiente. Mugre. Suciedad.
-Imbancable:  Insoportable.
-Lunfardia:  Mundo del lunfa.
-Royito:  Ayuda memoria.
-Atorrar:  Dormir / Vago / Mujer entregada al vicio.
-Bule:  Pu§etazo.
-Checonato:  Cheque.
-Chivo, olor a:  Tufo.
-Cu§a:  Influencia / Pene.
-Escupir:  Delatar.
-Esta§o:  Mostrador de boliches y bares.
-Fastras:  Pu§etazo.
-Inflar:  Hastiar, fastidiar.
-Musicante:  Musicos.
-Vuelo:  Experiencia.
-Cucha :  Cama.
-Cucha :  Cama.
-Machete:  ayuda memoria.
-Sabalaje:  Persona de baja condicion social.
-Versatil:  Pancista.
-Turra:  Ramera.
-Bachicha:  gordo, panzon. El que siempre piensa en comer.
-Cafirulo:  Rufian, proxeneta.
-Gayinero:  Popular.
-Zarzo:  Anillo.
-Compadrito:  Valenton, fanfarron.
-Embarrar:  Denigrar.
-Fingar:  Errar, fracasar.
-Firulo:  Prostibulo.
-Hinchun:  Fastidioso.
-Horizontal:  Cama.
-Jacobo:  Hebreo, judio.
-Mortadela:  Muerto.
-Yompa:  Pabellon.
-Fragotero:  Militar adepto a los golpes de Estado.
-Fulerin:  Fulero, malo, feo.
-Gigolo:  Rufian.
-Lunfa:  Lunfardo.
-Raje, dar el:  Despido.
-Achicar:  Acobardar.
-Capanga:  Jefe o capataz / Arbitrario / Autoritario.
-Culo:  Suerte / Infortunio.
-Fierrazo:  Coito.
-Gilun :  Tonto.
-Gilun :  Tonto.
-Milanesa:  Mentira.
-Sire:  En la hipica, se refiere al padrillo.
-Chafe :  Agente policial.
-Chafe :  Agente policial.
-Chingada:  Yerro.
-Escruchante:  Delincuente.
-Grasa:  Obrero, mersa.
-Hembraje:  Grupo de mujeres.
-Madama:  Regente de prostibulo.
-Mangazo:  Sablazo.
-Paco:  Envoltorio, paquete.
-Tocar:  Sobornar.
-A la gurda:  Refugio, guarida.
-Corajeando:  Audazmente, valientemente.
-Encopetinada:  Ebrio.
-Milongon:  Fiesta bailable.
-Paica:  Mujer.
-Repisas:  Senos.
-Aceitar los patines:  Prostituir, cafishiar.
-Banderudo:  Ostentoso.
-Carton:  Chabon.
+Relache:  Interrupcion o ausencia.
+Achumado:  Ebrio.
+Bestia:  Mujer (arcaismo).
 Chaucha:  Ocasion / pene / tonto / centavo.
-Chuperia:  Bar, despacho de bebidas alcoholicas.
-Limpiar:  Matar, asesinar / Robar.
-Mulero:  Fullero, tramposo.
-Segurola:  Seguro, exacto.
-Alfajia:  Alto.
-Bagre:  Estomago ("me esta picando el bagre" ).
-Chabonaje:  Tontos (Grupo).
-Rolete, a:  Mucho, en cantidad.
-Tacheria:  Relojeria.
-Achurar:  Asesinar.
-Cambuseria:  Poderosos, oligarcas.
-Chafalote:  Ordinario.
-Chivateli:  Barbado.
-Chuchi:  Muchacha.
-Chupamedias:  Obsecuente.
-Fruncido:  Engreido.
-Linusa:  Pereza.
-Marroco:  Pan.
-Sombrerera:  Cabeza.
-Batifondo:  Desorden, lho.
-Cachada:  Broma, mofa.
-Encurdarse:  Embriagarse.
-Garronero:  Gorron.
-Guia:  Acomodo tramposo de una carta del mazo como referencia.
-Soliviar:  Robar.
-Bagayito:  Equipaje.
-Calle:  Experiencia.
-Chanchada:  Vileza, deslealtad.
-Cucusa:  Cabeza.
-Esquina:  Experiencia.
-Kinotos:  Testiculos.
-Llantas:  Zapatos.
-Mersun:  Ordinario, rustico.
-Najar:  Irse / echar / despedir.
-Yunta:  Pareja, compa§ia.
-Amarrocar:  Atesorar.
-Bailongo:  baile nombrado despectivamente / desorden, pelea.
-Bufa:  Bujarron, sadomita.
-Cangrejo:  Sodomita.
-Chique:  Aspaviento.
-Coima:  Soborno.
-Fifi:  Galante.
-Guitarreada :  Charlataneria.
-Guitarreada :  Charlataneria.
-Leonera:  Deposito de detenidos.
-Mancar:  Entender, comprender.
-Mancar:  Fracasar en un robo al ser descubierto el ladron.
-Tachero:  Conductor de taxi, taxista.
-Acamala:  Guardar, cargar.
-Al bardo: .
-Carpetear:  Observar disimuladamente.
-Computadora:  Cabeza.
-Empedado:  Borracho.
-Shafo:  Policia uniformado.
-Arroyarse:  Asustarse.
-Bomba:  Beldad.
-Enquilombado:  Desordenado, confundido.
-Fulana:  Mujer innominada.
-Conserva:  Conservador.
+Cotorrear:  Chismear.
+Estrilo:  Enojo, rabieta.
+Fatigar:  Trabajar esforzadamente. Andar, caminar.
+Felpear:  Zurrar / Reprender.
+Listo:  Achacoso.
+•apar:  Atrapar, agarrar.
+Vivo:  Despabilado, astuto.
+Abrancar:  Atrapar.
+Apoliyo, de:  Durmiendo.
+Chanceleta:  Afeminado / Mujer.
+Excomunica:  infortunio reiterado.
+Mamadero:  Bar, despacho de bebidas alcoholicas.
+Opiarse:  Malhumorarse.
+Sanguijuela:  Rufian.
+Felpa:  Zurra.
+Gayeta, colgar la:  Despido.
+Jaula:  Vivienda de soltero / bandoneon / carcel.
+Misto:  Candido.
+Terraza:  Cabeza.
+Transfuga:  Pancista, desleal.
+Upa, de:  Gratuitamente.
+Achaco:  Robo.
+Amasijo:  Castigo, zurra.
+Fame:  Hambre, apetito.
+Fesa:  Tonto.
 Gancho, tener:  Atraccion / prestigio.
-Lavandero:  Abogado.
-Maleta:  Torpe, falto de habilidad y destreza.
-Abricola:  Distraido.
-Bocinazo:  Delacion.
-Deschave:  Confesion. Apertura de una cerradura o cerrojo.
-Ranchitos:  Casitas.
-Amuro:  Carcel.
-Cache:  Cursi.
-Chaludo:  Adinerado.
-Dante:  Bujarron, pederasta activo.
-Encoparse:  Embriagarse.
-Servicio:  Retrete.
-Chicato:  Miope, cegaton.
-Chupe :  Bebida alcoholica.
-Chupe :  Bebida alcoholica.
-Confite:  Balazo.
-Drogui:  Bebida alcoholica.
-Gurrumin:  Chiquillo, peque§o.
-Lofiar:  Estafar.
-Malanfiar. Comer.:  Comer / Defrauda
-Mangador:  Sablista, pedigÅe§o.
-Mestizo:  Piano.
-Oxidado:  Agotado, extenuado.
-Vichar:  Astibar, espiar.
-Arrugado:  Bandoneon / Asustado.
-Boga:  Abogado.
-Chapeta:  Chabon.
-Copo:  Hacerse cargo del riesgo y la responsabilidad consiguiente.
-Fachatosta:  Desfachatado.
-Manu:  Tonto.
-Peca:  Estafa organizada mediante trampas en juegos de azar.
-Remanyao:  Percibir, comprender, conocer.
-Reo:  Vagabundo, cachafaz.
-Roncar:  Mandar, ordenar.
-Llenarse:  Malhumorarse.
-Lunfardesco:  Relacionado con el lunfa.
-Mongo Aurelio:  Incredulidad. Personajes inexistentes utilizados en el lenguaje popular.
-Zapayaso:  Azar, imprevisto / Pu§etazo.
-Aceitunas, tomarse las:  Irse rapidamente.
-Alcaucil:  Alcahuete.
-De queruza:  Alerta, atencion.
-Salsa:  Paliza, zurra.
-Shuca:  Bolsillo exterior del saco.
-Ara§a:  Voz de alarma, lo mismo que araca.
-Chanta:  Informal, tramposo.
-Galerudo:  Refinado.
-Lechero :  Afortunado.
-Lechero :  Afortunado.
-Radicha :  Radical.
-Radicha :  Radical.
-Darique:  Invercion silabica de querida.
-Encordada:  Guitarra.
-Grajera:  Atorrante distinguido, favorecido por los se§ores y familias.
-Linyera:  Vagabundo / Enseres del linyera.
-Orto, como el:  Infortunio.
-Shacamento:  Robo.
-Sobre el pucho:  Ya, subitamente.
-Barbijo:  Cicatriz en el rostro causada por arma blanca.
-Bombon:  Beldad.
-Cepiyada:  Reprimenda.
-Encarador:  Valiente, decidido.
-Esquinazo:  Abandono.
-Fane (Frances):  Marchita.
-Guiya:  Estafa, fraude.
-I.B.M.:  Cabeza.
-Invernizzio:  Sobretodo.
-•aupa:  Antiguo,del tiempo del §aupa.
-Saque:  Pu§etazo, golpe.
-Sifon:  Nariz.
-Solfa, en:  Broma, mofa.
+Malario:  Infortunio.
+Raje:  Escape / Huida.
+Reprise:  Reaparicion.
+Tocar:  Sobornar.
+Cargar:  Mofarse.
+Catriela:  Mujer.
+Envinado:  Ebrio.
+Pebeta:  Muchacha.
+Bagayero:  Contrabandista.
 Boletero:  Mentiroso.
-Choto :  Achacoso /a.
-Choto :  Achacoso /a.
-Encocorarse:  Rebelarse.
-Enfriado:  Muerto.
-Estofado:  Hecho, asunto dudoso.
-Goma:  Preservativo.
-Ladrillo:  Ladron.
-Loro:  Mujer sin atractivos.
-Tomarselas:  Irse rapidamente.
-Viaraza:  Enojo, resentimiento.
-Boleteado:  Asesinado.
-Chichonear:  Bromear, mofarse de alguien.
-Manganeta:  Treta, enga§o.
-Raspa:  Reprimenda / Ladron.
-Atorniyar:  Ahorrar mezquinando.
-Batir:  Decir, delatar.
-Ciego:  Carente de dinero es termino de juego del truco.
-Coso:  Tipo, individuo.
-Dedo:  Alcahuete.
-Despachar:  Matar.
-Libreto:  Texto, cosa estudiada.
-Piba:  Chiquilla.
-Pucho:  Colilla.
-Refundir:  Liquidar, arruinar.
-Enchastre:  Desprestigio.
-Ensobrado:  Acostado / Apresado.
-Esgunfiado:  Fastidiado.
-Flaca, la:  Muerte.
-Gilada:  Grupo de tontos.
-Juiciosa, la:  Carcel.
-Justa, la:  Exacto.
-Mu§eca:  Experiencia, habilidad.
-Posta:  Magnifica.
-Asunto:  Mujer.
-Encanastado:  Preso.
-Globear:  Mentir.
-Sonatina, la:  Muerte.
-Agarrada:  Disputa.
-Bienudo:  Adinerado.
-Biyuyera:  Billetera, cartera.
-Copetudo:  Adinerado.
-Desconche:  Desorden, lio.
-Enjaular:  Apresar.
-Fuelle:  bandoneon.
-Masoquearse:  Castigarse.
-Mishiadura:  Indigencia, miseria, pobreza.
-Seisluces:  Revolver.
-Zumbarse:  Drogarse.
-Alfiler:  Arma blanca.
-Asoleado:  Chambon.
-Caminantes:  Zapatos.
-Cascarria:  Trompo viejo, ya inservible.
-Escrachado:  Zurrado.
-Laburo:  Trabajo.
-Manflora :  Invertido.
-Manflora :  Invertido.
-Nariguetearse:  Drogarse.
-Quinielero:  Levanta juego.
-Rostrear:  Quedarse dolosamente con el producto de un robo, estafando al complice.
-Arribe§o, de:  Gratuitamente.
-Bartolero:  Desordenado / Negligente.
-Cortada:  Calle.
-Desconectado:  Despreocupado.
-Fueyero:  Bandoneonista.
-Jabon:  Miedo, susto.
-La casa del pueblo:  Cementerio.
-Paralitico:  Automovil robado, impedido de circular.
-Pavadas:  tonterias.
-Retambufa:  Bujarron, homosexual activo.
-Tablon:  Experiencia.
-Telefunken:  Telefono.
-Brique:  Fosforo.
-Coneja, correr la:  Indigencia.
-Entra§udo:  Resoluto, valiente.
-Pelpa:  Papel (vesre). Envoltorio que contiene cocaina.
-Pifiar:  Errar. Dar un golpe en falso con el taco en la bola del billar.
-Remanye:  Perspicacia.
-Tronco:  Chambon, torpe.
-Baranda:  Olor desagradable.
-Beligerancia:  Dar, atender.
-Bolche:  Bolchevique, seguir doctrina comunista.
-Boleado:  Chambon, torpe. Desorientado.
-Cachusiento:  Achacoso, deteriorado.
-Entregar:  Delatar.
-Lleno:  Malhumorado.
-Malerba:  Ordinaria.
-•udo, al:  Inutilmente.
-Arrayar:  Arreglar.
-Broncar:  Enojarse.
-Guapo (Espa§ol):  Valiente.
-Guardabarros:  Orejas.
-Amueblada:  Albergue transitorio.
-Corte, darse:  Aspaviento.
-Cortina :  De baja estatura.
-Cortina :  De baja estatura.
-Fasules:  Dinero (Pesos).
-Femina:  Mujer.
-Macharse:  Embriagarse.
-Pesebre:  Prostibulo.
-Primus:  Calentador de mesa a Kerosen.
-Relojeado:  Conocido, observado.
-Sequia:  Indigencia.
-Yira :  Ramera.
-Yira :  Ramera.
-Atorrantear:  Vaguear.
-Remanchar:  Arruinar.
-Fierrito:  Temor.
-Inflarse:  Engreirse.
-Catrera:  Cama.
-Chapas:  Cabellos.
-Chabon:  Tonto.
-Duro:  Chambon.
-Gambetear:  Esquivar.
-Lechuza:  Agorero, tipo de mal agÅero.
-Tarumba:  Atontado, enloquecido.
-Estufado:  Fastidiado.
-Fanar:  Robar.
-Fletar:  Echar, despedir.
-Largo:  Alto.
-Lengo:  Pa§uelo de uso masculino.
-Movida:  Reprimenda.
-Sabionda:  Cabeza.
-Cuartelada :  Rebelion militar.
-Cuartelada :  Rebelion militar.
-Enchinchado:  Enojado.
-Estrole:  Zurra, paliza.
-Fane:  Desgastado, venido a menos.
-Lechero:  Billetera, cartera.
-Palmera:  Ruina.
-Rafa:  Invercion silabica de farra.
-Yugar:  Trabajar.
-Argoya:  Crica.
-Banca:  Influencia / Banquero.
-Bobo:  Reloj, corazon.
-Desenchufado:  Despreocupado.
-Escashato:  Achacoso.
-Escrushe:  Robo con violencia.
+Botas, ponerse las:  Progresar.
+Carburar:  pensar, idear.
 Espamentoso:  Ostentoso.
 Frangoyo:  Asunto turbio, dudoso.
-Maranfio:  Asunto, hecho dudoso.
-Matrimoniarse:  Casarse.
-Titeo:  Mofa, broma.
-Vinagriyo:  Vino.
-Bagayo:  Mujer desgarbada; paquete envoltorio; deportista torpe.
-Falopa:  Droga / cosa de poca calidad.
-Rantifuso:  Sucio, despabilado.
-Timbero:  Jugador por dinero.
-Alpisteria:  Bar, licoreria.
-Carpusa:  Experiencia.
-Chirusa:  Muchacha (despectivo).
-Jugarse:  Arrojarse, intervenir.
-Bigotear:  Observar fijamente.
-Bolilla:  Noticia, chisme.
-Enjetarse:  Enojarse.
-Espiantarse:  Irse, huir.
-Peleche:  Indumentaria.
-Avivar:  Advertir, despabilar.
-Guapear:  Afrontar.
-Martona:  Suerte / Senos.
-Salame:  Tonto.
-Sobrar:  Superar, humillar / Conocer sobradamente.
-Trapero:  Persona que junta desperdicios.
-Yeite:  Ocasion / Asunto / Asunto dudoso.
-Zaparrastrozo:  Andrajoso.
-Breva:  Beldad / Ocasion.
-Encanutar:  Guardar algo en un canuto, encerrar.
-Gili:  Corrido, astuto, experimentado.
-Hinchado:  Fastidiado.
-Trompeado:  Zurrado.
-Jamar:  Mirar fijamente.
-Refalar:  Dar, entregar / Robar.
-Emblecar:  Denigrar, difamar.
-Tachometro:  Reloj.
-Tole tole:  Alboroto, gresca.
-Analfa:  Ignorante.
-Atorradero:  Vivienda humilde del vago o soltero.
-Bolas, en:  Desnudo.
-Bombo, ir al:  Componenda.
-Enaje:  Huida, escape.
-Rancho:  Sombrero de paja.
-Rasposo:  Raido, sucio.
-Sotana:  Saco, prenda de vestir.
-Tortiyera:  Lesbiana.
-Camambuses:  Zapatos.
-Cascarriento:  Raido, sucio.
-Caturo:  Agarro, tomo, capturo, comprendo.
-Chacador:  Malhechor.
-Chichoneo:  Broma, mofa.
-Cocacolonizacion:  Coloniaje.
-Condon:  Preservativo.
-Desabrochado:  Despreocupado.
-Encornada:  Guitarra.
-Articulo, dar:  Atender.
-Cancel:  Verja o puerta que cierra el zaguan.
-Corajudo:  Valiente.
+Fulerin:  Fulero, malo, feo.
+Matufia:  Embrollo con proposito de fraude.
+Milonga:  Cabaret, baile, festin.
+Bailetin:  Fiesta bailable modesta.
+Blanca, la:  Cama.
+Cautivo:  Peso de moneda nacional.
+Colchonear:  Dormir, holguear.
 Cotorro:  Cuarto pobre.
-Esbornia:  Borrachera.
-Escrachamiento:  Reconocimiento, escudri§amiento.
-Garbia:  Llovizna.
-Jetudo:  Cara grande / enojado.
-Marroca:  Cadena del reloj.
-Alumbrante:  Fosforo.
-Chuza:  Latigo sin lonja.
-Garronear:  vivir a costa ajena.
-Naife:  Arma blanca.
-Tenacear:  Atrapar, agarrar.
-Tira:  Policia de investigacion.
-A§apar:  Atrapar.
-Apiolar:  Despabilar.
-Caferata:  Rufian, proxeneta.
-Mamerto:  Torpe.
-Tabas:  Piernas.
-Tanga:  Ocasion / Fraude, enga§o.
-Amasijado:  Asesinado / Zurrado.
-Ana-Ana:  Por mitades.
-Conejo:  Asistente social de la carcel.
-Mus:  Silencio.
-Quemera:  Mujer que trabaja en los vaciadores o quemas.
-Susheta:  Elegante.
-Vidrieras:  Prismaticos.
-Afanancio:  Ladron.
-China:  Mujer.
-Enfardar:  Ahorrar, mezquinar.
-Filar:  Embaucar / Observar detenidamente.
-Malandrinaje:  Delincuencia en general.
-Taba:  Destino, suerte.
-Agayudo:  Valiente.
-Cancha:  patio, corral o recinto mas o menos espacioso.
-Gratarola:  Gratuitamente.
-Manduque:  Comida.
-Olivo, dar el:  Despedir, Echar.
-Rascun:  Buscavidas.
-Apedarse:  Embriagarse.
-Cafa§a:  Rusticos, ordinarios.
-Entrancarse:  Embriagarse.
-Listo:  Achacoso.
-Madrugado:  Anticipado.
-Mishio:  Indigente.
-Mosca:  Dinero.
-Poligriyo:  Pelagato; hombre pobre y despreciable.
-Cimarron:  nombre con que se designa al mate amargo.
-Garufero:  Juerguista.
-Indiada:  Pandilla.
-Macana:  Locura, mentira, estupidez.
-Ojetudo:  Afortunado.
-Revesina:  Reves.
-Sucucho:  Vivienda de soltero.
-Tumbadero:  Albergue transitorio.
-Alacran:  Chismoso.
-Almanaques:  Edad, a§os.
-Bola, dar:  Atender, prestar atencion.
-Cabron :  Cornudo.
-Cabron :  Cornudo.
-Despegado:  Despreocupado.
-Entrancado:  Ebrio.
-Lienzos:  Pantalones.
-Mishe:  Hombre maduro que paga generosamente favores de mujeres.
-Reblan:  Achacoso, deteriorado.
-Chumbo:  Balazo / Revolver.
+Espirajusar:  Irse, huir.
+Gambeta:  Informalidad.
+Leona:  Beldad.
+Orto:  Suerte.
+Purria minga:  Expresion que significa ìno se podraî.
+Budinazo:  Beldad.
+Fanar:  Robar.
+Feten:  Excelente.
+Formativo:  baile en donde los bailarines debian pagar derecho de piso.
+Gruyos:  Pesos, dinero.
+Guasada:  Groseria.
+Jamar:  Mirar fijamente.
+Lata:  Ficha metalica por la que la pupila canjeaba a la madame el dinero recibido por el cliente.
+Aceitado:  Sobornado.
+Boyo:  Pu§etazo.
+Chabon:  Tonto.
+Desafrecharse:  Fornicar.
+Escrachar:  accion de poner en evidencia.
+Estarado:  Apresado.
+Languido:  Indigente / pobre.
+Lunfardo:  Ladron, maleante.
+Berreta:  Ordinario. Cualquier objeto falsificado.
+Campana:  Ayudante del ladron que vigila.
+Changa:  Trabajo breve.
 Clavado:  Exacto.
-Cuero:  Billetera, cartera.
-Funshe:  Sombrero.
-Manguero:  Sablista.
-Morfar:  Comer.
-Sario:  Comisario.
-Treinta y cinco:  En una de las claves numericas significa ìbombardeoî.
-Verduguearse:  Castigarse.
-Afiambrar:  Matar.
-Barato, un:  Ocasion.
-Camote:  Enamoramiento obsesivo.
-Cargador:  Promiscuo.
-Maria mu§eca:  Masturbacion.
-Mojar:  Atrapar, agarrar. Fornicar.
-Rea:  Ramera.
-Yuguiyo:  Cuello de camisa.
-Atrasado:  despistado, distraido, tonto.
-Batista:  Delator.
-Cogote:  Gratuitamente.
-Descolado:  Deteriorado, achacoso.
-Fica:  Crica.
-Fuleria:  Indigencia, ordinario, mala calidad / Deslealtad, viveza.
-Funcar:  Fornicar / Funcionar.
-Gato:  Indigente, pobre.
-Mariposon:  Afeminado / Galanteador, enamoradizo, voluble.
-Ratear:  Hacer novillos.
-Serpentina, tirar una:  Ayudar, socorrer.
-Afilar:  Festejar.
-Alpiste:  Bebida alcoholica.
-Alzarse:  Irse.
-Arriba, de:  Gratuitamente.
-Chorear :  Robar.
-Chorear :  Robar.
-Espor:  Ganancia, sport, dividendo turfistico.
-Gaita:  Gallego.
-Malandrino:  Delincuente.
-Rajado:  Despedido / Echado.
-Tirifilo:  Petimetre.
-Zapayo:  Cabeza.
-Basuriar:  Humillar.
-Bolido:  Tonto, lento.
-Cornelio:  Cornudo.
-Debute:  Excelente.
-Dinenti:  Cantillos (Juego de ni§os).
-Espirar:  Despedir.
-Jodido:  Achacoso, deteriorado / Maligno.
-Lola, no querer:  Despreocuparse.
-Matambre:  Muerto.
-Agrandado:  Ostentoso.
-Apoliyo, de:  Durmiendo.
-Capelun:  Aumentativo de capelo, sombrero.
-Lunfamania:  Costumbre de hablar en lunfa.
-Mu§equear:  Influenciar.
-Buraco:  Agujero.
-Camisulinero:  Especialista en sustraer desde el bolsillo del chaleco.
+Droguista:  Borracho.
+Espiantarse:  Irse, huir.
+Guiyar:  Estafar, defraudar.
+Madama:  Regente de prostibulo.
+Quia:  Tipo innominado.
+Rabiosa:  Pistola.
+Carnavales:  A§os / Edad.
+ChangÅi:  ventaja, enga§oso.
+Encanar:  Apresar, arrestar.
+Fingar:  Errar, fracasar.
+Guay:  Estafa, fraude.
+Masoquearse:  Castigarse.
+Testamento:  Cabeza.
+Viola:  Guitarra.
+Aceite:  Soborno.
+Chaquetero:  Pancista.
+Compadrito:  Valenton, fanfarron.
+Fane:  Desgastado, venido a menos.
+Fenomeno:  Obsecuente.
+Fula:  Mujer sin atractivos.
 Grasienta:  Billetera.
-Atracar:  Acercar, arrimar.
-Boletear:  Matar / Asesinar. Mentir.
-Brilllos:  Alhajas.
-Calalo:  Estudio de lo que se ha de robar.
-Cometar:  Boca.
-Guardado:  Apresado.
-Leche:  Suerte.
-Lora:  Mujer de costumbres livianas.
-Mangante:  PedigÅe§o, sablista.
-Moscon:  Fastidioso.
-Reventador:  Violador de cajas de caudales.
-Casimba:  cartera, billetera.
-Encamotarse:  Enamorarse apasionadamente.
-Engriyado:  Apresado.
-Guarangada :  Groseria.
-Guarangada :  Groseria.
-Le§a :  Zurra, paliza.
-Le§a :  Zurra, paliza.
-Lengue (italiano):  Pa§uelo.
-Masoca:  Masoquista o pesimista.
-Meneguina:  Dinero.
-Merluza:  Borrachera.
-Mersada:  Cafila, grupo mersa.
-Napia:  Nariz.
-Pavo:  Asentaderas.
-Queseras:  Medias.
-Remanyar:  Muy conocido. Conocer muy bien.
-Serva:  Sierva, famula.
-Borbona:  Guitarra.
-Cachar:  burlar, timar.
-Ensobrar:  Apresar.
-Excomunica:  infortunio reiterado.
-Fajar:  Castigar.
-Fierro:  Arma blanca.
-•apar:  Atrapar, agarrar.
-Olivo:  Despedirse.
-Pituco:  ni§o bien.
-Cadenero:  Proxeneta.
-Capiya:  Cabeza.
-Chipola:  Excelente.
-Dichero:  Cobista.
-Gui§e:  Infortunio.
-Malanfear:  Comer / Defraudar, estafar.
-Mordida:  Cohecho.
-Pavura:  Miedo.
-Schifrunista:  Ladron que actua en complicidad con una prostituta.
-Sonado:  Muerto / Loco.
-Viuda:  Billetera, cartera.
-Compadraje:  Grupo de compadres.
-Shacar:  Robar.
-Vejanco:  Viejo.
-Vovi :  Despabilado, astuto.
-Vovi :  Despabilado, astuto.
-Zafar:  Escapar, librarse.
-Calado:  Conocido.
-Gaman:  Manga.
-Groncho:  Ordinario, rustico.
-Pacoy:  Paco, paquete, atado.
-Balconear:  Observar, mirar.
-Cachetada :  Bofetada.
-Cachetada :  Bofetada.
+Joderse:  Perjudicarse.
+Pechazo:  Pedir prestado.
+Cafua:  Carcel.
+Encopado:  Ebrio.
+Piantao:  Loco, demente.
+Armarse:  Progresar, enriquecer.
+Descuerear:  Chismear.
+Entrevero:  Desorden, lio.
+Esquinazo:  Abandono.
+Oblar:  Pegar.
+Prontuario. Record, historia, archivo.arrasquinadas.˛:  Pulgarada de cocaina.
+Bardo, al:  Inutilmente.
+Batista:  Delator.
+Canuto:  Tubo de metal que los presos esconden dinero o droga.
+Chimenea:  Cabeza.
+Chingar:  Errar, fracasar.
+Engarfiar:  Atrapar.
+Entregar:  Delatar.
+Escarbadientes:  Arma blanca.
+Ligador:  Afortunado.
+Lofiar:  Estafar.
+•udo, al:  Inutilmente.
+Churrasca:  Beldad.
+Jabon:  Miedo, susto.
+Purrete:  Ni§o.
+Briyo:  Brillante.
+Grasa:  Obrero, mersa.
+Ablandar:  Sobornar.
+Felpeada:  Zurra, reprimenda.
+Ganchos:  Dedos.
+Guiye:  Fraude / Locura.
+Musica:  Cartera, billetera / Dinero.
+Purretada:  Chiquillada.
+Rosca, entregar la:  Morir,.
+Sardo:  Sargento.
+Baile:  Desorden (Merengue).
 Chapaliar:  Pisar, caminar.
+Espor:  Ganancia, sport, dividendo turfistico.
+Jetear:  Gorronear.
+Mersun:  Ordinario, rustico.
+N.P. (No place):  Perdedor, sin figurar.
+Nuria:  Voz infrecuente de significado incierto.
+Ratear:  Hacer novillos.
+Rejilla, irse por la:  Morir.
+Verdolaga:  Billete de diez pesos que circulo hasta 1947.
+Asoleado:  Chambon.
+Chiquilinada:  Chiquillada.
+Jeta:  Cara, rostro.
+Leones:  Pantalones.
+Pichicho:  Perrito.
+Rata:  Novillos / Indigente.
+Alfajia:  Alto.
+Atrasado:  despistado, distraido, tonto.
+Calalo:  Estudio de lo que se ha de robar.
+Engriyado:  Apresado.
+Millonaria:  Sifilis.
+Sobra:  Adular.
+Sultan:  Rufian.
+Achacador:  Malhechor.
+Bolsa, hacer:  Zurrar.
+Esparo:  Colaborador del punguista distrayendo la vista.
+Felpudo:  Obsecuente.
+Fiaca:  Pereza, holganza.
+Sandia:  Cabeza.
+Cajetear:  Estafar, defraudar.
+Largar:  Delatar / Despedir, echar.
+Pelpa:  Papel (vesre). Envoltorio que contiene cocaina.
+Encanado:  Apresado.
+Encurdan:  Embriagan.
+Filar:  Embaucar / Observar detenidamente.
+Ranero:  Del barrio de Las ranas.
+Tipa:  Carcel.
+Chabonazo:  Chabon.
+Chucho:  Temor / Cabello.
+Galerudo:  Refinado.
+Maula (Espa§ol):  Cobarde.
+Mus:  Silencio.
+Orejero:  Obsecuente.
+Turro:  Incapaz, inepto, necio.
+Aceite, dar el:  Despido.
+Afano:  Robo.
+Chupandina:  Borrachera.
+Despelotar:  Desordenar.
+Gilimursi:  Tonto.
+Mayorengo:  Oficial mayor (policia), comisario.
+Mula:  Estafa, fraude.
+Papusa:  Muy bonita.
+Queseras:  Medias.
+Sesenta y uno:  En una de las claves numericas significa ìenemigoî.
+Taca§uzo:  Avaro.
+Vinagriyo:  Vino.
+Asunto:  Mujer.
+Beguen:  Capricho amoroso con deseo vehemente; cari§o.
+Biandun:  Pu§etazo.
+Carata:  Desfachatado.
+Chipola:  Excelente.
+Faroles:  Ojos.
+Gayina:  Cobarde.
+Reviente:  Accion de reventar. Deterioro o enfermedad.
+Salamin:  Tonto.
+Sanata:  Hibrido oral, galimatias.
+Sombra:  Carcel.
+Bandera :  Aspaviento.
+Bandera :  Aspaviento.
+Brodo:  Estafa, fraude.
+Conversa, la:  Conversacion.
+Enchincharse:  Enojarse.
+Fangote:  Mucho, en cantidad.
+Faninte:  Holgazan.
+GÅevear:  Tontear.
+Pelechar:  Progresar.
+Segurola:  Seguro, exacto.
+Toldo:  Cabellera.
+Afilar:  Festejar.
+Borbona:  Guitarra.
+Cacheria:  Cursileria.
+Carpa:  Astucia.
+Chinchudo:  Enojado.
+Corcho:  Pancista.
+Ensartenar:  Apresar.
+Escolaseador:  Jugador por dinero, timbero.
+Gaita:  Gallego.
+Abanico:  Soplon / Agente policial.
+Chuperia:  Bar, despacho de bebidas alcoholicas.
+Escupir:  Delatar.
+Gurrumin:  Chiquillo, peque§o.
+Macanear:  Mentir.
+Borregada:  Muchachada.
+Cantor:  Elegante / Alcahuete.
+Chafalote:  Ordinario.
+Gorra, de:  Gratuitamente.
+Julepeado:  Asustado.
+Mangador:  Sablista, pedigÅe§o.
+Merlin :  Tonto.
+Merlin :  Tonto.
+Antenas:  Orejas.
+Bronca:  Rabia.
+Cafisho:  Gigolo, vividor.
+Checonato:  Cheque.
+Chingada:  Yerro.
+Facon (Espa§ol):  Cuchillo.
+Gansada:  Tonteria.
+Gorda, se armo la:  Enojo.
+Lisa:  Flaca, descarnada.
+Manflora :  Invertido.
+Manflora :  Invertido.
+Apuntador:  Batidor, delator.
+Blanbeta:  Charlatan.
+Ensartarse:  Errar, fracasar.
+Grata:  Ladron.
+Linuso:  Perezoso.
+Averia, de:  Malhechor.
+Chiquilin:  Chiquillo / Bolsillo chico del pantalon (adelante).
+Descangayado:  Achacoso, deteriorado.
+Feites. Tajos en la cara, cortadas, charrasquinadas.˛:  Cafe.
+Linusa:  Pereza.
+Macana:  Locura, mentira, estupidez.
+Masoca:  Masoquista o pesimista.
+Nisperos:  Pies.
+Amarrocar:  Atesorar.
+Apuntamento:  Conquista amorosa.
+Cuerear:  Chismear.
+Dar dique:  Enga§ar con falsas apariencias.
+Ladeado:  Enojado.
+Sequia:  Indigencia.
+Viyuya:  Dinero.
+Ave Negra:  Abogado.
+Buscapleitos:  Abogado.
+Envainar:  Clavar.
+Kinotos:  Testiculos.
+Lengo:  Pa§uelo de uso masculino.
+Marusa:  Golpiza.
+•aupa:  Antiguo,del tiempo del §aupa.
+Pucho:  Colilla.
+Ranterio:  Cafila, grupo mersa.
+Reventar:  Morir violentamente.
+Rula:  ruleta.
+Tololo:  Chabon.
+Tranquila, la:  Cama.
+Cabrero:  Enojado.
+Canejo:  Caray! (interjeccion).
+Enjetado:  Enojado.
+Gorrion:  Gorronero.
+Tachometro:  Reloj.
+Entromparse:  Enojarse.
+Enyante:  Comida.
+Guarda:  Atencion!.
+Lechero :  Afortunado.
+Lechero :  Afortunado.
+Acoyarado:  Casado.
+Mueble:  Albergue transitorio / Mujer.
+Tranquear:  Caminar, andar.
+Ventolin:  Guita.
+Yuto:  Desleal, falso / Policia de investigaciones.
+Alfiler:  Arma blanca.
+Amarrocador:  Taca§o.
+Beligerancia:  Dar, atender.
+Belinun:  Tonto.
+Conventillo:  Casa de inquilinos. Casa de vecindad de aspecto pobre y de muchas habitaciones.
+Empapelar:  Sobornar.
+Esta§o:  Mostrador de boliches y bares.
+Furbo:  Informal, tramposo, de mala entra§a.
+Ladrillo:  Ladron.
+Masacrar:  Matar, asesinar.
+Popa:  Asentadores.
+Ranteria:  Indigencia.
+Remar:  Trabajar esforzadamente.
+Tira:  Policia de investigacion.
+Acamala:  Guardar, cargar.
+Batata:  Temor.
+Brilllos:  Alhajas.
+Chapar:  Agarrar, tomar, asir.
+Codeguin:  Tonto.
+Narigueta:  Narigon.
+Refliar:  Dar, entregar.
+Royo:  Dinero / Charla, discurso.
+Tosto:  Mentira.
+Blandengue:  Blando; alusion a una erencion a medida.
+Chamuya:  Habla.
+Mosaico:  Moza, mujer.
+Pavura:  Miedo.
+Valeriano :  Vale del Turf.
+Valeriano :  Vale del Turf.
+Apiolarse:  Despabilarse.
+Ba§o:  Retrete.
+Cargador:  Promiscuo.
+GÅevon:  Tonto.
+Mixto:  Pederasta, ambidiestro.
+Sacar la chala:  Obtener dinero.
+Salame:  Tonto.
+Yiradicta:  Ramera.
+Ablandado:  Asustado / Sobornado.
+Chamuscado:  Enojado.
+Fifi:  Galante.
+Mejicaneada:  robo o atraco a contrabandistas u otros delincuentes apropiandose de su motin.
+Sobaquina:  Tufo axilar (olor).
+Adornado:  Sobornado.
+Calle:  Experiencia.
+Ca§o:  Vivienda de soltero.
+Chupamedias:  Obsecuente.
+Enchinchado:  Enojado.
+Batimento:  Delacion.
+Bocado:  Soborno.
+Cachirulo:  Candido.
+Chivatazo:  Enojo / Delacion.
+Corajeando:  Audazmente, valientemente.
+Festichola:  Fiesta.
+Matasanos:  Medico.
+Mojar:  Atrapar, agarrar. Fornicar.
+Reblan:  Achacoso, deteriorado.
+Suertudo:  Afortunado.
+Caduta, la:  Decadencia.
+Campaniya:  Alcahuete.
+Despachar:  Matar.
+Dragoneante:  Cortejante.
+Enfundar:  Callar.
+Fumista:  Charlatan.
+Groncho:  Ordinario, rustico.
+Maroma:  Situacion de riesgo, suscitarse.
+Araca:  Atencion! Cuidado.
+Cometar:  Boca.
+Computadora:  Cabeza.
+Lechuza:  Agorero, tipo de mal agÅero.
+Lora:  Mujer de costumbres livianas.
+Boleta, hacer la:  Matar.
+GÅevudo:  Indolente.
+Catar:  Atrapar, agarrar.
+Empilchado:  Vestido.
+Movida:  Reprimenda.
+Remanyao:  Percibir, comprender, conocer.
+Sebon:  Haragan, indolente.
+Yeta:  Influjo malefico, suerte adversa.
+Amarroto:  Amarrete / Taca§o.
+Cachucha:  Crica.
+Cien, numero:  Retrete.
+Corrido:  Baquiano.
+Fastras:  Pu§etazo.
+Gomera:  Tirador.
+Bate:  Delata.
+Desinflarse:  Asustarse.
+Largo:  Alto.
+Lavandero:  Abogado.
+Manguero:  Sablista.
+Tintacho:  Vino.
+Agayas, de:  Valiente.
+Arbolito:  Levanta juego clandestino.
+Arriba, de:  Gratuitamente.
+Chauchon:  Tonto.
+Inflar:  Hastiar, fastidiar.
+Minerva:  Mujer.
+Pilchas:  Ropa.
+Purria:  Podra.
+Seisluces:  Revolver.
+Viniyo:  Vino.
+Astiyado:  Reparto de robo.
+Cabrearse:  Enojarse.
+Desbolar:  Alborotar, desordenar.
+Estaro:  Carcel.
+Fajado:  Drogado.
+Atorrantismo:  Vagancia.
+Coneja, correr la:  Indigencia.
+Engayolado:  Preso.
+Estancia:  Cortujo.
+Fajada:  Paliza.
+Mirantes :  Ojos.
+Mirantes :  Ojos.
+Miti y miti:  Por mitades.
+Remaba:  Trabajaba esforzadamente.
+Taita:  Hombre valiente y audaz. Maton.
+Titear:  Mofarse, bromear.
+Churros:  Beldad.
+Cimarron:  nombre con que se designa al mate amargo.
+Joder:  Divertirse. Bromear, mofarse. Perjudicarse.
+Vovi :  Despabilado, astuto.
+Vovi :  Despabilado, astuto.
+Centro, tiene:  Experiencia.
+Coquitos:  Testiculos.
+Garronero:  Gorron.
+Jeteador:  Gorronero.
+Bolas, en:  Desnudo.
+Chivado:  Enojado.
+Chupado:  Borracho.
+Curdelin :  Borracho.
+Curdelin :  Borracho.
+Empacar:  Ahorrar.
+Matadero:  Albergue transitorio.
+Milongon:  Fiesta bailable.
+Mistongueria:  Indigencia.
+Rostrear:  Quedarse dolosamente con el producto de un robo, estafando al complice.
+Acu§ado:  Recomendado.
+Anduma:  Vamos.
+Arrugarse:  Asustarse.
+Barra:  Palomilla.
+Brodo, al:  Arruinarse economicamente.
+Cachada:  Broma, mofa.
+Chirola:  Monedita.
+Ciruja:  persona que comercia con residuos.
+Culata:  Bolsillo trasero del pantalon.
+Embroque:  Mirada.
+Enquilombar:  Desordenar.
+Gayola:  Carcel.
+Mangruyos:  Dinero, pesos.
+Verduguearse:  Castigarse.
+Caraculismo:  Enojo, pesimismo.
+Cerebrar:  Funcion mental.
 Chiflado:  Loco.
-Estrilado:  Enojado.
-Fiambreria:  Cementerio.
-Ladero:  Compa§ia.
-Liquidado:  Asesinado.
-Matufiero:  Informal, tramposo.
-Ranun:  Aumento de rana, que se dice de la persona astuta y avispada.
+Comilon :  Sodomita.
+Comilon :  Sodomita.
+Crosta:  Chambon / Vago.
+Desechar:  Eliminar.
+Peleche:  Indumentaria.
+Pingo:  Caballo.
+Trotadora:  Ramera.
+Aceitunas, tomarse las:  Irse rapidamente.
+Amueblada:  Albergue transitorio.
+Capanga:  Jefe o capataz / Arbitrario / Autoritario.
+Emputecer:  Indisponerse, enojarse.
+Escrachado:  Zurrado.
+Pierna:  Diestro, experimentado, habil.
+Pierna:  Individuo listo y habil.
+Salsa:  Paliza, zurra.
+Bichicome:  Tipo que juta desperdicios, vagabundo.
+Desquicio:  Desorden, lio.
+Empilche:  Traje, ropa.
+Jilguero:  Tonto.
+Malandrino:  Delincuente.
+Mangazo:  Sablazo.
+Percantina:  Es la mujer cuando se hace referencia a su punto sexual.
+Robreca:  Inversion silabica de cabrero, enojadizo, enojado.
+Brisco:  Invertido.
+Empinarse:  Embriagarse.
+Maleta:  Torpe, falto de habilidad y destreza.
+Tacheria:  Relojeria.
+Bocon:  Soplon.
+Bulin:  Habitacion, cuarto, aposento, vivienda de soltero.
+Calado:  Conocido.
+Camba:  forma vesrica de bacan.
+Marciano:  Idiota.
+Olivo, tomarse el:  Irse / Huir.
+Opio, dar el:  Despido.
+Rascun:  Buscavidas.
+Zapar:  Trabajar esforzadamente.
+Adobado:  Ebrio.
+Apedado:  Ebrio.
+Ca§azo:  Copula.
+Clavarse:  Perjudicarse.
+Fachada:  Cara.
+Farrear:  Divertirse / Mofarse.
+Fulera:  Fea.
+Morfar:  Comer.
+Palmera:  Ruina.
+Peringundines:  Bailes, salones de barrio.
+Azotetis:  Somatizacion de origen psiquico.
+Fruncirse:  Engreirse, asustarse.
+Hojaldra, de:  Gratuito.
+Manyamiento:  Reconocimiento policial.
+Olivetti:  Despido.
+Registradora:  Cabeza.
+Afilador:  Cortejante.
+Bochinche:  Algarabia.
+Farra:  Juerga.
+Raspa:  Reprimenda / Ladron.
+Tirifilo:  Petimetre.
+Tronco:  Chambon, torpe.
+Abotonarse:  Casarse.
+Bule:  Pu§etazo.
+Caralisa:  Rufian, proxeneta.
+Cargosear:  Fastidiar.
+Chantar:  Endilgar, enjaretar.
+Laburador :  Trabajador.
+Laburador :  Trabajador.
+Ojetudo:  Afortunado.
+Repe:  En el juego de bolitas, rebote.
+Caripela:  Cara.
+Mostaza:  Enojo.
+Mostrador:  Senos / Experiencia.
+Ventolina:  Vento, dinero.
+Esbornia:  Borrachera.
+Esco§ar:  Zurrar.
+Yugar:  Trabajar.
+Altiyo:  Cabeza.
+Esputza:  Tufo, hedor.
+Ranchitos:  Casitas.
+Capacha:  Carcel.
+Dura§ona:  Chambom.
+Macanudo:  Excelente.
+Masacre:  Asesinato.
+Ratero:  Novillero / Ladron.
+Rolar:  Caminar acompa§ado / Funcionar, andar.
+Velas:  mocos.
+Abocado:  Irreflexivo.
+Chumbazo:  Balazo.
+Franelero:  El que pasa el tiempo en una casa de tolerancia sin hacer uso de ninguna mujer.
+Ranfi§a:  Robo / Ladron.
+Achicar:  Acobardar.
+Bagaseta:  Ramera.
+Copar:  Afrontar.
+Empaquetar:  Embrollar / Ahorrar mezquinando.
+Grua:  Levanta juego clandestino / Ramera.
+Mancusar:  Conocer.
+Mate:  Cabeza.
+Mosca, quedarse:  Impasible, quieto.
+Paica:  Mujer.
+Acamalador:  Taca§o.
+Encufar:  Apresar.
+Escashato:  Achacoso.
+Fundas:  Medias.
+Llenar:  Fastidiar.
 Rechiflarse:  Enojarse.
+Agayudo:  Valiente.
+Chimentero:  Chismoso, murmurador.
+Chiquetero:  Exagerado, "largo".
+Fule:  Ordinario, mala calidad.
+Hijoputez :  Deslealtad, vileza.
+Hijoputez :  Deslealtad, vileza.
+Mangante:  PedigÅe§o, sablista.
+Sequeira:  Indigente "De seco".
+Tordo:  Abogado o medico.
+Agarrada:  Disputa.
+Estrolar:  Zurrar.
+Hinchaguindas:  Fastidioso.
+Chabonaje:  Tontos (Grupo).
+Chinchera:  Cama.
+Crudo:  Chambon, torpe.
+Estaribel:  Carcel.
+Mulero:  Fullero, tramposo.
+Rajado:  Despedido / Echado.
+Rifado:  Extenuado, Agotado.
+Rosquete, entregar el:  Morir.
+Apoliyo:  Dormir.
+Cusifai:  Tipo innominado.
+Monse§or:  Herramienta para violar cerraduras.
+Palmar:  Morir.
+Paralitico:  Automovil robado, impedido de circular.
+Tarumba:  Atontado, enloquecido.
+Zapaba:  Trabajaba.
+Calenton:  Rijoso.
+Desbolado:  Desordenado.
+Fortacho:  Fuerte, vigoroso.
+Gruyera:  Billetera.
+Juntapuchos:  Vago.
+Carpetero:  Ducho, habilidoso.
+Chamuyeta:  Charlatan, persona que habla de mas.
+Falopa:  Droga / cosa de poca calidad.
+Breca:  Enojado.
+Chabonada:  Torpeza.
+Desenchufado:  Despreocupado.
+Garron:  gratuito.
+Musa:  Mentira.
+Tocado:  Sobornado, enloquecido.
+Bacan:  Concubinario; hombre que mantiene una mujer; bien de plata.
+Bolacear:  Mentir.
+Canillita:  chico vendedor de diarios en la via publica.
+Entrancarse:  Embriagarse.
+Esco§ado:  Achacoso, deteriorado. Zurrado.
+Escrachamiento:  Reconocimiento, escudri§amiento.
+Garfi§a:  Robo.
+Malevaje:  Maleantes.
+Sesera:  Cabeza.
+Tajada:  Soborno.
+Vaiven:  Cuchillo, arma blanca.
+Calabaza:  Cabeza.
+Embroncarse:  Enojarse.
+Huesuda:  Muerte.
+Lunfo:  Alto.
+Lunfo:  Alto.
+Matete:  Desorden, lio.
+Retambufa:  Bujarron, homosexual activo.
+Taqueria:  Comisaria.
+Titeo:  Mofa, broma.
+Trenzada:  Disputa.
+Voracero:  Valenton.
+Enchastre:  Desprestigio.
+Mancado:  Conocido.
+Yugaba:  Trabajaba esforzadamente.
+Zarzo:  Anillo.
+Atorado:  Atolondrado.
+Banca:  Influencia / Banquero.
+Desbole:  Desorden, lio.
+Ensartar:  Engatusar.
+Espinchar:  Morir.
+Estaso:  Tonto.
+Facha:  Rostro, cara.
+Lenguaraz:  Tipo que practica el cunnilinguo.
+Manyaoreja:  Obsecuente.
+Acomodo:  Influencia favorable.
+Atorniyar:  Ahorrar mezquinando.
+Breva:  Beldad / Ocasion.
+Mancada:  Yerro.
+Morocho:  Telefono.
+Refistolear:  observar.
+Argoya:  Crica.
+Banda, en:  Indigente.
+Jodon:  Burlon.
+Locatelli:  Loco.
+Logi:  Gil.
+Miqueta:  Pu§etazo.
+Amargo:  Cobarde.
+Chitrulo:  Tonto, "menso".
+Encordada:  Guitarra.
+Mamua:  Ebriedad.
+Mishe:  Hombre maduro que paga generosamente favores de mujeres.
+Morocha:  Pistola.
+Pacoy:  Paco, paquete, atado.
+Refilar:  Dar, entregar.
+Yompa:  Pabellon.
+Adorno:  Soborno.
+Blanco, la de:  Muerte.
+Gileria:  Grupo de tontos.
+Madrugado:  Anticipado.
+Menesunda:  Droga / Desorden, lio.
+Sonar:  Morir / Errar, fracasar.
+Atorrante:  SinvergÅenza.
+Bacanazo:  Refinado.
+Careta:  Persona atrevida, desfachatada.
+Despiole :  Desorden, lio.
+Despiole :  Desorden, lio.
+Encanastar:  Apresar.
+Jailaife:  Petimetre.
+Manduque:  Comida.
+Matonear:  Intimidar.
+Montoto:  Personaje inexistente utilizado en el lenguaje popular.
+Quemera:  Mujer que trabaja en los vaciadores o quemas.
+Sabionda:  Cabeza.
+Yanta, en:  Indigente.
+Borrado:  Retirado. Muerto.
+Durazno:  Chambon.
+Espirar:  Despedir.
+Mamado:  Ebrio.
+Mersada:  Cafila, grupo mersa.
+Morlacos:  Dinero.
+Mu§eca:  Experiencia, habilidad.
+Pirar:  Irse, llevarse.
+Tongo:  Trampa, fulleria.
+Aceitar los patines:  Prostituir, cafishiar.
+Boletear:  Matar / Asesinar. Mentir.
+Camelo:  enga§o, trampa, farsa.
+Catanga:  Persona de color.
+Conejo:  Asistente social de la carcel.
+Lentear:  Observar.
+Pispear:  Percibir indirectamente algo con la vista o el oido.
+Revesina:  Reves.
+Sensa:  Sin.
+Tetera:  Sosten.
+Tortiyera:  Lesbiana.
+Alpedologia:  Hablar sobre un tema sin conocimiento.
+Alzarse:  Irse.
+Atracar:  Acercar, arrimar.
+Fayuto o falluto:  Desleal, falso o falsificador / Ordinario, mala calidad.
+Furbante:  Informal, tramposo.
+Gili:  Corrido, astuto, experimentado.
+Vidrieras:  Prismaticos.
+Hinchun:  Fastidioso.
+Limones:  Senos.
+Milonguita:  Mujer de vida aireada.
+Tenacear:  Atrapar, agarrar.
+Bagayo:  Mujer desgarbada; paquete envoltorio; deportista torpe.
+Boleto:  Mentira.
+Descolado:  Deteriorado, achacoso.
+Entubado:  Vestido, trajeado.
+Fayar:  Fracasar.
+Hocicar:  Flaquear.
+Hocicar:  Fracasar / Errar.
+Junar:  Mirar.
+Ropero:  Contrabajo.
+Baldosa :  Cabeza.
+Baldosa :  Cabeza.
+Boleta:  Hacer boleta, matar.
+Cirujano:  Junta huesos, desperdicios.
+Hacer Sapo:  Fracasar.
+Lonyipietro:  Tonto.
+Menta:  Fama, voz u opinion acerca de un persona.
+Ca§ota:  Carcel.
+Chamullar:  Conversar, murmurar.
+Corno, un:  Nada, no importar / Ignorar adrede.
+Cuerito:  Dinero.
+Encurdarse:  Embriagarse.
+Escolasar:  Jugar por dinero.
+Piantar:  Quitar, dejar.
+Sario:  Comisario.
+Sifon:  Nariz.
+Bagre:  Estomago ("me esta picando el bagre" ).
+Batistela:  Delator.
+Chusmaje:  Cafila.
+Delantero:  Senos.
+Golpista:  Militar y adepto al golpe militar.
+Maquina:  Beldad.
+Sucucho:  Vivienda de soltero.
+Tapamugre:  Sobretodo.
+Trapero:  Persona que junta desperdicios.
+Astiya:  Parte de robo.
+Cascarriento:  Raido, sucio.
+Corajudo:  Valiente.
+Forrado:  Adinerado.
+Mancusado:  Conocido.
+Retobarse:  Revelarse.
+Sotreta:  Canalla, mentecato.
+Trua:  Borrachera.
+Trucha:  Cara.
+Chirusa:  Muchacha (despectivo).
+Jovato. Viejo.):  Ataud.
+Justa, la:  Exacto.
+Mistonguelaje:  Conjunto de gente, cosas o sucesos mistongos, pobres o humildes.
+Canela:  Carcel.
+Fangos :  Zapatos.
+Fangos :  Zapatos.
+Filado:  Embrollado.
+Sire:  En la hipica, se refiere al padrillo.
+Depa :  Departamento, generalmente, de soltero.
+Depa :  Departamento, generalmente, de soltero.
+I.B.M.:  Cabeza.
+Ponchazo:  Verdad, reto.
+Atorrantear:  Vaguear.
+Chanchada:  Vileza, deslealtad.
+Charleta:  Charlatan, tipo que habla sin fundamento.
+Dedo:  Alcahuete.
+Esparragos:  Dedos.
+Jamon:  Violin.
+Lancear:  Robar.
+Lentazo :  Ojeada.
+Lentazo :  Ojeada.
+Lleno:  Malhumorado.
+Paco:  Envoltorio, paquete.
+Chapas:  Cabellos.
+Choclo:  Desorden, lio.
+Gilada:  Grupo de tontos.
+Quemar:  Desprestigiar. Matar con un arma de fuego.
+Amurado:  Abandonado.
+Carton:  Chabon.
+Cascara:  Aspaviento.
+Compadrear:  Baladronear, alardear.
+Fayutear:  Enga§ar.
+Fiambre:  Muerte.
+Guarangada :  Groseria.
+Guarangada :  Groseria.
+Labia:  Facilidad para dialogar.
+Meterse:  Encari§arse.
+Caraculico:  Enojado, pesimista.
+Cascada:  Zurra, paliza.
+Cocinero:  Cinco pesos.
+Cometa:  Soborno.
+Cachetada :  Bofetada.
+Cachetada :  Bofetada.
+Calentura:  Apetito sexual / Enojo.
+Cangrejo:  Sodomita.
+Ensillar:  Comenzar.
+Vejanco:  Viejo.
+Aguanti§ar:  Afrontar, soportar.
+Canal:  Cicatriz de arma blanca en el rostro.
+Carucha:  Cara.
+Cobrar:  Recibir castigo.
+Estrole:  Zurra, paliza.
+Gabion:  Pretendiente, amante.
+Guita:  Dinero.
+Alambrada:  Guitarra.
+Avivado:  despabilado, desvergonzado.
+Enconchado:  Enamorado apasionadamente.
+Fayuta:  Falsa.
+Galleteao:  Rechazado o desairado por una mujer.
+Lambeculos:  Obsecuente.
+Macro:  Alcahuete que prostituye mujeres.
+Maletro:  Se le llama al ladron de equipaje.
+Mamon:  Ebrio.
+Marronazo:  Pu§etazo.
+Sosegate:  Pu§etazo / Reprimenda.
+Yirar:  Andar.
+Achumarse:  Embriagarse.
+Estrolada:  Zurra, paliza.
+Galguear:  Sentir apetito de algo.
+Ranada:  Viveza.
+Sonsaje:  Grupo de tontos.
+Viscachear:  Observar disimuladamente.
+Agrandado:  Ostentoso.
+Avivada:  Viveza / Enga§ifa.
+Brigido:  Tonto.
+Cachusiento:  Achacoso, deteriorado.
+Faseria:  Cigarreria.
+Fideos:  Cabellos.
+Lloron:  Violin.
+Morondanga:  Naderia.
+Zurdo:  el corazon.
+Bandeado:  Indigente / Achacoso.
+Borrego:  Muchacho.
+Calabocear:  Apresar.
+Carpusa:  Experiencia.
+Chivarse:  enojarse.
+Crepar:  Morir.
+Emblecar:  Denigrar, difamar.
+Leonera:  Deposito de detenidos.
+Macanazo:  Mentira.
+Mersa:  Conjunto de personas de baja condicion.
+Rasca :  Indigente.
+Rasca :  Indigente.
+Enchufarse:  Irritarse.
+Laburar:  Trabajar.
+Milanesero:  Mentiroso.
+Tarrudo:  Afortunado.
+Yuta:  Personal policiaco.
+Abrir cancha:  Despejar el sitio de una contienda.
+Agachada:  Deslealtad, vileza.
+Barato, un:  Ocasion.
+Bondi:  Omnibus.
+Camisulinero:  Especialista en sustraer desde el bolsillo del chaleco.
+Cucha :  Cama.
+Cucha :  Cama.
+Drogui:  Bebida alcoholica.
+Envinarse:  Embriagarse.
+Escruche:  Robo.
+Garufero:  Juerguista.
+Hamacarse:  Trabajar esforzadamente.
+Violero:  Guitarrista.
+Bombear:  Fornicar. Estafar, defraudar.
+Espiantar:  Quitar.
+Frilo:  Tonto.
+Guitarreada :  Charlataneria.
+Guitarreada :  Charlataneria.
+Minerio:  Grupo de mujeres.
+Ranfa§a:  Raido, sucio.
+Tungo:  Caballo (aferesis de matungo).
+Atenti:  palabra que sirve para llamar la atencion o advertir de algun peligro.
+Capelo:  Sombrero.
+Embarrar:  Denigrar.
+Escruchante:  Delincuente.
+Garua:  Llovizna.
+Viviyo:  Despabilado, astuto.
+Abrirse:  Apartarse, desviarse, hacerse a un lado.
+Bomba:  Beldad.
+Farabute :  Ostentoso, fanfarron.
+Farabute :  Ostentoso, fanfarron.
+Grilo:  Cartera.
+Jugado:  Achacoso.
+Manijear:  Impulsar, influenciar.
+Melon:  Cabeza.
+Nacarado:  Bandoneon.
+Naifa:  Jovencita, mujer.
+Bolada:  Ocasion.
+Boleteado:  Asesinado.
+Chichipio:  Tonto.
+Ensuciar:  Denigrar, difamar.
+Kaput:  Acto final, terminacion.
+Taura:  Audaz.
+Adobarse:  Embriagarse.
+Alpisteria:  Bar, licoreria.
+Apedarse:  Embriagarse.
+Bufonazo:  Balazo.
+Chichoneo:  Broma, mofa.
+Colado:  Garron.
+Guitarrero:  Charlatan / Guitarrista.
+Invernizzio:  Sobretodo.
+Lapicero:  pasador clandestino de apuestas.
+Pamela:  Bombin, sombrero hongo.
+Refilar un lao:  Prepararlo para la trampa por sutil limado de bordes.
+Vamo y vamo:  Por mitades.
+Barbijo:  Cicatriz en el rostro causada por arma blanca.
+Batuque:  Desorden, lio, confusion.
+Choreo:  Robo.
+Farrista:  Juerguista.
+Mangagases:  Dinero, pesos.
+Marquillado:  Se dice del naipe preparado de cierto modo tramposo.
+Tarupido:  Tarado y estupido.
+Amarretismo:  Mezquindad.
+Bicicleta:  Elusion, trampa comercial.
+Descuidista:  Ladron que aprovecha el descuido de sus victimas.
+Enfarolado:  Ebrio. Tambien significa adornado, decorado.
+Gilardo :  Tonto.
+Gilardo :  Tonto.
+Manija:  Influencia, poder.
+Meresunda:  Droga.
+Zaparrastrozo:  Andrajoso.
+AlcagÅeteria:  Delacion.
+Encoparse:  Embriagarse.
+Malanfio:  Asunto, hecho dudoso.
+Matufiero:  Informal, tramposo.
+Neura:  Neurastenia.
+Bobo:  Reloj, corazon.
+Carbura:  Funciona.
+Fundido:  Achacoso, indigente.
+Raye:  Locura.
+Steca:  Soborno.
+Tayar:  Mandar, el que ordena.
+Vinacho:  Vino.
+Cojudo:  Valisnte, decidido.
+Elemento:  Mujer.
+Fresquete:  Frio.
+Musicante:  Musicos.
+Bulevar:  calle ancha con plazoleta en el medio.
+Cortado:  Indigente.
+Firulete:  Adorno, mudanza exagerada en un bailarin.
+Malevo:  Peleador.
+Mamchimbre :  Concubino.
+Mamchimbre :  Concubino.
+Melonazo:  Tonto.
+Mopio:  Tonto.
+Pesebre:  Prostibulo.
+Rea:  Ramera.
+Revire:  Locura.
+Seco:  Indigente, pobre.
+Zapayero:  Desordenado.
+Chanta:  Informal, tramposo.
+Embretado:  Encerrados.
+Enacarajinar:  Complicar.
+Lampar:  Dar / pegar.
+Abocarse:  Precipitarse.
+Ambidextro:  Pederasta, activo y pasivo.
+Cortada:  Calle.
+Fiolo:  Proxeneta.
+Firulo:  Prostibulo.
+Garca:  Tramposo, estafador.
+Napiun:  Narigon.
+Timbear:  Jugar.
+Vuelo:  Experiencia.
+Afiambrar:  Matar.
+Salir picando:  Correr.
+Tarros:  Zapatos, botin.
+Torniquete:  instrumento que usan los escruchantes para forzar rejas.
+Tragada:  Estafa, fraude.
+Caron:  Cara grande.
+Despelotado:  Desordenado.
+Encanutar:  Guardar algo en un canuto, encerrar.
+Frilan:  Tonto.
+Garfios:  los dedos del punguista (ladron).
+Globear:  Mentir.
+Guinchero:  Levanta juego.
+Mistificar:  Defraudar, estafar.
+Oligarca:  Conservador.
+Timba:  Juego.
+Treinta y cinco:  En una de las claves numericas significa ìbombardeoî.
+Baratieri:  Ocasion.
+Batifondero:  Alborotador.
+Bombon:  Beldad.
+Carcaman:  italiano de mal aspecto.
+Concurdaneo:  Colega del ebrio.
+Encornada:  Guitarra.
+Fasules:  Dinero (Pesos).
+Meneguina:  Dinero.
+Rebaje de naipe:  Trampa que consiste en preparar ciertos naipes con un minimo rebaje de sus bordes.
+Buque sin mancada:  Disimulo.
+Bute:  Excelencia, gran calidad.
+Chacar:  Robar.
+Guardabarros:  Orejas.
+Lateria:  Relojeria, joyeria.
+Macharse:  Embriagarse.
+Matungo:  Caballo viejo, achacoso, inutil.
+Quebracho:  Vino.
+Chalado:  Enamorado, apasionado.
+Diquear:  Alardear.
+Montonera:  Mucho, en cantidad.
+Sartenazo:  Azar, imprevisto.
+Charamusca:  Frusleria.
+Coco:  Cabeza.
+Coco:  Cocaina.
+Empacador:  Taca§o.
+Quemo:  Desprestigio, descredito (neologismo).
+Ventudo:  Adinerado.
+Alcachofa:  Alcahuete.
+Boleado:  Chambon, torpe. Desorientado.
+Engrupichir:  Enga§ar, engrupir.
+Pinta (Espa§ol):  Tipo.
+Atorranta:  Ramera.
+Boliche:  Cantina.
+Fuleria:  Indigencia, ordinario, mala calidad / Deslealtad, viveza.
+Ojito, de:  Gratuitamente.
+Semaforo:  De mal agÅero.
+Sorete:  Informal, tramposo, hombre de poco valor moral.
+Chimento:  Chismerio.
+Rascada:  Beneficio exiguo, trabajo ocasional.
+Runflero:  Pandillero, gavillero.
+Tole tole:  Alboroto, gresca.
+Aceitosa:  Cabeza.
+Cancherear:  Alardear.
+Chance:  Ocasion.
+Escobero:  Guitarrista.
+Falocrata:  Partidario de la falocracia.
+Manyado:  Conocido.
+Quiveve:  Prostibulo.
+Untar:  Sobornar.
+Aflojar:  Delatar.
+Border:  Se dice del paciente fronterizo entre neurosis y psicosis.
+Chispear:  Observar / Mirar.
+Chusmear:  Chismear.
+Cocinar:  Matar.
+Limosnero:  Ladron de alcancias de iglesias.
+Manguear:  Sablear. Pedir dinero.
+Retacear:  Mezquinar.
+Amarrete:  Taca§o.
+Canasta:  Carcel.
+Descarnada:  Muerte, la.
+Despiolado:  Desordenado.
+Facheta :  Cara.
+Facheta :  Cara.
+Milonguera:  Joven cabaretera.
+Mistificador:  Farsante, simulador.
+Tarro, mear fuera del:  Errar, equivocarse.
+Telefunken:  Telefono.
+A la gurda:  Refugio, guarida.
+Sobrar:  Superar, humillar / Conocer sobradamente.
+Alpistero:  Ebrio.
+Amarro:  Taca§o.
+Corte, darse:  Aspaviento.
+Crepo:  Murio.
+Fanfa:  Ostentoso (Fanfarron).
+Liebre, correr la:  Padecer de hambre.
+Lienzos:  Pantalones.
+Bataclana:  Mujer, artista de teatro con el pretexto de cantar y bailar.
+Caferata:  Rufian, proxeneta.
+Caspera:  Cabeza.
+Chafe :  Agente policial.
+Chafe :  Agente policial.
+Embarrado:  Desprestigiado.
+Enroscar:  Embrollar, enga§ar.
+Floreo:  Alarde, aspaviento. Ademas significa aumento o disminucion del grabado del reves del naipe.
+Jarangon:  Fiesta.
+Marroco:  Pan.
+Serruchar:  Desprestigiar, perjudicar / Fornicar.
+Tayador:  Banquero.
+Tigrero:  Audaz, valiente, que ejecuta accion temeraria.
+Bandola:  Bandoneon.
+Ensiyarse:  Enojarse.
+Enyetar:  Agorar, dar mala suerte.
+Pungia:  Hurto, perpetrado en el bolsillo de la victima.
+Ronga, de:  Gratuitamente.
+Sofaifa:  Mujer.
+Viscachazo:  Ojeada, mirada.
+Huevos:  Testiculos.
+Marroca:  Cadena del reloj.
+Mishio:  Indigente.
+Shome:  Indigente, pobre.
+Afanancio:  Ladron.
+Guapo (Espa§ol):  Valiente.
+Marchanta:  Arrebati§a.
+Rechipe:  Chispe, excelente, con prefijo aumentativo.
+Tarado:  Idiota.
+Abotonado:  Casado (abrochado, acoyarado, casoriado).
+Borrarse:  Irse.
+Desgrilar:  Robar.
+Enfriar:  Matar.
+Enjetarse:  Enojarse.
+Indiada:  Pandilla.
+Rechalarse:  Es el verbo chalarse ìenloquecerseî con el prefijo re.
+Achurar:  Asesinar.
+Camasutra:  Cama.
+Estofado:  Hecho, asunto dudoso.
+Metejon:  Cari§o, pasion, amor.
+Mordida:  Cohecho.
+Rati:  Policia de investigaciones.
+Sobre:  Cama.
+A§apar:  Atrapar.
+Arrugue:  Temor.
+Calo:  Trozo.
+Calo:  Jerga de la delincuencia.
+Canchero:  Conocedor, perito.
+Espiro:  Escape, huida.
+Kilo, esta un:  Excelente.
+Poligriyo:  Pelagato; hombre pobre y despreciable.
+Embagayar:  Embrollar.
+Gayetear:  Echar, despedir.
+Aguila :  Indigente.
+Aguila :  Indigente.
+Analfabestia:  Ignorante.
+Cafa§a:  Rusticos, ordinarios.
+Calandraca:  Achacoso, deteriorado.
+Cocinado:  Muerto, asesinado.
+Pego:  Adhesivo.
+Caradura:  Desfachatado.
+Clavar:  perjudicar.
+Encocorarse:  Rebelarse.
+Secante:  Aburridor.
+Ternera:  Mujer, jovencita.
+Chingolo:  Candido.
+Despelote:  Desorden, lio.
+Dopado:  Drogado.
+Enfardar:  Ahorrar, mezquinar.
+Buzarda:  barriga, panza, Estomago.
+Cabron :  Cornudo.
+Cabron :  Cornudo.
+Chapeta:  Chabon.
+Cupula:  Cabeza.
+Esquina:  Experiencia.
+Forrarse:  Progresar.
+Gayeta:  Desaire o rechazo de la mujer al que requiere su mano.
+Jetatore:  Infortunio, influencia malefica.
+Junta:  Yunta.
+Metejonearse :  Enamoramiento.
+Metejonearse :  Enamoramiento.
+Trabucarse:  Confundirse.
+Tumbado:  Deprimido.
+Zampar:  Enjaretar / Encajar.
+Chala:  dinero.
+Consulin :  Consultorio.
+Consulin :  Consultorio.
+Kilombificar:  Alborotar, complicar.
+Candidato:  Candido.
+Desbrujulado:  Desorientado.
+Desiderio:  Decidido.
+Escasany:  Indigente, pobre.
+Fane (Frances):  Marchita.
+Garpar:  pagar dinero o algunas cuentas de amor.
+Oxidado:  Agotado, extenuado.
+Raje, dar el:  Despido.
+Via, en la:  Indigencia.
+Aplicar:  Encarecer.
+Barra Brava:  Pandilla.
+Buraco:  Agujero.
+Galo:  Trozo.
+Jai:  Lechuguino, petimetre, abreviatura de jaileife.
+Jonca:  Ataud.
+Embolar:  Desordenar.
+Entra§udo:  Resoluto, valiente.
+Faca:  Arma blanca.
+Fletar:  Echar, despedir.
+Grillero:  Ladron que sustrae desde el grillo.
+Abanicarse:  Irse.
+Al bardo: .
+Cafiolo:  Cantinflero, vivir de la mujer prostituta.
+Cafirulo:  Rufian, proxeneta.
+Cascarse:  Drogarse, doparse.
+Casimba:  cartera, billetera.
+Enfriado:  Muerto.
+Viniso:  Borracho.
+Andante:  Peaton.
+Chocolatero:  Chabon.
+La Pesada:  Sector del delito que agrupa a los pistoleros.
+Mongo Aurelio:  Incredulidad. Personajes inexistentes utilizados en el lenguaje popular.
+Morder:  Cohechar.
+Arrastre:  Prestigio / Predicamento / Influencia.
+Cachuso:  Achacoso, deteriorado.
+Gozar:  Mofarse.
+Sabiola:  Cabeza.
+Soga, dar:  Ventaja supuesta.
+Tomado:  Borracho.
+Cargada:  Mofa / Chance.
+Formar:  Pagar.
+Grupos:  Cuentos, mentiras.
+Raviol:  Sobre con cocaina.
+Serpentina, tirar una:  Ayudar, socorrer.
+Verdurita:  Frusleria.
+Chupe :  Bebida alcoholica.
+Chupe :  Bebida alcoholica.
+Fanguyos:  Zapatos.
+Isa:  Atencion.
+Opa:  Idiota.
+Rastacuero:  Ostentoso.
+Refundir:  Liquidar, arruinar.
+Shacar:  Robar.
+Tirar el carro:  Vivir a expensas de alguien.
+Tomarselas:  Irse rapidamente.
+Avivarse:  Despabilarse.
+Biromista:  Levanta juego clandestino.
+Canguela:  Temor / Indigencia / Prostibulo.
+Canoas:  Zapatos.
+Chispeado:  Achispado.
+Embalurdado:  Embrollado, enga§ado, enga§ar, embaucar.
+Limpiar:  Matar, asesinar / Robar.
+Afrecho:  Apetito sexual.
+Africar:  Entregar con fuerza.
+Chabona:  Mujer.
+Chubasco:  Reprimido.
+Guiyado:  Adinerado.
+Jacobo:  Hebreo, judio.
+Empedado:  Borracho.
+Enchufar:  Apresar / Acertar / Enjaretar.
+Entregador:  Alcahuete.
+Fatigante:  Trabajador.
+Feba:  Mujer.
+Lunfaverseante:  Poeta lunfa.
+Quilombo, tener:  Experiencia.
+Tigre:  El que ejecuta una accion con energia y habilidad.
+Beberaje:  Bebida alcoholica.
+Bola, dar:  Atender, prestar atencion.
+Bolilla:  Noticia, chisme.
+Camote:  Enamoramiento obsesivo.
+Fierro:  Arma blanca.
+Finir:  Morir.
+Formayo:  Muerte.
+Justiniano:  Escaso, limitado, justo.
+Orto, como el:  Infortunio.
+Sonado:  Muerto / Loco.
+Toco:  Paquete con dinero.
+Tute:  Enojo.
+Acamalarse:  Amancebarse.
+Chorlito:  Candido.
+Chusmon:  Murmurador.
+Colgado:  Despedido, cesanteado.
+Confite:  Balazo.
+Copetudo:  Adinerado.
+Guitarrear:  Improvisar con desconocimiento total.
+Hinchapelotas:  Fastidioso.
+Muzarela:  Silencio.
+Retacon:  De baja estatura y grueso.
+Torniyo:  Frio.
+Trompa:  Patron.
+Valenciano:  Levantajuego.
+Barullero:  Alborotador.
+Casta§a :  Pu§etazo.
+Casta§a :  Pu§etazo.
+Chacador:  Malhechor.
+Honda:  Tirador.
+Marmote:  Torpe.
+Yoni:  Ingles.
+Abombado:  Tonto.
+Buchon:  persona delatora.
+Chacamento:  Robo.
+Deca:  Decadencia.
+Embrocantes:  Prismaticos.
+Maranfio:  Asunto, hecho dudoso.
+Marcha atras:  Invertido, gay.
+Morfetear:  Comer.
+Quinta del §ato:  Cementerio.
+Ventajear:  Prevalecer / Exceder.
+Bebestible:  Bebida alcoholica.
+Bichoco:  Achacoso. De mucha edad o con apariencia a viejo.
+Chuca:  Ebriedad.
+Cuartelada :  Rebelion militar.
+Cuartelada :  Rebelion militar.
+Fulana:  Mujer innominada.
+Laburo:  Trabajo.
+Lonyi:  Tonto.
+Manga:  Sablazo / Mucho, gran cantidad.
+Marimba:  Zurra, paliza.
+Sabandija:  Travieso, picaro.
+Taradez:  Torpeza.
+Articulo, dar:  Atender.
+Burros:  Caballos.
+Condon:  Preservativo.
+Gaman:  Manga.
+Gilun :  Tonto.
+Gilun :  Tonto.
+Impermeable:  Preservativo.
+Ostra:  Crica.
+Serva:  Sierva, famula.
+Aprontar:  Hacer correr los caballos de carrera.
+Arrebezarse:  enojarse, insolentarse.
+Batacazo:  Exito inesperado.
+Casoriado:  Casado.
+Ensombrar:  Apresar.
+Junado:  Conocido.
+Chaludo:  Adinerado.
+Fayada:  Yerro, fracaso.
+Feca:  Cafe.
+Manyaca§a:  Borracho.
+Mu§equear:  Influenciar.
+Pituco:  ni§o bien.
+Terraja:  Vago.
+Turra:  Ramera.
+Votacen:  Centavo.
+Atorradero:  Vivienda humilde del vago o soltero.
+Batir:  Decir, delatar.
+Boliya, dar:  Atender.
+Cogote:  Gratuitamente.
+Jeton:  Cara grande. Persona de cara grande y rasgos pronunciados.
+Rompebolas:  Fastidioso.
+Ojete:  Suerte.
+Yira :  Ramera.
+Yira :  Ramera.
+Empaquetado:  Embrollado.
+Engranarse:  Enojarse.
+Escrushar:  Robar mediante llaves o elementos.
+Guaso:  Grosero.
+Tirado:  Indigente / Deprimido.
+Tumba:  Trozo de carne hervido en agua, comida de las carceles.
+Vagoneta:  Haragan, vago.
+Garabito:  Vago. Muchachito.
+Gratarola:  Gratuitamente.
+Jetudo:  Cara grande / enojado.
+Milanesa:  Mentira.
+Morfeta:  Hermafrodita, invertido.
+Sobrador:  Valiente, "castigador".
+Taba:  Destino, suerte.
+Casiorarse:  Casarse.
+Chicato:  Miope, cegaton.
+Espiante:  Escape, huida, partida, retirada.
+Guarda, a la:  Mucho, en cantidad.
+Musiqueros:  Musicos.
+Afiambrado:  Asesinado.
+Bombo, ir al:  Componenda.
+Cantar:  Delatar. Confesar un delito.
+Chivateli:  Barbado.
+Contreras:  Opositor.
+Cortarse:  Retirarse, apartarse.
+Fachinero:  Valiente, resoluto.
+Petisa:  Llave corta de tipo frances.
+Pur- sang:  Frances, designacion de caballo pura sangre.
+Rechiflar:  Enloquecer, predisponer, perturbar.
+Siete:  Asentaderas.
+Alcancia:  Carcel.
+Baranda:  Olor desagradable.
+Cable, tirar un:  Socorrer.
+Capo:  Jefe.
+Cascarudo:  Valiente, decidido.
+Chorear :  Robar.
+Chorear :  Robar.
+Encajar:  Enjaretar.
+Mamerto:  Torpe.
+Miron:  Ojos.
+Semifusa:  Baston que utilizan los policias.
+Tijeretear:  Chismear.
+Arrabal:  barrio de extramuros donde alguien canta o baila un tango.
+Catrera:  Cama.
+Consumision:  Consumo.
+Despe:  Desorden, lio.
+Esteta:  Invertido.
+Lunfardologia:  Inventario del lunfa.
+Nariguetearse:  Drogarse.
+Posta:  Magnifica.
+Servicio:  Retrete.
+Tablon:  Experiencia.
+Torta:  Lesbiana.
+Cotizarse:  Pago o prorrateo.
+Estrilar:  Enojarse.
+Funyi: Sombrero.
+Giliberto:  Tonto.
+Rantifuso:  Sucio, despabilado.
+Shusheta:  Petimetre.
+Sonatina, la:  Muerte.
+Tubo:  Telefono.
+Acoyarse:  Casarse.
+Cayetano:  Callado.
+Chivato:  Alcahuete / Barbado.
+Fuelle:  bandoneon.
+Rufino :  Rufian.
+Rufino :  Rufian.
+Trepador:  Pancista.
+Yunta:  Pareja, compa§ia.
+Chancho:  Informal, tramposo, raido, sucio / inspector de transporte.
+Chiche:  Revolver.
+Cuero:  Billetera, cartera.
+Pua:  Astuto, sagaz, piola.
+Rolete, a:  Mucho, en cantidad.
+Tanga:  Ocasion / Fraude, enga§o.
+Viaraza:  Enojo, resentimiento.
+Amasijar:  Zurrar / Matar.
+Biabazo:  Pu§etazo.
+Cocota:  Ramera.
+Jabonearse:  Asustarse.
+Raspar:  Reprender / Robar.
+Verano:  VergÅenza.
+Bramaje:  Mujeres.
+Filo:  Estafa, fraude. Noviazgo. Novio, festejante.
+Merengue:  Afeminado / Desorden, lio.
+Reventador:  Violador de cajas de caudales.
+Bigotear:  Observar fijamente.
+Buyonear:  Comer.
+Cachiporra:  pegar.
+Canflia:  Proxenestismo, rufianismo.
+Cascarria:  Trompo viejo, ya inservible.
+Guiya:  Estafa, fraude.
+Hideputa:  Vastago de ramera.
+Bolearse:  Desorientarse.
+Engrampar:  Atrapar, asir.
+Esguifuso:  Asqueroso, repugnante.
+Espiche:  Charla / Muerte.
+Funda:  Preservativo.
+Guri:  Chiquillo.
+Hornaya:  Nariz.
+Lechusear:  Agorar, dar mala suerte.
+Matrimoniarse:  Casarse.
+Refundido:  Indigente, arruinado.
+Rua:  Calle.
+Sombrerera:  Cabeza.
+Abatatarse:  Asustarse.
+Berretin:  Capricho, ilusion.
+Dante:  Bujarron, pederasta activo.
+Diqueo:  Aspaviento.
+Fica:  Crica.
+Fosforera:  Cabeza.
+Trompeado:  Zurrado.
+Arrayar:  Arreglar.
+Campante:  despreocupado, impavido.
+Curado:  Ebrio.
+Hilo:  Telefono.
+Rantifusa:  Despreciable, vil.
+Trolo:  Invertido, gay.
+Alca:  Alcahuete.
+Ambiguo:  Afeminado.
+Enchufado:  Apresado / Preocupado, enojado.
+Gaga:  viejo, arruinado, debilitado mentalmente.
+Garqueta:  Informal, tramposo.
+Garron, de:  Gratuitamente.
+Infante:  Peaton.
+Malandra :  Delincuente. Mal viviente en general.
+Malandra :  Delincuente. Mal viviente en general.
+Cocacolonizacion:  Coloniaje.
+Debute:  Excelente.
+Solfa, en:  Broma, mofa.
+Tracalada:  Multitud, gran numero de personas.
+Batidor:  Alcahuete.
+Cajetiya:  Petimetre.
+Encajado:  Endeudado.
+Encanastado:  Preso.
+Fragotero:  Militar adepto a los golpes de Estado.
+Peca:  Estafa organizada mediante trampas en juegos de azar.
+Quinielero:  Levanta juego.
+Zarpar:  Irse rapido.
+Batistin:  indiscreto, incapaz de guardar un secreto.
+Bocina:  Alcahuete.
+Camorra:  pelea, ri§a.
+Enjaular:  Apresar.
+Entrompado:  Enojado.
+Reventar al burro:  Forzar un caja o un cajon que contiene dinero.
+Azotarse:  Arrojarse, decidirse.
+Cartero:  Delincuente que coloca y revisa el ìcorreoî.
+Cuete:  Balazo.
+Empelotado:  Confundido.
+•ato:  Tipo innominado.
+Aceite, tomarse el:  Irse rapidamente.
+Bicicleatear:  Eludir, trampa comercial.
+Bonafide:  Candido.
+Canyengue:  Arrabalero de baja condicion social, bailes con muchos cortes.Con ritmo estilizado.
+Cocina:  Estomago.
+Comunacho :  Comunista.
+Comunacho :  Comunista.
+Gui§e:  Infortunio.
+Jodido:  Achacoso, deteriorado / Maligno.
+Rayado:  Enloquecido.
+Reseco:  Sin dinero.
+Ainenti:  Piedritas (Juego de ni§os).
+Calotear:  Robar.
+Enchufe:  Predisposicion, preocupacion / Influencia.
+Boton:  Agente policial, guardia.
+Bufoso:  Revolver.
+Cachar:  burlar, timar.
+Calce:  Ocasion.
+Caliente:  Rijoso, enojado.
+Chapetonada:  Torpeza, tonteria.
+Cu§a:  Influencia / Pene.
+Fratachar :  Roce amoroso.
+Fratachar :  Roce amoroso.
+Frio:  Vanidad.
+Sacudir:  Decir, aclara.
+Telo:  Albergue transitorio.
+Choto :  Achacoso /a.
+Choto :  Achacoso /a.
+Chupar:  Beber.
+Chupin:  Ebrio.
+Formador:  El que paga.
+Lunfapoesia:  Poetica lunfa.
+Matrero:  Fugitivo.
+Morfi:  Comida.
+Quilombera:  Alborotador.
+Acu§ar:  Recomendar, favorecer.
+Garufear:  Divertirse.
+Granfi§ar:  Robar.
+Metido :  Enamorado apasionadamente.
+Metido :  Enamorado apasionadamente.
+Shacador:  Ladron.
+Dientudo:  Piano.
+Guillar:  Cosechar, hacer ganancia.
+Piba:  Chiquilla.
+Pintusa:  Presencia, pinta, aspecto.
+Remanchar:  Arruinar.
+Shacamento:  Robo.
+Bolo:  Mentira.
+Breto:  Sobretodo / Ataud.
+Canfinfla :  Rufian, proxeneta que explota a una sola mujer.
+Canfinfla :  Rufian, proxeneta que explota a una sola mujer.
+Embetunar:  Sobornar.
+Minga:  Nada, no.
+Mosca:  Dinero.
+Pan Dulce:  Pavo.
+Shuca:  Bolsillo exterior del saco.
+Caquero:  Petimetre.
+Dinenti:  Cantillos (Juego de ni§os).
+Estrilento:  Enojado.
+Mistongo:  Humilde, insignificante.
+Mondonguera:  Estomago.
+Versatil:  Pancista.
+Apronte:  Movimiento preliminar, entrenamiento, preparativos.
+Bancar:  pagar.
+Busca:  Picaro, despabilado / Ramera.
+Caso:  Tonto.
+Deste§ir:  Traicionar informalmente.
+Encamotarse:  Enamorarse apasionadamente.
+Enfocar:  Observar, mirar.
+Escorchar:  Fastidiar, molestar.
+Furca:  Accion de distraer a un persona para que la otra la ataque de una manera determinada y quede inmovil.
+Garufa:  Diversion, fiesta. Muchacho divertido.
+Mangos:  Pesos.
+Rebusques:  Medios de vida.
+Ro§a:  Enojo.
+Solfear:  Robar.
+Biyuyera:  Billetera, cartera.
+Cafetera:  Vehiculo desvencijado.
+Lufania:  La musa lunfa.
+Matoneo:  Intimidacion.
+Rafa:  Invercion silabica de farra.
+Tamangos:  Zapatos.
+Botonazo:  Alcahuete.
+Cache:  Cursi.
+Cocear:  Presentir.
+Conga:  Fiesta.
+Cuadrado:  Ignorante.
+Florearse:  Alardear, lucirse.
+Gil:  Tonto.
+Refilar la vianda:  Castigar, golpear.
+Solfa:  Paliza.
+Yugador :  Trabajador.
+Yugador :  Trabajador.
+Coca:  Cocaina.
+Fueyista:  Bandoneonista.
+Inflado:  Engreido / Fastidiado.
+Mistonga:  pobreza.
+Otario:  Tonto, candido.
+Tintiyo:  Vino.
+Trajeado:  Vestido con traje.
+Yeite:  Ocasion / Asunto / Asunto dudoso.
+Calor:  VergÅenza.
+Chanceletas, en:  Abandonado.
+Estrilado:  Enojado.
+Fulmine:  Aciago, de mala suerte.
+Lancero:  Ladron (opera con dos dedos) / Galanteador.
+Lancero:  ladron, ratero.
+Opio:  Malhumor.
+Aceitunas, le dieron las:  Despido.
+Chorizo:  Ladron.
+Escorchador:  Latoso, pesado.
+Filtrado:  Achacoso.
+Fulminante:  Fosforo.
+Abacanado:  Presuntuosos.
+Carozos:  Ojos.
+Cornelio:  Cornudo.
+Faso:  Cigarrillos.
+Soliviar:  Robar.
+Abanicar:  Agente Policial.
+Amasijado:  Asesinado / Zurrado.
+Dragoneo:  Galanteo.
+Yeca:  Experiencia.
+Cinchar:  dar fuerza, vigor. Trabajo duro.
+Cinchar:  Trabajar, esforzar.
+Dechavar:  Delatar.
+Humo, se hizo:  Escape, huida.
+Le§ar:  Zurrar.
+Najusar:  Echar / despedir / irse / observar.
+Rosca:  Desorden, pelea / Pu§etazo.
+Semblantear:  Observar fijamente.
+Bodega:  Estomago.
+Encarador:  Valiente, decidido.
+Espirarse:  Irse, alejarse.
+Guarango:  Grosero, ordinario.
+Libreto:  Texto, cosa estudiada.
+Lola, no querer:  Despreocuparse.
+Alzado:  Rijoso.
+Angelito:  Candido.
+Angelito:  Herramienta para abrir cerraduras desde afuera.
+Darique:  Invercion silabica de querida.
+Payana:  Juego de habilidad que se practica con huesos de frutas y peque§as piedras.
+Solari:  En soledad.
+Zapayo:  Cabeza.
+Asfalto:  Experiencia.
+Mamao:  Borracho.
+Moscon:  Fastidioso.
+Secarse:  Tronar.
+Socotroco:  Pu§etazo.
+Dichero:  Cobista.
+Lechero:  Billetera, cartera.
+Mino:  Invertido.
+Orejear:  Adular.
+Tachero:  Conductor de taxi, taxista.
+Aliviar:  Robar.
+Apiolar:  Despabilar.
+Bagayito:  Equipaje.
+Conserva:  Conservador.
+Gasolero:  Economico, taca§o.
+Guada§ar:  Atrapar, ganar, asir, agarrar.
+Mandamas:  Autoridad, patron, jefe.
+Rante:  Aferesis de atorrante, vago y mal entretenido.
+Abrochado:  Casado.
+Alacransar:  Hablar mal.
+Fato:  Asunto, cuestion, "movida".
+Hembraje:  Grupo de mujeres.
+Lechera:  En el juego de las bolitas, la predilecta del jugador, por lo comun es blanca.
+Lunfardesco:  Relacionado con el lunfa.
+Malerba:  Ordinaria.
+Remanyar:  Muy conocido. Conocer muy bien.
+Tras carton:  Subitamente. Inmediatamente.
+Vivanco:  Despabilado, astuto.
+Catinga:  Tufo.
+Ladiya:  Fastidioso.
+Maria mu§eca:  Masturbacion.
+Sopardos:  Pesos, dinero.
+Tilingo:  Cursi.
+Vichenzo:  Tonto.
+Acamalar:  Acaparar / Proteger / Atrapar, asir / Ahorrar mezquinando.
+Ancu:  Como araca, voz de alarma.
+Azotea:  Cabeza ; tener gente en la azotea ; facultades mentales alteradas.
+Bombero:  arbitro que perjudica a un equipo.
+Garchar:  Fornicar.
+Gato:  Indigente, pobre.
+Grasun:  Ordinario, rustico.
+Mechera:  Ladrona en tiendas.
+Napia:  Nariz.
+Rejuntado:  Amancebado.
+Repisas:  Senos.
+Rompepeines:  Cabeza.
+Zumbarse:  Drogarse.
+Bandearse:  Fracasar.
+Bebe:  Prostibulo, quibebe.
+Empalmadores:  Cierto tipo de escamoteadores de naipes u objetos.
+Jirafa:  Linterna.
+Limpio:  Indigente. Libre de cuentas pendientes con la Justicia.
+Abriles:  sinonimo de a§os.
+Agrampar:  Atrapar, asir.
+Alacranear:  Chismosear.
+Atorrar:  Dormir / Vago / Mujer entregada al vicio.
+Bolazo:  Mentira.
+Guacho:  Huerfano.
+Gurda:  Excelencia, gran calidad.
+Hinchar:  Fastidiar.
+Homo:  Invertido.
+Matrimoniado:  Casado.
+Melenudo:  Pelilargo, desgre§ado.
+Minola :  Mujer.
+Minola :  Mujer.
+Ranun:  Aumento de rana, que se dice de la persona astuta y avispada.
+Relojear:  Observar.
+Sobrante:  Sobretodo.
+Alacran:  Chismoso.
+Dequera:  Alerta, atencion.
+Garcador :  Informal, tramposo.
+Garcador :  Informal, tramposo.
+Merza:  Pe§a.
+•ata, la:  Muerte.
+Yeyatore:  Tipo de mal agÅero.
+Compadron:  Fatuo, presumido.
+Encajetado:  Enamorado apasionadamente.
+Escarpiantes:  Zapatos.
+Humedo:  Ebrio.
+Ortibar:  Ver, mirar, delatar.
+Aceitunas, cambiar el agua de las:  Orinar.
+Banana, muy de la:  Excelente.
+Boca de:  Trampa que permite ver la boca del mazo sobre una esponja.
+Esgunfiar:  Fastidiar.
+Fiacun:  Haragan, Indolente.
+Galgueo:  Indigencia.
+Horizontal:  Cama.
+Prise:  Pulgarada de cocaina.
+Sobre el pucho:  Ya, subitamente.
+Ti§uso:  Avaro.
+Viorsi:  Ba§o.
+Yuguiyo:  Cuello de camisa.
+Chique:  Aspaviento.
+Cuete, al:  Inutilmente.
+Ghirante:  Yirante, propio de las mujeres de vida aireada.
+Mancar:  Entender, comprender.
+Mancar:  Fracasar en un robo al ser descubierto el ladron.
+Marote:  Cabeza.
+Naso:  Nariz.
+Runfla:  Gavilla, pandilla.
+Soprabito:  Sobretodo.
+Cacho:  Parte de un robo / Trozo.
+Camambuses:  Zapatos.
+Capelun:  Aumentativo de capelo, sombrero.
+Chupete:  Ebrio.
+Croqueta:  Cabeza.
+Engrupir:  Enga§ar.
+Escoba:  Guitarra.
+Gastar:  Mofarse.
+Hinchabolas:  Cargoso.
+Primus:  Calentador de mesa a Kerosen.
+Sabalaje:  Persona de baja condicion social.
+Biorse:  ba§o.
+Cabrear:  enojar, molestar con bromas de mal gusto.
+Cachaba:  Asia, atrapaba.
+Chivo:  Barbado / Enojado.
+Culo:  Suerte / Infortunio.
+Embrocar:  Mirar, fijar la vista.
+Liendre:  Astuto, despabilado.
+Llantas:  Zapatos.
+Queso:  Tonto.
+Viuda:  Billetera, cartera.
+Zaranda:  Zurra.
+Academia:  Salones de baile, mujeres, tragos.
+Estufar:  Fastidiar.
+Fajarse:  Drogarse.
+Garronear:  vivir a costa ajena.
+Joda:  Broma, mofa / Fiesta.
+Ladero:  Compa§ia.
+Meodromo:  Retrete.
+Alcaucil:  Alcahuete.
+Apiolado:  Despabilado.
+Balconear:  Observar, mirar.
+Curda (Espa§ol):  Borrachera.
+Deschavar:  Delatar, confesar.
+Manganeta:  Treta, enga§o.
+Mortadela:  Muerto.
+Escolasiarse:  jugarse, entregarse.
+Lorenzo:  Mujer sin atractivos.
+Mujerage:  Grupo de mujeres.
+Revirarse:  Enloquecer.
+Talompa:  Pantalones.
+Borracheria:  Bar, despacho de bebidas alcoholicas.
+Lance:  Accion que se ejecuta sin seguridad de exito.
+Lastrar:  Comer.
+Lunfa:  Lunfardo.
+Mariposon:  Afeminado / Galanteador, enamoradizo, voluble.
+Merluza:  Borrachera.
+Schifrunista:  Ladron que actua en complicidad con una prostituta.
+Solapear:  Adular.
+Timbero:  Jugador por dinero.
+Torvelo:  Dinero.
+Boton, al divino:  Inutilmente.
+Gayinero:  Popular.
+Jeringa:  Fastidioso, cargoso / Rijoso.
+Liga:  Suerte / Agarra, atrapa.
+Versero:  Tipo que habla sin conocimiento.
+Alumbrar:  Proveer dinero.
+Bolche:  Bolchevique, seguir doctrina comunista.
+Fulo:  Enojado.
+Grela:  mujer de medio ambiente. Mugre. Suciedad.
+Ragu:  Hambre.
+Almanaques:  Edad, a§os.
+Avivato:  Despabilado, aprovechador.
+Coceo:  Cabala.
+Cote :  Costado, lado.
+Cote :  Costado, lado.
+Curdela:  Borracho / Borrachera.
+Escombrero:  Ostentoso.
+Esteca:  Parte de robo.
+Gacho:  Sombrero masculino flexible cuya ala se inclina hacia abajo.
+Garuar:  Lloviznar.
+Hinchado:  Fastidiado.
+Acanalar:  Herir con arma blanca.
+Alpiste:  Bebida alcoholica.
+Cabalete:  Bolsillo superior externo del saco.
+Cachador:  Burlon.
+Chantun:  Informal, tramposo.
+Chorro:  Ladron.
+Copo:  Hacerse cargo del riesgo y la responsabilidad consiguiente.
+Fichar:  Observar detenidamente.
+Garuga:  Llovizna.
+Percanta:  Mujer. Amante.
+Reo:  Vagabundo, cachafaz.
+Sotana:  Saco, prenda de vestir.
+Traste:  Asentaderas.
+Zanagoria (Zanahoria):  Tonto.
+Edgardo: Hola profesorArribe§o, de:  Gratuitamente.
+Atorrancia:  Vagancia.
+Boga:  Abogado.
+Chuchi:  Muchacha.
+Flaca, la:  Muerte.
+Orejudo:  Conservador.
+Raja:  Escapar, huir. Correr.
+Rayadura:  Locura.
+Taquero:  Comisario de policia.
+Achuchado:  Asustado.
+Arroyarse:  Asustarse.
+Faltazo:  Informalidad, falta a una cita o compromiso.
+Gomia:  Forma versica de amigo.
+Pato:  Pobre.
+Pavadas:  tonterias.
+Bienudo:  Adinerado.
+Botoneo:  Delacion.
+Cafe:  Reprimenda.
+Cana:  prision.
+Cancha:  patio, corral o recinto mas o menos espacioso.
+Chantapufi:  Informal, tramposo. Persona que contrae deudas sin intencion de saldarlas.
+Chupadin:  Borracho.
+Chuza:  Latigo sin lonja.
+Costiya:  Mujer.
+Entrancado:  Ebrio.
+Escracho:  Cara / Mujer fea.
+Falocracia:  Supremacia del hombre.
+Funshe:  Sombrero.
+Shafo:  Policia uniformado.
+Taquera:  Bailarina contratada.
+Bailongo:  baile nombrado despectivamente / desorden, pelea.
+Basuriar:  Humillar.
+Cachaciento:  despacioso, lento para ejecutar cualquier accion.
+Datiles:  Dedos de las manos o pies.
+Escrushe:  Robo con violencia.
+Guiso:  Tonto.
+Leche:  Suerte.
+Mono:  Enseres del linyera en un atado.
+Pechar:  Pedir, dominar, alcanzar.
+Santo:  Cortafrio.
+Sobatina:  Roce amoroso.
+Archivado:  Encarcelado.
+Burrero:  Ladron de cajas registradoras.
+Cambuseria:  Poderosos, oligarcas.
+Casatero:  Cumnilinguo.
+Malanfiar. Comer.:  Comer / Defrauda
+Molde, en el:  Quieto.
+Peinado:  Simulacion de corte o cambio de naipes, sin hacerlo.
+Afrechudo:  Rijoso.
+Crema:  Refinados, poderosos.
+Embolsicar:  Ahorrar mezquinando.
+Escurrirse:  Despabilarse.
+Estufado:  Fastidiado.
+Femina:  Mujer.
+Repuntar:  Progresar.
+Tarro:  Suerte / Asentaderas.
+Catramina:  Armatoste, vehiculo desvencijado.
+Compadraje:  Grupo de compadres.
+Cuore:  Corazon.
+Gigolo:  Rufian.
+Lunfamania:  Costumbre de hablar en lunfa.
+Mujica:  Mujer.
+Olfa:  Obsecuente / Chupamedias.
+Rechifle:  Enojo / Locura.
+Upite:  Asentaderas, Suerte.
+Bolido:  Tonto, lento.
+Chivo, olor a:  Tufo.
+Cortina :  De baja estatura.
+Cortina :  De baja estatura.
+Fusilado:  Deprimido.
+Kilombo:  Prostibulo. Desorden, lio.
+Mormoso:  Magullado.
+Naife:  Arma blanca.
+Quilombo:  Prostibulo, alborotar, perturbar.
+Embalado:  Predispuesto.
+Fana:  Fanatico.
+Fanega:  Tonto.
+Franelear:  Roce amoroso.
+Lompas:  Pantalones.
+Pequero:  Delincuente dedicado a la estafa por medio de trampas en juegos de azar.
+Tambo:  Prostibulo.
+Vichadores:  Ojos.
+Viyuyera:  Billetera, cartera.
+Arrimado:  Amancebado.
+Arrugado:  Bandoneon / Asustado.
+Fierrazo:  Coito.
+Humo:  Engreimiento.
+Machete:  ayuda memoria.
+Escaso:  De baja estatura.
+Esquenun:  Vago.
+Grillo:  Bolsillo lateral del pantalon.
+Amachimbrado:  Amancebado.
+Apa§ado:  Encarcelado.
+Apunte, llevar el:  Atender.
+Bartolero:  Desordenado / Negligente.
+Bejarano:  Viejo.
+Changar:  Trabajar brevemente, trabajo pasajero.
+Entripao:  Amargura, intimidad.
+Esquillo:  Rabieta.
+Lastre:  Comida.
+Relojeado:  Conocido, observado.
+Servir:  Zurrar. Golpear, acertar un pu§etazo.
+Apestiyado:  Zurrado.
+Cancel:  Verja o puerta que cierra el zaguan.
+Jiquero:  Delincuente que opera por medio de jicas, a distancia.
+Julepearse:  Asustarse.
+Luca:  Billete de mil pesos.
+Palpitar:  Imaginar.
+Pillado:  Engreido.
+Rafi§ar:  Robar.
+Vigil:  Guardian.
+Cascar. Castigar, pegar.:  Zurra, paliza.
+China:  Mujer.
+Deshilachado:  Deprimido.
+Empinado:  Ebrio.
+Navo:  Persona de poco valor.
+Perro:  Torpe, incapaz. Cantor de mala calidad.
+Remanye:  Perspicacia.
+Avivar:  Advertir, despabilar.
+Batifondo:  Desorden, lho.
+Batitu:  Delator.
+Compadrada:  Bravuconada, accion propia de un compadre o compadrito.
+Dilatar:  Confusion, desorden.
+Lurpiar:  Defraudar, estafar.
+Morlaco:  peso.
+Radicha :  Radical.
+Radicha :  Radical.
+Batilana:  Alcahuete, delator.
+Bochin:  Cabeza.
+Chichonear:  Bromear, mofarse de alguien.
+Escarpios:  Zapatos.
+Ranfi§ar:  Robar.
+Repartija:  Reparto de robo.
+Aspamento:  Ostentacion.
+Batida:  Delacion.
+Bufa:  Bujarron, sadomita.
+Calavera:  trasnochador, licencioso, desenfrenado.
+Carpetear:  Observar disimuladamente.
+Engrupido:  Vanidoso, fatuo.
+Franela:  Manoseo sexual.
+Fruncido:  Engreido.
+Hecho:  Ebrio.
+Mariano:  Valiente.
+Susheta:  Elegante.
+Tranca:  Borrachera.
+Apuntar:  Delatar / Conquistar amor.
+Barato, es un:  Ordinario.
+Betun:  Soborno.
+Cirquero:  Paciente de comportamiento muy teatral.
+Embrocado:  Conocido.
+Enchastrar:  Denigrar.
+Gambas:  Piernas.
+Juiciosa, la:  Carcel.
+Liso:  Proxeneta.
+Narigada :  Porcion de droga.
+Narigada :  Porcion de droga.
+Nasun:  Narigon.
+Pavo:  Asentaderas.
+Rasposo:  Raido, sucio.
+Alce:  Ocasion.
+Cogotudo:  Adinerado, oligarca.
+Cufa:  Carcel.
+Escabiar:  Beber, tomar bebida alcoholica.
+Achacado:  Achacoso.
+Ana-Ana:  Por mitades.
+Cabulear:  Presentir, agorar.
+De queruza:  Alerta, atencion.
+Magallanes:  Tonto.
+Punga:  Ladron.
+Esquiyo:  Berrinche, enojo.
+Fueyero:  Bandoneonista.
+Levantar:  Conquistar / Pagar / Reprender.
+Tranquilino:  Indolente.
+Guada§a, la:  Muerte.
+Rabona:  Ratearse, espantarse.
+Refalar:  Dar, entregar / Robar.
+Trincar:  Agarrar, atrapar / Fornicar.
+Ciego:  Carente de dinero es termino de juego del truco.
+Cliente:  Candidato.
+Currar:  Estafar.
+Graserio:  Cafila, grupo mersa.
+Largavistas:  Prismaticos.
+Pebete:  Ni§o.
+Quemado:  Desprestigiado.
+Saque:  Pu§etazo, golpe.
+Secar:  Fastidiar.
+Apoliyar:  Dormir, holgar.
+Cabula:  Cabala.
+Coimear:  Sobornear.
+Comision:  Soborno.
+Coso:  Tipo, individuo.
+Desmayarse:  Dormir.
+Despegado:  Despreocupado.
+Gorila:  Fascista.
+Marroquero:  Taca§o.
+Bachicha:  gordo, panzon. El que siempre piensa en comer.
+Carpeta:  Categoria.
+Colibriyo:  loco, insensato, perturbado mental.
+Dique:  Presuncion, vanidad.
+Engrane:  Enojo.
+Escamoteador:  Delincuente que opera por escamoteo, por rapido y habil ocultamiento de lo robado.
+Espamento:  Aspaviento.
+Espirajuse:  Escape, huida.
+Tacho:  Reloj / Asentaderas. Taxi.
+Tarugo:  De baja estatura.
+Ablandarse:  Asustarse.
+Antropofago:  Invertido.
+Buyon:  Alimento, comida.
+Cascarazo:  Bofetada.
+Coima:  Soborno.
+Cotin, el:  Cama.
+Garfi§ar:  Robar.
+Hembra:  Mujer, concubina.
+Inflarse:  Engreirse.
+Mishiadura:  Indigencia, miseria, pobreza.
+Solfeo:  Robo.
+Vento:  Dinero.
+Analfa:  Ignorante.
+Gavilan:  Picaflor, seductor.
+Julepe:  Susto.
+Shomeria:  Ordinario, mala calidad.
+Tilinguerio:  Cursileria.
+Brique:  Fosforo.
+Chamuchina:  Chusma / Frusleria.
+Disquero:  Se dice del Fanfarron y de cuanto sirve para fanfarronear.
+Engrupimiento:  Engreirse.
+Adicion:  Factura de gastos del restaurante.
+Bacanaje:  poderosos, oligarcas.
+Bombo:  Nalgas, asentaderas.
+Encurdelarse:  Embriagarse.
+Enquilombado:  Desordenado, confundido.
+Marinante :  Marinero.
+Marinante :  Marinero.
+Pibe:  Ni§o.
+Apampada:  Desorientado.
+Convoy:  Casa de inquilinato.
+Enguantado:  Apresado.
+Ensobrar:  Apresar.
+Liquidar:  Asesinar.
+Reversible:  Pancista.
+Alumbrante:  Fosforo.
+Desprendido:  Despreocupado, indiferente.
+Gavion:  Burlador que seduce a las mujeres.
+Mamarse:  Embriagarse.
+Mosqueta:  Dinero.
+Abatatado:  Asustado.
+Acomodar:  Recomendar, influenciar / Zurrar.
+Chantunazo:  Informal, tramposo.
+Encurdelan:  Embriagan.
+Esquifuso:  Raido, sucio.
+Forfait:  Falto de alguna cosa, dinero, salud, etc.
+Olivo:  Despedirse.
+Rancho:  Sombrero de paja.
+Tragar:  Estafar, defraudar.
+Vichar:  Astibar, espiar.
+Yurno:  Yorno, dia.
+Bife:  Cachetada a mano abierta.
+Cataplasma:  Latoso, fastidioso.
+Desconche:  Desorden, lio.
+Desconectado:  Despreocupado.
+Fumante:  Cigarrillo.
+Malandrinaje:  Delincuencia en general.
+Rana:  Vivo, listo.
+Shiome:  Decadente, empobrecido.
+Tabas:  Piernas.
+Apunte:  Delacion.
+Bolas tristes:  Tonto.
+Broncar:  Enojarse.
+Buzon:  Sodomita / Boca grande / Carcel.
+Cazote:  Pu§etazo, golpe.
+Enajar:  Irse, alejarse.
+Forro:  Ataud, preservativo.
+Guapeando:  Valientemente.
+Jeta, de:  Gratuitamente.
+Lengue (italiano):  Pa§uelo.
+Loro:  Mujer sin atractivos.
+•ata:  Nariz.
+Sabalo:  Arrabalero / Hampon orillero / Mal viviente.
+Botijas:  Ni§o.
+Cepiyada:  Reprimenda.
+Mi§ango:  Trozo.
+Queco:  Prostibulo.
+Taca§un:  Amarrete.
+Biabado:  Zurrado. Drogado.
+Canchereada:  Aspaviento, alarde.
+Imbancable:  Insoportable.
+Morena:  Pistola.
+Tablero:  Vidriera, escaparate. Traste, asentaderas.
+Tumbadero:  Albergue transitorio.
+Ventanas:  Ojos.
+Yiro:  Ramera.
+Balero:  Cabeza.
+Biografo:  Aspaviento.
+Bocinazo:  Delacion.
+Casa del Pueblo:  Cementerio.
+Cucusa:  Cabeza.
+Fajar:  Castigar.
+Fifar:  Fornicar.
+Incendiar :  Denigrar.
+Incendiar :  Denigrar.
+Morfilar:  Comer.
+Rufino:  Cornudo.
+Tela:  Dinero.
+Vagon, un:  Muchos, en cantidad.
+Dandy:  Correctos y buenos mozos.
+Malanfear:  Comer / Defraudar, estafar.
+Retobar:  Oponer.
