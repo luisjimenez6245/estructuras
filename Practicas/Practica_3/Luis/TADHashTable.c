@@ -46,8 +46,7 @@ int aplicarHash(char *palabra,int tamTabla){
 //Estos se unen por medio de un or de bits
 //El resultado obtenido se utliza como codigo hash
 
-int HashCode(char *palabra, int tamTabla)
-{
+
 	int tam=strlen(palabra);
 	//declaración de la variable que obtendrá el resultado del hash
 	unsigned int h=0;
@@ -63,28 +62,27 @@ int HashCode(char *palabra, int tamTabla)
 		h+=(unsigned int)palabra[i];
 	}
 	return h;	
-}
 
 
-//Esta basada en el algoritmo de Dan Bernstein
-//En esta función hash tenemos dos numeros 33 y 5381
-//El número 33 se elige porque es facil de calcular
-//Usar 33 hace dos copias de la mayoría de los bits de entrada en el acumulador de hash
 
-    int HashCodee( char *palabra)
-    {
-        unsigned long hash1 = 5381;
-        int c;
+	//Esta basada en el algoritmo de Dan Bernstein
+	//En esta función hash tenemos dos numeros 33 y 5381
+	//El número 33 se elige porque es facil de calcular
+	//Usar 33 hace dos copias de la mayoría de los bits de entrada en el acumulador de hash
 
-        while (c = *palabra++)
-        //El desplazamiento de 5 se hace ya que es relativamente
-        //primo a 32 lo que ayuda con el avalanchamiento
-        //ya que un caracter ascii puede considerarse como un selector de tipo
-        //caracteres de 4 bits
-            hash1 = ((hash1 << 5) + hash1) + c; // hash * 33 + c 
 
-        return hash1;
-    }
+    unsigned long hash1 = 5381;
+    int c;
+
+    while (c = *palabra++)
+    //El desplazamiento de 5 se hace ya que es relativamente
+    //primo a 32 lo que ayuda con el avalanchamiento
+    //ya que un caracter ascii puede considerarse como un selector de tipo
+    //caracteres de 4 bits
+        hash1 = ((hash1 << 5) + hash1) + c; // hash * 33 + c 
+
+    return hash1;
+    
     */
 	/*
 	int index=0,m_posicion,valor_letra,aux;//m_posicion = MÚLTIPLO DE LA POSICIÓN
@@ -96,8 +94,37 @@ int HashCode(char *palabra, int tamTabla)
 	if(index<0){
 		index=index*-1;
 	}
-	return index%tamTabla;*/
+	return index%tamTabla;
+	*/
 
+
+	/*
+	Esta variante de función hash mezcla del algortimo de multiplicación propuesto por el MIT en el pdf: 
+	https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/lecture-7-hashing-hash-functions/lec7.pdf
+	El cual está basado en un modelo mátematico dado por 
+
+					h(k) = (A·k mod 2w) rsh (w – r)
+
+	siendo 
+	w 		el número de posición de caracter de la palabra
+	r 		el tamaño total de la tabla
+	k 		el caracter a aplicar la funcion
+	A 		un nuúmero entreo primo, entre mayor mejor.
+
+	rsh 	doble recorrimiento 
+
+	Como modificación se le agregó el modular wheel que se varía dependiendo del tamaño total
+
+				>	>	
+			>			>
+		>					>
+	>							>
+	>							>
+		>					>
+			>			>
+				>	>	
+
+	*/
 	int aux = 0;
 	int i = 0, resultado = 0, tam, derecha;
 	tam = strlen(palabra);
