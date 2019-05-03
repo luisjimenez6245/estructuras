@@ -15,39 +15,21 @@
 #define FALSE 0
 #define TRUE 1
 
-void reina(){
-	int valido = FALSE;
-	  if (f<n) {
-	     // Quedan reinas por colocar
-	     for (reinasTablero[f]=0;reinasTablero[f]<n;PrincesaXd[f]++) {
+int validarPosicion(){
+	int valido=FALSE;
+	return valido;
+}
 
-	         // Comprobamos si la posición 
-	         // de la reina actual es válida
-	     			pintarxD(PrincesaXd,n);
-	     				 Sleep(500);
-		 system("cls");
-	         if (validaPosicion(f,PrincesaXd,n)) {
-
-	            // Si es así, intentamos colocar
-	            // las PrincesaXd restantes
-	         	//pintarxD(PrincesaXd,n);
-	          princess(f+1, PrincesaXd, n);
-	            
-	         }
-	         
-	     } 
-	  
-	  } else {
-
-	     // No quedan PrincesaXd por colocar (solución)
-			//pintarxD(PrincesaXd,n);
-	  	printf("solucion\n");
-	  }
-
-	  return;
+void agregarReina(){
+	return;
 }
 
 int main(){
-
+	int num_reinas;
+	printf("--------------------\nBIENVENIDO\n--------------------\n");
+	printf("Ingresa la cantidad de reinas a colocar (4<=numero<=10):\n>");
+	scanf("%i",&num_reinas);
+	//SE CREA UN TABLERO DE CARACTERES
+	char tablero[num_reinas][num_reinas];
 	return 0;
 }
