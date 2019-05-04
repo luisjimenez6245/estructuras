@@ -1,110 +1,107 @@
-/*
-AUTORES: Paola Raya Tolentino, 
-		 Eduardo Gómez Rodriguez, 
-		 Vladimir Azpeitia Hernández.
-VERSION: 1.0
-DESCRIPCIÓN: Se implementa el problema de las N-PrincesaXd, haciendo uso del backtraking y recursividad
-COMPILACIÓN: gcc -o PrincesaXd2 PrincesaXd2.c presentacionWin.o
-			 
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "presentacion.h"
-#include <windows.h>
-
-// Constantes simbólicas
-
+//CONSTANTES A UTILIZAR
 #define TRUE  1
 #define FALSE 0
+//VARIABLE GLOBAL POR COMODIDAD
+int i;
 
-
-// prueba si una reina está bien colocada
+// validarPosicion si una reina está bien colocada
 // -----------------------------------------
-// La reina de la f i está bien colocada si no está
+// La reina de la fila i está bien colocada si no está
 // en la columna ni en la misma diagonal que cualquiera
-// de las Reinas de las fs anteriores
+// de las reinas de las filas anteriores
 //
 // Parámetros
-//   f   - f de la reina cuya posición queremos validar
-//   Reinas - Vector con las posiciones de las Reinas
-//   n      - Número de Reinas
+//   fila   - Fila de la reina cuya posición queremos validar
+//   posReinas - Array con las posiciones de las reinas
+//   n      - Número de reinas
 
 
-int validaPosicion(int f, int PrincesaXd[], int n){
-  int i;
-  for(i=0; i<f; i++){
-    if((PrincesaXd[i] == PrincesaXd[f]) || (abs(f-i) == abs(PrincesaXd[f]-PrincesaXd[i]))){  //Comprueba la compatibilidad entre reinas :v 
-      return FALSE;
-    }
-  }
+int validarPosicion(int fila, int posReinas[], int n) {
+  for (i=0; i<fila; i++)
+      //SI posReinas[i]==posReinas[fila] ENTONCES ESTÁN EN LA MISMA COLUMNA
+      //SI posReinas[fila]-posReinas[i]=(fila-columna) ENTONCES ESTÁN EN LA MISMA DIAGONAL
+      if ((posReinas[i]==posReinas[fila])||(abs(fila-i) == abs(reinas[fila]-reinas[i])))
+         return FALSE;
   return TRUE;
 }
 
 
-// Mostrar el tablero con las PrincesaXd
+// Mostrar el tablero con las reinas
 // ---------------------------------
 // Parámetros:
-//   PrincesaXd - Vector con las posiciones de las distintas PrincesaXd
-//   n      - Número de PrincesaXd
+//   reinas - Vector con las posiciones de las distintas reinas
+//   n      - Número de reinas
 
-void pintarxD(int PrincesaXd[], int n){
-  int i,j;
-
+void mostrarTablero(int posReinas[], int n, int *alto)
+{
+  int i,j,x=0,y=*alto, aux=0;
   for (i=0; i<n; i++) {
-  	  for (j=0; j<n; j++) {
-          if (PrincesaXd[i]==j){
-            printf("R");
+      x=0;
+      for (j=0; j<n; j++) {
+
+          if (reinas[i]==j){
+            MoverCursor(x,y);
+            printf("##");
+            MoverCursor(x,y+1);
+            printf("##");
           }else{
-			if((j+i)%2 == 0)
-			  printf("%c", 176);
-			else
-			  printf("%c", 178);
+            if((j+aux)%2 == 0){
+              MoverCursor(x,y);
+              printf(",,");
+              MoverCursor(x,y+1);
+              printf(",,");
+            }else{
+              MoverCursor(x,y);
+              printf("..");
+              MoverCursor(x,y+1);
+              printf("..");
+            }
           }
+          x+=3;
       }
-      printf("\n");
-      //printf(" %d %d\n",i,PrincesaXd[i]);
+      y+=2;
+      aux=1-aux;
+      //printf(" %d %d\n",i,reinas[i]);
+      *alto = y+3;
   }
-  printf("\n");
 }
 
 
 // Colocación de una reina
 // -----------------------
 // Parámetros
-//   f   - f de la reina que queremos colocar
-//   PrincesaXd - Vector con las posiciones de las PrincesaXd
-//   n      - Número de PrincesaXd
+//   fila   - Fila de la reina que queremos colocar
+//   reinas - Vector con las posiciones de las reinas
+//   n      - Número de reinas
 
-void princess(int f, int PrincesaXd[], int n){
+void Reina (int fila, int reinas[], int n, int *alto)
+{
   int ok = FALSE;
 
-  if (f<n) {
+  if (fila<n) {
 
-     // Quedan PrincesaXd por colocar
+     // Quedan reinas por colocar
 
-     for (PrincesaXd[f]=0; PrincesaXd[f]<n; PrincesaXd[f]++) {
+     for (reinas[fila]=0; reinas[fila]<n; reinas[fila]++) {
 
          // Comprobamos si la posición 
-         // de la reina actual es válida
-     			pintarxD(PrincesaXd,n);
-     				 Sleep(500);
-	 system("cls");
-         if (validaPosicion(f,PrincesaXd,n)) {
+         // de la reina a |ctual es válida
+
+         if (validarPosicion(fila,reinas,n)) {
 
             // Si es así, intentamos colocar
-            // las PrincesaXd restantes
-         	//pintarxD(PrincesaXd,n);
-          princess(f+1, PrincesaXd, n);
-            
+            // las reinas restantes
+            nReina (fila+1, reinas, n, alto);
          }
-         
      } 
   
   } else {
 
-     // No quedan PrincesaXd por colocar (solución)
-		//pintarxD(PrincesaXd,n);
-  	printf("solucion\n");
+     // No quedan reinas por colocar (solución)
+     dibuja(reinas,n,alto);
   }
 
   return;
@@ -113,29 +110,16 @@ void princess(int f, int PrincesaXd[], int n){
 // Programa principal
 // ------------------
 
-int main ()
-{
-  int *PrincesaXd;  // Vector con las posiciones de las PrincesaXd de cada f
-  int nPrincesaXd;  // Número de PrincesaXd
-  int i;        // Contador
-
-  printf("Ingresa el numero de PrincesaXd: ");
-  scanf("%d", &nPrincesaXd);
-
-  // Colocar las PrincesaXd en el tablero
-
-  // Crear vector dinámicamente
-
-	PrincesaXd = (int*) malloc ( nPrincesaXd*sizeof(int) );
-
-  // Inicializar vector:
-  // (inicialmente, ninguna reina está colocada)
-	system("cls");
-  printf("Soluciones: \n");
-  for (i=0; i<nPrincesaXd; i++)
-    PrincesaXd[i] = -1;
-   // Colocar PrincesaXd (algoritmo recursivo)
-  princess(0,PrincesaXd,nPrincesaXd);
-   // Liberar memoria
-   free (PrincesaXd);
+int main (){
+  int numReinas;  // Número de reinas
+  int alto=0;
+  printf("Ingresa el numero de reinas: ");
+  scanf("%i", &nreinas);
+  int posReinas[numReinas];
+  system("cls");
+  //INICIALIZAMOS EL VECTOR CON UN VALOR NEGATIVO (NO ENTRA EN EL RANGO DEL ARREGLO) PARA FACILITAR SU MANIPULACIÓN
+  for (i=0; i<nreinas; i++)
+    posReinas[i] = -1;
+   // Colocar reinas (algoritmo recursivo)
+   Reina(0,reinas,nreinas, &alto);
 }
