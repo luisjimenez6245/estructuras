@@ -1,42 +1,131 @@
 /*
-	PR√ÅCTICA 05: N-REINAS MIS NI√ëOS
-	AUTORES: 
-		JIM√âNEZ DELGADO LUIS DIEGO
-		S√ÅNCHEZ CASTRO AAR√ìN GAMALIEL
-		S√ÅNCHEZ TIRADO CITLALI YASM√çN
-	VERSI√ìN: 1.0
-	DESCRIPCI√ìN: NPI DE QU√â HACE EL PROGRAMA
-
-	SE PROPONE LA CREACI√ìN DE UN ARREGLO DE TAMA√ëO N (N√öMERO DE REINAS)
-	DONDE LOS √çNDICES DEL ARREGLO (0 A N-1) REPRESENTAN LAS COLUMNAS DEL TABLERO
-	CONDICIONES:
-		-SI DENTRO DEL ARREGLO UN N√öMERO SE REPITE, QUIERE DECIR QUE ESOS ELEMENTOS SE ENCUENTRAN EN LA MISMA FILA
-		-SE DEBE COMPROBAR 
+  BACKTRACKING N-REINAS
+  AUTORES: 
+    JIM…NEZ DELGADO LUIS DIEGO
+    S¡NCHEZ CASTRO AAR”N GAMALIEL
+    S¡NCHEZ TIRADO CITLALI YASMÕN
+  VERSI”N 1.5
+  DESCRIPCI”N: EL PROGRAMA COLOCA N N⁄MERO DE REINAS DADAS POR EL USUARIO EN UN TABLERO DE DIMENSI”N NxN
+  EL OBJETIVO ES POSICIONAR A LAS REINAS DE MANERA QUE NINGUNA SE AMENACE CON EL RESTO.
 */
-//LIBRER√çAS A UTILIZAR
 #include <stdio.h>
 #include <stdlib.h>
 #include "Gotoxy.h"
-//CONSTANTES 
+//CONSTANTES A UTILIZAR
+#define TRUE  1
 #define FALSE 0
-#define TRUE 1
 
-int i,j,tamTablero;
+//VARIABLES GLOBALES POR COMODIDAD
+int i,j,x,y,aux;
 
-int validarPosicion(){
-	int valido=FALSE;
-	return valido;
+/*
+  FUNCI”N:
+  RECIBE:
+  DEVUELVE:
+  DESCRIPCI”N: 
+  OBSERVACIONES:
+*/
+// La reina de la fila i est· bien colocada si no est·
+// en la columna ni en la misma diagonal que cualquiera
+// de las reinas de las filas anteriores
+//
+// Par·metros
+//   fila   - Fila de la reina cuya posiciÛn queremos validar
+//   posReinas - Array con las posiciones de las reinas
+//   n      - N˙mero de reinas
+
+
+int validarPosicion(int fila, int posReinas[], int n) {
+  for (i=0; i<fila; i++){
+    //SI posReinas[i]==posReinas[fila] ENTONCES EST¡N EN LA MISMA COLUMNA
+    //SI posReinas[fila]-posReinas[i]=(fila-columna) ENTONCES EST¡N EN LA MISMA DIAGONAL
+    if ((posReinas[i]==posReinas[fila])||(abs(fila-i) == abs(posReinas[fila]-posReinas[i]))){
+      return FALSE;
+    }
+  }   
+  return TRUE;
+} //terminamos con la funcion
+
+
+// Mostrar el tablero con las reinas
+// ---------------------------------
+// Par·metros:
+//   reinas - Vector con las posiciones de las distintas reinas
+//   n      - N˙mero de reinas
+
+void mostrarTablero(int posReinas[], int n, int *alto)
+{
+  x=0;
+  y=*alto;
+  aux=0;
+  for (i=0; i<n; i++) {
+      x=0;//SER¡ REUTILIZADA, POR LO TANTO ES NECESARIO REINICIAR EL CONTADOR
+      for (j=0; j<n; j++) {
+          if (posReinas[i]==j){//SE COLOCA UNA REINA
+            MoverCursor(x,y);
+            printf("%c",219);
+          }else{
+            if((j+aux)%2 == 0){//SE COLOCA UN ESPACIO
+              MoverCursor(x,y);
+              printf("%c",176);
+            }else{
+              MoverCursor(x,y);
+              printf("%c",176);
+            }
+          }
+          x+=2;
+      }
+      y+=1;
+      aux=1-aux;
+      //printf(" %d %d\n",i,reinas[i]);
+      *alto = y+2;
+  }
+  printf("\n");
 }
 
-void agregarReina(){
-	return;
+
+// ColocaciÛn de una reina
+// -----------------------
+// Par·metros
+//   fila   - Fila de la reina que queremos colocar
+//   reinas - Vector con las posiciones de las reinas
+//   n      - N˙mero de reinas
+
+void Reina (int fila, int posReinas[], int n, int *alto)
+{
+  int ok = FALSE;
+  if (fila<n) {
+     // Quedan reinas por colocar
+     for (posReinas[fila]=0;posReinas[fila]<n;posReinas[fila]++) {
+          //COMPROBAMOS SI LA POSICI”N ES V¡LIDA
+          //øPUEDO MANDAR A IMPRIMIR?
+          mostrarTablero(posReinas,n,alto);
+          EsperarMiliSeg(400);
+         if (validarPosicion(fila,posReinas,n)) {
+            //SI LA POSICI”N ES V¡LIDA, PROCEDEMOS A COLOCAR LA(S) SIGUIENTE(S) REINA(S)
+            Reina(fila+1,posReinas,n,alto);
+         }
+     } 
+  } else {
+    printf("SOLUCION");
+  }
+  return;
 }
 
-int main(){
-	printf("--------------------\nBIENVENIDO\n--------------------\n");
-	printf("Ingresa la cantidad de reinas a colocar (4<=numero<=10):\n>");
-	scanf("%i",&tamTablero);
-	//SE CREA UN TABLERO DE CARACTERES
-	char tablero[tamTablero][tamTablero];
-	return 0;
+// Programa principal
+// ------------------
+
+int main (){
+  int numReinas;  // N˙mero de reinas
+  int alto=0;
+  printf("--------------------\nBIENVENIDO\n--------------------\n");
+  printf("Ingresa la cantidad de reinas a colocar (4<=numero<=10):\n>");
+  scanf("%i", &numReinas);
+  int posReinas[numReinas];
+  system("cls");
+  //INICIALIZAMOS EL VECTOR CON UN VALOR NEGATIVO (NO ENTRA EN EL RANGO DEL ARREGLO) PARA FACILITAR SU MANIPULACI”N
+  for (i=0; i<numReinas; i++)
+    posReinas[i] = -1;
+   // Colocar reinas (algoritmo recursivo)
+   Reina(0,posReinas,numReinas,&alto);
 }
