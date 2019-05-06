@@ -19,22 +19,16 @@
 int i,j,x,y,aux;
 
 /*
-  FUNCIÓN:
-  RECIBE:
-  DEVUELVE:
-  DESCRIPCIÓN: 
+  FUNCIÓN: validarPosicion(int fila, int posReinas[], int n)
+  RECIBE: int fila (FILA DE LA REINA A VALIDAR), int[] posReinas (POSICIONES DE LAS REINAS EN EL TABLERO)
+    int n (NÚMERO DE REINAS INGRESADO POR EL USUARIO)
+  DEVUELVE: TRUE/FALSE SEGÚN SEA EL CASO.
+  DESCRIPCIÓN: LA FUNCIÓN VALIDA QUE LA REINA ESTÉ BIEN COLOCADA, SE COMPRUEBA QUE PARA CUALQUIER FILA i
+    UNA REINA NO ESTÉ EN LA MISMA COLUMNA (SE COMPRUEBA QUE TODOS LOS NÚMEROS EN EL ARREGLO SENA DIFERENTES).
+    ADEMÁS, EL PROBLEMA DE LAS DIAGONALES ASCENDENTES/DESCENDENTES SE ARREGLA REALIZANDO LA OPERACIÓN 
+    fila-columna, ESTA OPERACIÓN DEBE TENER UN RESULTADO DIFERENTE PARA CADA PAR ORDENADO DEL ARREGLO.
   OBSERVACIONES:
 */
-// La reina de la fila i está bien colocada si no está
-// en la columna ni en la misma diagonal que cualquiera
-// de las reinas de las filas anteriores
-//
-// Parámetros
-//   fila   - Fila de la reina cuya posición queremos validar
-//   posReinas - Array con las posiciones de las reinas
-//   n      - Número de reinas
-
-
 int validarPosicion(int fila, int posReinas[], int n) {
   for (i=0; i<fila; i++){
     //SI posReinas[i]==posReinas[fila] ENTONCES ESTÁN EN LA MISMA COLUMNA
@@ -44,15 +38,17 @@ int validarPosicion(int fila, int posReinas[], int n) {
     }
   }   
   return TRUE;
-} //terminamos con la funcion
+}
 
-
-// Mostrar el tablero con las reinas
-// ---------------------------------
-// Parámetros:
-//   reinas - Vector con las posiciones de las distintas reinas
-//   n      - Número de reinas
-
+/*
+  FUNCIÓN: mostrarTablero( int posReinas[], int n, int *alto)
+  RECIBE: int[] posReinas (POSICIONES DE LAS REINAS EN EL TABLERO)
+    int n (NÚMERO DE REINAS INGRESADO POR EL USUARIO), int* alto (ORDENADA PARA SITUAR EL CURSOR E IMPRIMIR)
+  DEVUELVE: NADA.
+  DESCRIPCIÓN: IMPRIME EL TABLERO CON LAS POSICIONES ALMACENADAS EN EL ARREGLO AL MOMENTO.
+  OBSERVACIONES: PARA CASOS DONDE n (NÚMERO DE REINAS) ES "GRANDE" (P.E: 10) ES NECESARIO QUE EL TAMAÑO DEL BÚFER
+    DE PANTALLA SEA IGUALMENTE GRANDE PARA EVITAR UN DESBORDAMIENTO Y LA PÉRDIDA DE LOS GRÁFICOS.
+*/
 void mostrarTablero(int posReinas[], int n, int *alto)
 {
   x=0;
@@ -65,7 +61,7 @@ void mostrarTablero(int posReinas[], int n, int *alto)
             MoverCursor(x,y);
             printf("%c",219);
           }else{
-            if((j+aux)%2 == 0){//SE COLOCA UN ESPACIO
+            if((j+aux)%2 == 0){//SE COLOCA UN "ESPACIO BLANCO"
               MoverCursor(x,y);
               printf("%c",176);
             }else{
@@ -77,43 +73,40 @@ void mostrarTablero(int posReinas[], int n, int *alto)
       }
       y+=1;
       aux=1-aux;
-      //printf(" %d %d\n",i,reinas[i]);
       *alto = y+2;
   }
   printf("\n");
 }
 
 
-// Colocación de una reina
-// -----------------------
-// Parámetros
-//   fila   - Fila de la reina que queremos colocar
-//   reinas - Vector con las posiciones de las reinas
-//   n      - Número de reinas
-
+/*
+  FUNCIÓN: Reina(int fila, int posReinas[], int *alto).
+  RECIBE: int fila (FILA DONDE SE COLOCARÁ A LA NUEVA REINA), int[] posReinas (TABLERO DE POSICIONES DE LAS REINAS)
+    ,int* alto (ORDENADA PARA SITUAR EL CURSOR).
+  DEVUELVE: LLAMA A LA FUNCIÓN NUEVAMENTE, SEGÚN SEA EL CASO.
+  DESCRIPCIÓN: COLOCA UNA REINA EN EL TABLERO. LLAMA A LA FUNCIÓN validarPosicion CADA VEZ QUE LO HACES
+  OBSERVACIONES:
+*/
 void Reina (int fila, int posReinas[], int n, int *alto)
 {
   int ok = FALSE;
   if (fila<n) {
      // Quedan reinas por colocar
      for (posReinas[fila]=0;posReinas[fila]<n;posReinas[fila]++) {
-          //COMPROBAMOS SI LA POSICIÓN ES VÁLIDA
-          //¿PUEDO MANDAR A IMPRIMIR?
+          //COMPROBAMOS SI LA POSICIÓN ES VÁLIDA ¿PUEDO MANDAR A IMPRIMIR?
           mostrarTablero(posReinas,n,alto);
           EsperarMiliSeg(400);
          if (validarPosicion(fila,posReinas,n)) {
             //SI LA POSICIÓN ES VÁLIDA, PROCEDEMOS A COLOCAR LA(S) SIGUIENTE(S) REINA(S)
             Reina(fila+1,posReinas,n,alto);
          }
+         //AQUÍ SE HACE EL BACKTRACKIN, EN CASO DE NO SER VÁLIDA, SIMPLEMENTE NO SE LLAMA A LA FUNCIÓN Y SE SIGUE EL for
      } 
   } else {
     printf("SOLUCION");
   }
   return;
 }
-
-// Programa principal
-// ------------------
 
 int main (){
   int numReinas;  // Número de reinas
@@ -123,9 +116,9 @@ int main (){
   scanf("%i", &numReinas);
   int posReinas[numReinas];
   system("cls");
-  //INICIALIZAMOS EL VECTOR CON UN VALOR NEGATIVO (NO ENTRA EN EL RANGO DEL ARREGLO) PARA FACILITAR SU MANIPULACIÓN
+  //INICIALIZAMOS EL ARREGLO CON UN VALOR NEGATIVO (NO ENTRA EN EL RANGO DEL ARREGLO) PARA FACILITAR SU MANIPULACIÓN
   for (i=0; i<numReinas; i++)
     posReinas[i] = -1;
-   // Colocar reinas (algoritmo recursivo)
+   //COMENZAMOS CON LA RECURSIVIDAD PARA COLOCAR LAS REINAS
    Reina(0,posReinas,numReinas,&alto);
 }
