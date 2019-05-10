@@ -17,7 +17,7 @@ void tribonacci(int x, int y, int z, int limit){
 
 int main(){
     int n;
-    printf("Ingresa el número limite");
+    printf("Ingresa el número limite:\n>");
     scanf("%i",&n);
     tribonacci(0,0,1,n);
     return 0;

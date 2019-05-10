@@ -17,7 +17,7 @@ void fibonacci(int n,int m, int limit){
 
 int main(){
     int n;
-    printf("Ingresa el número limite");
+    printf("Ingresa el numero limite:\n>");
     scanf("%i",&n);
     fibonacci(0,1,n);
     return 0;
