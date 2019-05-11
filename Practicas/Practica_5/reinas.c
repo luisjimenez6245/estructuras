@@ -100,7 +100,7 @@ void Reina (int fila, int posReinas[], int n, int *alto)
             //SI LA POSICIÓN ES VÁLIDA, PROCEDEMOS A COLOCAR LA(S) SIGUIENTE(S) REINA(S)
             Reina(fila+1,posReinas,n,alto);
          }
-         //AQUÍ SE HACE EL BACKTRACKIN, EN CASO DE NO SER VÁLIDA, SIMPLEMENTE NO SE LLAMA A LA FUNCIÓN Y SE SIGUE EL for
+         //AQUÍ SE HACE EL BACKTRACKING, EN CASO DE NO SER VÁLIDA, SIMPLEMENTE NO SE LLAMA A LA FUNCIÓN Y SE SIGUE EL for
      } 
   } else {
     printf("SOLUCION");
