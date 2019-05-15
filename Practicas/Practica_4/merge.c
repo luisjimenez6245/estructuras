@@ -1,3 +1,12 @@
+/*
+  MERGESORT
+  AUTORES: 
+    JIMÉNEZ DELGADO LUIS DIEGO
+    SÁNCHEZ CASTRO AARÓN GAMALIEL
+    SÁNCHEZ TIRADO CITLALI YASMÍN
+  VERSIÓN 1.5
+*/
+#include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -7,35 +16,54 @@ void copyArray(int *arrTo, int *arrFrom, int tam);
 
 int main()
 {
-    int tam =  12;
+    int tam = 25, i;
     int arreglo[tam];
-    arreglo[0] = 10;
-    arreglo[1] = 11;
-    arreglo[2] = 20;
-    arreglo[3] = 1;
-    arreglo[4] = 5;
-    arreglo[5] = 3;
-    arreglo[6] = 7;
-    arreglo[7] = 0;
-    arreglo[8] = 50;
-    arreglo[9] = 200;
-    arreglo[10] = -550;
-    arreglo[11] = 20;
+    srand(time(NULL));
+    for (i = 0; i < tam; ++i)
+    {
+        if (i % 2 == 0){
+            arreglo[i] = i;
+        }
+        else
+        {
+            arreglo[i] = -i + 2;
+        }
+    }
+    printf("\a\n");
+    printArray(arreglo, tam);
+
     copyArray(arreglo, cal(arreglo, tam), tam);
+    printf("\resultado\n");
     printArray(arreglo, tam);
     return 0;
 }
 
+/*
+	FUNCIÓN: printArray(int arrTo[], int tam)
+	RECIBE: el arreglo de int a imprimir int arrTo[], el tamaño del arreglo int tam
+	DEVUELVE: void;
+	DESCRIPCIÓN:
+    Funcion que recibe un arreglo de tamaño n, e imprime todos los valores en el separados por un /
+	OBSERVACIONES:
+*/
 void printArray(int arrTo[], int tam)
 {
     int i = 0;
     for (i = 0; i < tam; ++i)
     {
-        printf("%i -", arrTo[i]);
+        printf("%i \t", arrTo[i]);
     }
     printf("\n");
 }
 
+/*
+	FUNCIÓN: copyArray(int *arrTo, int *arrFrom, int tam)
+	RECIBE: el arreglo al que se le van asignar los numeros int *arrTo,
+     el arreglo del que se  van asignar los numeros int *arrFrom,
+        el tamaño del arreglo  int tam
+	DEVUELVE: void
+	DESCRIPCIÓN: copia todos los elementos de un arreglo a otro
+*/
 void copyArray(int *arrTo, int *arrFrom, int tam)
 {
     int i = 0;
@@ -45,6 +73,12 @@ void copyArray(int *arrTo, int *arrFrom, int tam)
     }
 }
 
+/*
+	FUNCIÓN: *cal(int arreglo[], int tamano)
+	RECIBE:  el arreglo a acmodar int arreglo[], el tamaño del arreglo  int tamano
+	DEVUELVE: un arreglo de tamño variable int *
+	DESCRIPCIÓN: Realiza el proceso de ordenamiento merge por medio de recursividad
+*/
 int *cal(int arreglo[], int tamano)
 {
     printf("\n");

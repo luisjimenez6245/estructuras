@@ -1,3 +1,11 @@
+/*
+  fibonacci
+  AUTORES: 
+    JIMÉNEZ DELGADO LUIS DIEGO
+    SÁNCHEZ CASTRO AARÓN GAMALIEL
+    SÁNCHEZ TIRADO CITLALI YASMÍN
+  VERSIÓN 1.5
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,17 +1,22 @@
 /*
     TRIBONACCI
+      AUTORES: 
+    JIM√âNEZ DELGADO LUIS DIEGO
+    S√ÅNCHEZ CASTRO AAR√ìN GAMALIEL
+    S√ÅNCHEZ TIRADO CITLALI YASM√çN
+  VERSI√ìN 1.5
 */
 #include <stdio.h>
 #include <stdlib.h>
 
 /*
-	FUNCI”N: tribonacci (int x,int y, int z, int limit)
-	RECIBE: int x (PRIMER N⁄MERO A SUMAR), int y (SEGUNDO N⁄MERO A SUMAR),
-		int z (TERCER N⁄MERO A SUMAR), int limit (POSICI”N LÕMITE), int n 
-		(POSICI”N ACTUAL).
-	DEVUELVE: SE LLAMA A SÕ MISMA SI ES NECESARIO.
-	DESCRIPCI”N: FUNCI”N ENCARGADA DE CALCULAR LOS N⁄MEROS DE LA SERIE DE TRIBONACCI.
-	OBSERVACIONES: CUANDO EL N⁄MERO ES MUY GRANDE IMPRIME NEGATIVOS.
+	FUNCIÔøΩN: tribonacci (int x,int y, int z, int limit)
+	RECIBE: int x (PRIMER NÔøΩMERO A SUMAR), int y (SEGUNDO NÔøΩMERO A SUMAR),
+		int z (TERCER NÔøΩMERO A SUMAR), int limit (POSICIÔøΩN LÔøΩMITE), int n 
+		(POSICIÔøΩN ACTUAL).
+	DEVUELVE: SE LLAMA A SÔøΩ MISMA SI ES NECESARIO.
+	DESCRIPCIÔøΩN: FUNCIÔøΩN ENCARGADA DE CALCULAR LOS NÔøΩMEROS DE LA SERIE DE TRIBONACCI.
+	OBSERVACIONES: CUANDO EL NÔøΩMERO ES MUY GRANDE IMPRIME NEGATIVOS.
 */
 void tribonacci(int x, int y, int z, int limit, int n){
     if(x==0&&y==0&&z==1){
