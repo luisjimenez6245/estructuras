@@ -14,9 +14,13 @@
 #include <string.h>
 #include "TADABAVL.h"
 
+int MAX(int a, int b){
+	a<b? return b : return a;
+}
+
 /*
-FUNCIÓN: Initialize(arbolavl *A)
-EFECTO: Recibe un árbol binario avl A y lo inicializa para su trabajo normal.
+	FUNCIÓN: Initialize(arbolavl *A)
+	EFECTO: Recibe un árbol binario avl A y lo inicializa para su trabajo normal.
 */
 void Initialize(Arbolavl *A)
 {
@@ -25,8 +29,8 @@ void Initialize(Arbolavl *A)
 }
 
 /*
-Destroy (A)
-Efecto: Recibe un árbol binario avl A y lo libera completamente.
+	FUNCIÓN: Destroy (A)
+	Efecto: Recibe un árbol binario avl A y lo libera completamente.
 */
 void Destroy (Arbolavl *A)
 {
@@ -51,13 +55,13 @@ posicion Search(Arbolavl *A, elemento e)
 	posicion r=NULL;
 	if(*A!=NULL)
 	{
-		if(memcmp(&e,&((*A)->e),sizeof(elemento))==0)
+		if(strcmp(&e.palabra,&((*A)->e.palabra)==0)
 			r=*A;
 		else 
 		{
-			r=Search(&((*A)->izq),e);
+			r=Search(&((*A)->HijoI),e);
 			if(r==NULL)
-				r=Search(&((*A)->der),e);
+				r=Search(&((*A)->HijoD),e);
 		}
 	}
 	return r;
@@ -81,10 +85,10 @@ elemento ReadNode(Arbolavl *A, posicion p)
 }
 
 /*
-Nuevo Hijo Derecho(New Right Son):recibe<-Ã¡rbol(A), posiciÃ³n (P), elemento E; 
+Nuevo Hijo HijoDecho(New Right Son):recibe<-Ã¡rbol(A), posiciÃ³n (P), elemento E; 
 NewRightSon(A,P,E)
-Efecto: Recibe un Ã¡rbol binario A, una posiciÃ³n P y un elemento E, se aÃ±ade un nodo que contenga E como hijo derecho del nodo con posiciÃ³n P.
-Requerimientos: El Ã¡rbol binario A es no vacÃ­o y la posiciÃ³n P es una posiciÃ³n valida. Si el Ã¡rbol A es vacÃ­o se agrega a un nodo raÃ­z con E. si P ya tiene un hijo derecho, se cancela la operaciÃ³n.
+Efecto: Recibe un Ã¡rbol binario A, una posiciÃ³n P y un elemento E, se aÃ±ade un nodo que contenga E como hijo HijoDecho del nodo con posiciÃ³n P.
+Requerimientos: El Ã¡rbol binario A es no vacÃ­o y la posiciÃ³n P es una posiciÃ³n valida. Si el Ã¡rbol A es vacÃ­o se agrega a un nodo raÃ­z con E. si P ya tiene un hijo HijoDecho, se cancela la operaciÃ³n.
 */
 void NewRightSon(Arbolavl *A, posicion p, elemento e)
 {
@@ -98,26 +102,26 @@ void NewRightSon(Arbolavl *A, posicion p, elemento e)
 				exit(1);				
 			}
 			(*A)->e=e;
-			(*A)->der=NULL;
-			(*A)->izq=NULL;
+			(*A)->HijoD=NULL;
+			(*A)->HijoI=NULL;
 	}		
 	else if(!NullNode(A,p))
 	{
-		if(p->der==NULL)
+		if(p->HijoD==NULL)
 		{
-			p->der=malloc(sizeof(nodo));
-			if(p->der==NULL)
+			p->HijoD=malloc(sizeof(nodo));
+			if(p->HijoD==NULL)
 			{
 				printf("\nERROR (NewRightSon(A,p,e)):No se pudo crear un nuevo nodo");
 				exit(1);				
 			}
-			p->der->e=e;
-			p->der->der=NULL;
-			p->der->izq=NULL;
+			p->HijoD->e=e;
+			p->HijoD->HijoD=NULL;
+			p->HijoD->HijoI=NULL;
 		}	
 		else
 		{
-			printf("\nERROR (NewRightSon(A,p,e)):P ya tiene un hijo derecho");
+			printf("\nERROR (NewRightSon(A,p,e)):P ya tiene un hijo HijoDecho");
 			exit(1);					
 		}
 	}
@@ -130,10 +134,10 @@ void NewRightSon(Arbolavl *A, posicion p, elemento e)
 }
 
 /*
-Nuevo Hijo Izquierdo(New Left Son):recibe<-Ã¡rbol(A), posiciÃ³n (P), elemento E; 
+Nuevo Hijo HijoIuierdo(New Left Son):recibe<-Ã¡rbol(A), posiciÃ³n (P), elemento E; 
 NewLeftSon(A,P,E)
-Efecto: Recibe un Ã¡rbol binario A, una posiciÃ³n P y un elemento E, se aÃ±ade un nodo que contenga E como hijo izquierdo del nodo con posiciÃ³n P.
-Requerimientos: El Ã¡rbol binario A es no vacÃ­o y la posiciÃ³n P es una posiciÃ³n valida. Si el Ã¡rbol A es vacÃ­o se agrega a un nodo raÃ­z con E; si P ya tiene un hijo Izquierdo, se cancela la operaciÃ³n.
+Efecto: Recibe un Ã¡rbol binario A, una posiciÃ³n P y un elemento E, se aÃ±ade un nodo que contenga E como hijo HijoIuierdo del nodo con posiciÃ³n P.
+Requerimientos: El Ã¡rbol binario A es no vacÃ­o y la posiciÃ³n P es una posiciÃ³n valida. Si el Ã¡rbol A es vacÃ­o se agrega a un nodo raÃ­z con E; si P ya tiene un hijo HijoIuierdo, se cancela la operaciÃ³n.
 */
 void NewLeftSon(Arbolavl *A, posicion p, elemento e)
 {
@@ -147,26 +151,26 @@ void NewLeftSon(Arbolavl *A, posicion p, elemento e)
 				exit(1);				
 			}
 			(*A)->e=e;
-			(*A)->der=NULL;
-			(*A)->izq=NULL;
+			(*A)->HijoD=NULL;
+			(*A)->HijoI=NULL;
 	}		
 	else if(!NullNode(A,p))
 	{
-		if(p->izq==NULL)
+		if(p->HijoI==NULL)
 		{
-			p->izq=malloc(sizeof(nodo));
-			if(p->izq==NULL)
+			p->HijoI=malloc(sizeof(nodo));
+			if(p->HijoI==NULL)
 			{
 				printf("\nERROR (NewLeftSon(A,p,e)):No se pudo crear un nuevo nodo");
 				exit(1);				
 			}
-			p->izq->e=e;
-			p->izq->der=NULL;
-			p->izq->izq=NULL;
+			p->HijoI->e=e;
+			p->HijoI->HijoD=NULL;
+			p->HijoI->HijoI=NULL;
 		}	
 		else
 		{
-			printf("\nERROR (NewLeftSon(A,p,e)):P ya tiene un hijo izquierdo");
+			printf("\nERROR (NewLeftSon(A,p,e)):P ya tiene un hijo HijoIuierdo");
 			exit(1);					
 		}
 	}
@@ -179,16 +183,16 @@ void NewLeftSon(Arbolavl *A, posicion p, elemento e)
 }
 
 /*
-Eliminar Hijo Derecho (Delete Right Son):recibe<-Ã¡rbol(A), posiciÃ³n (P);
+Eliminar Hijo HijoDecho (Delete Right Son):recibe<-Ã¡rbol(A), posiciÃ³n (P);
 DeleteRightSon(A,P)
-Efecto: Recibe un Ã¡rbol binario A y una posiciÃ³n se elimina al hijo derecho y todos sus descendientes del nodo con posiciÃ³n P.
-Requerimientos: El Ã¡rbol A es no vacÃ­o y la posiciÃ³n P es una posiciÃ³n valida y tiene un hijo derecho.
+Efecto: Recibe un Ã¡rbol binario A y una posiciÃ³n se elimina al hijo HijoDecho y todos sus descendientes del nodo con posiciÃ³n P.
+Requerimientos: El Ã¡rbol A es no vacÃ­o y la posiciÃ³n P es una posiciÃ³n valida y tiene un hijo HijoDecho.
 */
 void DeleteRightSon(Arbolavl *A, posicion p)
 {
 	if(*A!=NULL)
 	{
-		Destroy(&(p->der));
+		Destroy(&(p->HijoD));
 	}
 	else
 	{
@@ -199,16 +203,16 @@ void DeleteRightSon(Arbolavl *A, posicion p)
 }
 
 /*
-Eliminar Hijo Izquierdo(Delete Left Son):recibe<-Ã¡rbol(A), posiciÃ³n (P);
+Eliminar Hijo HijoIuierdo(Delete Left Son):recibe<-Ã¡rbol(A), posiciÃ³n (P);
 DeleteLeftSon(A,P)
-Efecto: Recibe un Ã¡rbol binario A y una posiciÃ³n se elimina al hijo izquierdo y todos sus descendientes del nodo con posiciÃ³n P.
-Requerimientos: El Ã¡rbol A es no vacÃ­o y la posiciÃ³n P es una posiciÃ³n valida y tiene un hijo izquierdo.
+Efecto: Recibe un Ã¡rbol binario A y una posiciÃ³n se elimina al hijo HijoIuierdo y todos sus descendientes del nodo con posiciÃ³n P.
+Requerimientos: El Ã¡rbol A es no vacÃ­o y la posiciÃ³n P es una posiciÃ³n valida y tiene un hijo HijoIuierdo.
 */
 void DeleteLeftSon(Arbolavl *A, posicion p)
 {
 	if(*A!=NULL)
 	{
-		Destroy(&(p->izq));
+		Destroy(&(p->HijoI));
 	}
 	else
 	{
@@ -258,8 +262,10 @@ void ReplaceNode(Arbolavl *A,posicion p, elemento e)
 	return;	
 }
 
-int GetHeight(Arbolavl *A, Posicion p, int Altura){
+int GetHeight(Arbolavl *A, Posicion p){
 	if(*A!=NULL){
-		
+		return 1 + MAX(GetHeight(A,(*A)->HijoI),GetHeight(A,(*A)->HijoD));
+	}else{
+		return 0;
 	}
 }
