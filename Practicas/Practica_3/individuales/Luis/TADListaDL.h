@@ -19,9 +19,8 @@ typedef struct elemento
 {
 	//Lo que gustes	
 	//int n;
-	char nombre [300];
-	char email [254];
-	char numero [20];
+	char letterL;
+	char letterC;
 }elemento;
 
 //Estructura de un NODO DOBLEMENTE LIGADO

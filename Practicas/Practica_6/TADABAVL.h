@@ -16,31 +16,33 @@
 
 typedef int boolean;
 
-typedef struct Elemento {
+typedef struct elemento
+{
 	char palabra[100];
 	char definicion[255];
-} Elemento;
+} elemento;
 
-typedef struct Nodo {
-	Elemento elemento;
+typedef struct nodo
+{
+	elemento e;
 	struct Nodo *HijoI;
 	struct Nodo *HijoD;
-} Nodo;
+} nodo;
 
-typedef Nodo* Posicion;
-typedef Nodo* Arbolavl;
+typedef nodo *posicion;
+typedef nodo *Arbolavl;
 
 //OPERACIONES DE UN ÁRBOL BINARIO DE BÚSQUEDA AVL
 void InsertNode();
 void BalanceTree();
-int GetHeight(Arbolavl *A, Posicion p);
-void ReplaceNode(Arbolavl *A,Posicion p, Elemento e);
-void DeleteNode(Arbolavl *A, Posicion p);
-void DeleteLeftSon(Arbolavl *A, Posicion p);
-void DeleteRightSon(Arbolavl *A, Posicion p);
-void NewLeftSon(Arbolavl *A, Posicion p, Elemento e);
-void NewRightSon(Arbolavl *A, Posicion p, Elemento e);
-Elemento ReadNode(Arbolavl *A, Posicion p);
-Posicion Search(Arbolavl *A, Elemento e);
-void Destroy (Arbolavl *A);
+int GetHeight(Arbolavl *A, posicion p);
+void ReplaceNode(Arbolavl *A, posicion p, elemento e);
+void DeleteNode(Arbolavl *A, posicion p);
+void DeleteLeftSon(Arbolavl *A, posicion p);
+void DeleteRightSon(Arbolavl *A, posicion p);
+void NewLeftSon(Arbolavl *A, posicion p, elemento e);
+void NewRightSon(Arbolavl *A, posicion p, elemento e);
+elemento ReadNode(Arbolavl *A, posicion p);
+posicion Search(Arbolavl *A, elemento e);
+void Destroy(Arbolavl *A);
 void Initialize(Arbolavl *A);

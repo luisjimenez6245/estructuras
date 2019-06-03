@@ -71,8 +71,7 @@ void Destroy (lista *l)
 		aux = l->frente;
 		
 		//El nuevo frente es el siguiente
-		l->frente = l->frente->siguiente;
-		
+		l->frente = l->frente->siguiente;	
 		//Liberar el antiguo frente de memoria
 		free(aux);
 	}
@@ -463,8 +462,7 @@ void Remove (lista *l,posicion p)
 		//Si la p es el final
 		else if(p==l->final)
 		{
-			p->anterior->siguiente=NULL;
-			l->final=p->anterior;
+			l->final=l->final->anterior;
 			l->tamanio--;
 			free(p);
 		}
@@ -478,8 +476,8 @@ void Remove (lista *l,posicion p)
 		}
 		else//Si p esta en medio
 		{
-
 			p->anterior->siguiente=p->siguiente;
+			p->siguiente->anterior=p->anterior;
 			free(p);
 			l->tamanio--;
 		}		

@@ -14,8 +14,9 @@
 #include <string.h>
 #include "TADABAVL.h"
 
-int MAX(int a, int b){
-	a<b? return b : return a;
+int MAX(int a, int b)
+{
+	a < b ? return b : return a;
 }
 
 /*
@@ -24,7 +25,7 @@ int MAX(int a, int b){
 */
 void Initialize(Arbolavl *A)
 {
-	*A=NULL;
+	*A = NULL;
 	return;
 }
 
@@ -32,15 +33,15 @@ void Initialize(Arbolavl *A)
 	FUNCIÓN: Destroy (A)
 	Efecto: Recibe un árbol binario avl A y lo libera completamente.
 */
-void Destroy (Arbolavl *A)
+void Destroy(Arbolavl *A)
 {
-	if(*A!=NULL)
-	{	
+	if (*A != NULL)
+	{
 		Destroy(&((*A)->HijoI));
 		Destroy(&((*A)->HijoD));
 		free(*A);
 	}
-	*A=NULL;
+	*A = NULL;
 	return;
 }
 
@@ -52,16 +53,16 @@ Requerimientos: El Ã¡rbol binario A es no vacÃ­o y la posiciÃ³n P es una p
 */
 posicion Search(Arbolavl *A, elemento e)
 {
-	posicion r=NULL;
-	if(*A!=NULL)
+	posicion r = NULL;
+	if (*A != NULL)
 	{
 		if(strcmp(&e.palabra,&((*A)->e.palabra)==0)
 			r=*A;
 		else 
 		{
-			r=Search(&((*A)->HijoI),e);
-			if(r==NULL)
-				r=Search(&((*A)->HijoD),e);
+			r = Search(&((*A)->HijoI), e);
+			if (r == NULL)
+				r = Search(&((*A)->HijoD), e);
 		}
 	}
 	return r;
@@ -75,7 +76,7 @@ Requerimientos: El Ã¡rbol A es no vacÃ­o y la posiciÃ³n P es una posiciÃ�
 */
 elemento ReadNode(Arbolavl *A, posicion p)
 {
-	if(!NullNode(A,p))
+	if (!NullNode(A, p))
 		return p->e;
 	else
 	{
@@ -93,42 +94,42 @@ Requerimientos: El Ã¡rbol binario A es no vacÃ­o y la posiciÃ³n P es una p
 void NewRightSon(Arbolavl *A, posicion p, elemento e)
 {
 	//Si el Ã¡rbol es vacio
-	if(*A==NULL)
+	if (*A == NULL)
 	{
-		*A=malloc(sizeof(nodo));
-		if(*A==NULL)
-			{
-				printf("\nERROR (NewRightSon(A,p,e)):No se pudo crear un nuevo nodo raÃ­z");
-				exit(1);				
-			}
-			(*A)->e=e;
-			(*A)->HijoD=NULL;
-			(*A)->HijoI=NULL;
-	}		
-	else if(!NullNode(A,p))
-	{
-		if(p->HijoD==NULL)
+		*A = malloc(sizeof(nodo));
+		if (*A == NULL)
 		{
-			p->HijoD=malloc(sizeof(nodo));
-			if(p->HijoD==NULL)
+			printf("\nERROR (NewRightSon(A,p,e)):No se pudo crear un nuevo nodo raÃ­z");
+			exit(1);
+		}
+		(*A)->e = e;
+		(*A)->HijoD = NULL;
+		(*A)->HijoI = NULL;
+	}
+	else if (!NullNode(A, p))
+	{
+		if (p->HijoD == NULL)
+		{
+			p->HijoD = malloc(sizeof(nodo));
+			if (p->HijoD == NULL)
 			{
 				printf("\nERROR (NewRightSon(A,p,e)):No se pudo crear un nuevo nodo");
-				exit(1);				
+				exit(1);
 			}
-			p->HijoD->e=e;
-			p->HijoD->HijoD=NULL;
-			p->HijoD->HijoI=NULL;
-		}	
+			p->HijoD->e = e;
+			p->HijoD->HijoD = NULL;
+			p->HijoD->HijoI = NULL;
+		}
 		else
 		{
 			printf("\nERROR (NewRightSon(A,p,e)):P ya tiene un hijo HijoDecho");
-			exit(1);					
+			exit(1);
 		}
 	}
 	else
 	{
 		printf("\nERROR (NewRightSon(A,p,e)):la posicion P no existe");
-		exit(1);				
+		exit(1);
 	}
 	return;
 }
@@ -142,44 +143,44 @@ Requerimientos: El Ã¡rbol binario A es no vacÃ­o y la posiciÃ³n P es una p
 void NewLeftSon(Arbolavl *A, posicion p, elemento e)
 {
 	//Si el Ã¡rbol es vacio
-	if(*A==NULL)
+	if (*A == NULL)
 	{
-		*A=malloc(sizeof(nodo));
-		if(*A==NULL)
-			{
-				printf("\nERROR (NewLeftSon(A,p,e)):No se pudo crear un nuevo nodo raÃ­z");
-				exit(1);				
-			}
-			(*A)->e=e;
-			(*A)->HijoD=NULL;
-			(*A)->HijoI=NULL;
-	}		
-	else if(!NullNode(A,p))
-	{
-		if(p->HijoI==NULL)
+		*A = malloc(sizeof(nodo));
+		if (*A == NULL)
 		{
-			p->HijoI=malloc(sizeof(nodo));
-			if(p->HijoI==NULL)
+			printf("\nERROR (NewLeftSon(A,p,e)):No se pudo crear un nuevo nodo raÃ­z");
+			exit(1);
+		}
+		(*A)->e = e;
+		(*A)->HijoD = NULL;
+		(*A)->HijoI = NULL;
+	}
+	else if (!NullNode(A, p))
+	{
+		if (p->HijoI == NULL)
+		{
+			p->HijoI = malloc(sizeof(nodo));
+			if (p->HijoI == NULL)
 			{
 				printf("\nERROR (NewLeftSon(A,p,e)):No se pudo crear un nuevo nodo");
-				exit(1);				
+				exit(1);
 			}
-			p->HijoI->e=e;
-			p->HijoI->HijoD=NULL;
-			p->HijoI->HijoI=NULL;
-		}	
+			p->HijoI->e = e;
+			p->HijoI->HijoD = NULL;
+			p->HijoI->HijoI = NULL;
+		}
 		else
 		{
 			printf("\nERROR (NewLeftSon(A,p,e)):P ya tiene un hijo HijoIuierdo");
-			exit(1);					
+			exit(1);
 		}
 	}
 	else
 	{
 		printf("\nERROR (NewLeftSon(A,p,e)):la posicion P no existe");
-		exit(1);				
+		exit(1);
 	}
-	return;	
+	return;
 }
 
 /*
@@ -190,14 +191,14 @@ Requerimientos: El Ã¡rbol A es no vacÃ­o y la posiciÃ³n P es una posiciÃ�
 */
 void DeleteRightSon(Arbolavl *A, posicion p)
 {
-	if(*A!=NULL)
+	if (*A != NULL)
 	{
 		Destroy(&(p->HijoD));
 	}
 	else
 	{
 		printf("\nERROR (DeleteRightSon(A,p)):la posicion P no existe");
-		exit(1);						
+		exit(1);
 	}
 	return;
 }
@@ -210,14 +211,14 @@ Requerimientos: El Ã¡rbol A es no vacÃ­o y la posiciÃ³n P es una posiciÃ�
 */
 void DeleteLeftSon(Arbolavl *A, posicion p)
 {
-	if(*A!=NULL)
+	if (*A != NULL)
 	{
 		Destroy(&(p->HijoI));
 	}
 	else
 	{
 		printf("\nERROR (DeleteLeftSon(A,p)):la posicion P no existe");
-		exit(1);						
+		exit(1);
 	}
 	return;
 }
@@ -230,14 +231,14 @@ Requerimientos: El Ã¡rbol A es no vacÃ­o y la posiciÃ³n P es una posiciÃ�
 */
 void DeleteNode(Arbolavl *A, posicion p)
 {
-	if(*A!=NULL)
+	if (*A != NULL)
 	{
 		Destroy(&p);
 	}
 	else
 	{
 		printf("\nERROR (DeleteNode(A,p)):la posicion P no existe");
-		exit(1);						
+		exit(1);
 	}
 	return;
 }
@@ -248,24 +249,28 @@ ReplaceNode(A,P,E)
 Efecto: Recibe un Ã¡rbol binario A, una posiciÃ³n P y un elemento E, se remplaza a E del nodo con posiciÃ³n P en A.
 Requerimientos: El Ã¡rbol binario A es no vacÃ­o y la posiciÃ³n P es una posiciÃ³n valida. 
 */
-void ReplaceNode(Arbolavl *A,posicion p, elemento e)
+void ReplaceNode(Arbolavl *A, posicion p, elemento e)
 {
-	if(*A!=NULL)
+	if (*A != NULL)
 	{
-		p->e=e;
+		p->e = e;
 	}
 	else
 	{
 		printf("\nERROR (ReplaceNode((A,p,e)):la posicion P no existe");
-		exit(1);						
+		exit(1);
 	}
-	return;	
+	return;
 }
 
-int GetHeight(Arbolavl *A, Posicion p){
-	if(*A!=NULL){
-		return 1 + MAX(GetHeight(A,(*A)->HijoI),GetHeight(A,(*A)->HijoD));
-	}else{
+int GetHeight(Arbolavl *A, Posicion p)
+{
+	if (*A != NULL)
+	{
+		return 1 + MAX(GetHeight(A, (*A)->HijoI), GetHeight(A, (*A)->HijoD));
+	}
+	else
+	{
 		return 0;
 	}
 }
